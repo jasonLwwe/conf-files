@@ -32,38 +32,42 @@ shopt -s checkwinsize
 
 # set variable identifying the chroot you work in (used in the prompt below)
 if [ -z "${debian_chroot:-}" ] && [ -r /etc/debian_chroot ]; then
-    echo /etc/debian_chroot exists and is readable;
     debian_chroot=$(cat /etc/debian_chroot);
 fi
 
 # set a fancy prompt (non-color, unless we know we "want" color)
 case "$TERM" in
-    xterm-color) echo TERM is xterm-color && color_prompt=yes;;
-    putty-256color) echo TERM is putty-256color && color_prompt=yes;;
+    xterm-color|putty-256color) color_prompt=yes;;
 esac
 
 # uncomment for a colored prompt, if the terminal has the capability; turned
 # off by default to not distract the user: the focus in a terminal window
 # should be on the output of commands, not on the prompt
-force_color_prompt=yes
+#force_color_prompt=yes
 
 if [ -n "$force_color_prompt" ]; then
     if [ -x /usr/bin/tput ] && tput setaf 1 >&/dev/null; then
 	# We have color support; assume it's compliant with Ecma-48
 	# (ISO/IEC-6429). (Lack of such support is extremely rare, and such
 	# a case would tend to support setf rather than setaf.)
-	color_prompt=yes
+	    color_prompt=yes
     else
-	color_prompt=
+	    color_prompt=
     fi
 fi
 
 if [ "$color_prompt" = yes ]; then
-    echo color_prompt is yes; 
-    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ ';
-    echo PS1 is $PS1;
+    PROMPT="\[\e[1;35m\]\u\[\e[1;31m\]@\[\e[0;35m\]\h \[\e[1;34m\]\w\n\[\e[1;37m\]\$ \[\e[0m\]";
+    function exitstatus {
+        if [ $? -eq 0 ]; then
+          PS1="\n\[\e[1;32m\]\! ${PROMPT}";
+        else
+          PS1="\n\[\e[1;31m\]\! ${PROMPT}";
+        fi
+    }
+    PROMPT_COMMAND=exitstatus;
 else
-    PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
+    PS1="\n\! \u@\h \w\n\$ ";
 fi
 unset color_prompt force_color_prompt
 
@@ -116,3 +120,50 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+function backup () {
+  newname=$1.`date +%Y%m%d.%H%M.bak`;
+
+  mv $1 $newname && cp -p $newname $1;
+  retval=$?;
+  if [[ $retval -eq 0 ]]; then
+    echo "Backed up $1 to $newname.";
+  else
+    echo "[ERROR]:  backup failed.";
+  fi
+  
+  return $retval; 
+}
+
+function d7 () {
+  
+  if [[ $# -gt 1 ]]; then 
+    echo "Usage:  d7 relative/path/to/dest-dir";
+    return 2;
+  fi
+
+  cd /opt/vhosts/wwecom7/html/$1;
+  retval=$?
+  if [[ $retval -eq 0 ]]; then
+    echo dir changed to `pwd`;
+  fi
+
+  return $retval;
+}
+
+function d7m () {
+  
+  if [[ $# -gt 1 ]]; then
+    echo "Usage:  d7m relative/path/to/dest-dir";
+    return 2;
+  fi
+
+  cd /opt/vhosts/wwecom7/html/sites/all/modules/wwe;
+  retval=$?
+  if [[ $retval -eq 0 ]]; then
+    echo dir changed to `pwd`;
+  fi
+
+  return $retval;
+}
+
