@@ -143,7 +143,7 @@ function d7 () {
   fi
 
   cd /opt/vhosts/wwecom7/html/$1;
-  retval=$?
+  retval=$?;
   if [[ $retval -eq 0 ]]; then
     echo dir changed to `pwd`;
   fi
@@ -158,8 +158,8 @@ function d7m () {
     return 2;
   fi
 
-  cd /opt/vhosts/wwecom7/html/sites/all/modules/wwe;
-  retval=$?
+  cd /opt/vhosts/wwecom7/html/sites/all/modules/wwe/$1;
+  retval=$?;
   if [[ $retval -eq 0 ]]; then
     echo dir changed to `pwd`;
   fi
