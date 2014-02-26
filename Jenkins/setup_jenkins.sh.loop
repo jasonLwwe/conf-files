@@ -1,35 +1,45 @@
 #!/bin/bash
 
-sudo apt-get install vim -y &> /dev/null
+if [[ ! -e /usr/bin/vim ]]; then
+  echo -n "Installing vim... ";
+  sudo apt-get install vim -y &> /dev/null;
+  if [[ -e /usr/bin/vim ]]; then echo "Success!"; else echo "Fail"; fi
+fi
 
-date_bak='date +%Y%m%d.%H%M.bak';
-for filename in `ls -1a .bash* .vimrc | xargs -I{} echo -n "{} "`;a
-do
-  if [ -f ~/.bashrc -a diff .bashrc ~/.bashrc ]; then
-    if ls ~/.bashrc.orig &> /dev/null; then
-        echo ~/.bashrc.orig already exists;
+btime=`date +%Y%m%d.%H%M.bak`;
+for filename in `ls -1a .bash* .vimrc | xargs -I{} echo -n "{} "`; do
+  # Print a line separating the output of each itereation
+  separator_length=$(tput cols);
+  printf -v line "%*s" "$separator_length"
+  echo ${line// /-}; 
 
-        backup=~/.bashrc.`$date_bak`;
-        echo -en "\tBacking up" ~/.bashrc to "${backup}... " ; 
-        mv ~/.bashrc ${backup}; 
-        if [ $? -eq 0 ]; then 
-            echo "Success!"; 
-            replace_file=yes;
-        fi
-    else
-        echo -n Backing up ~/.bashrc to ~/.bashrc.orig... ;
-        mv ~/.bashrc ~/.bashrc.orig &>/dev/null; 
-        if [ $? -eq 0 ]; then 
-            echo 'Success!';
-            replace_file=yes;
-        fi
+  dstfile=~/${filename};
+  srcfile=./${filename};
+  # If the destination file exists, do a backup of the original file first;
+  # else just copy the file in place
+  if [[ -f $dstfile ]]; then
+    # If the dest and src files are different, copy src to dest; 
+    # else do nothing.
+    diff $dstfile $srcfile &> /dev/null ; diffstat=$? ;
+    if [[ $diffstat -ne 0 ]]; then
+      echo $dstfile and $srcfile are different ;
+
+      # Make the initial backup to destfile.orig;
+      # But, if .orig already exists, backup to destfile.time.bak
+      backup=${dstfile}.orig ; 
+      if ls ${backup} &> /dev/null ; then
+      	echo -e "\t${backup} already exits" ;
+        backup=${dstfile}.${btime};
+      fi
+
+      echo -en "\tBacking up ${dstfile} to ${backup}... " ;
+      mv $dstfile ${backup};
+      if [[ $? -eq 0 ]]; then echo "Sucess!"; else echo "Fail :("; fi
     fi
-    if [ -n "$replace_file" ]; then
-        echo -n Replacing ~/.bashrc with" ./.bashrc... ";
-        cp .bashrc ~/.bashrc &> /dev/null;
-        if [ $? -eq 0 ]; then echo "Success!"; else echo "Fail :("; fi
-    else 
-        echo "Fail, skipping replacement";
-    fi
+  else
+    echo "$dstfile doestn't exist";
   fi
+  echo -en "\tCopying ${srcfile} to ${dstfile}... ";
+  cp ${srcfile} ${dstfile};
+  if [[ $? -eq 0 ]]; then echo "Sucess!"; else echo "Fail :("; fi
 done
