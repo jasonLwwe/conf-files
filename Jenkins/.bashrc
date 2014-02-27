@@ -139,7 +139,7 @@ function d7 () {
   
   if [[ $# -gt 1 ]]; then 
     echo "Usage:  d7 relative/path/to/dest-dir";
-    return 2;
+    return 3;
   fi
 
   cd /opt/vhosts/wwecom7/html/$1;
@@ -155,7 +155,7 @@ function d7m () {
   
   if [[ $# -gt 1 ]]; then
     echo "Usage:  d7m relative/path/to/dest-dir";
-    return 2;
+    return 3;
   fi
 
   cd /opt/vhosts/wwecom7/html/sites/all/modules/wwe/$1;
