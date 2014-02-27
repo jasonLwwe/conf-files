@@ -11,64 +11,63 @@ if [ -f ~/.bash_aliases ]; then
 fi
 
 function backup () {
-    newname=$1.`date +%Y%m%d.%H%M.bak`;
+  newname=$1.`date +%Y%m%d.%H%M.bak`;
 
-    mv $1 $newname && cp -p $newname $1;
+  mv $1 $newname && cp -p $newname $1;
+  retval=$?;
+  if [[ $retval -eq 0 ]]; then
+    echo "Backed up $1 to $newname.";
+  else
+    echo "[ERROR]:  backup failed.";
+  fi            
 
-    if [ $? -eq 0 ]; then
-        echo "Backed up $1 to $newname.";
-        return 0;
-    else
-        errno=$?;
-        echo "backup: failed.";
-        return $errno;
-    fi            
+  return $retval;
 }
 
 function d7 () {
 
-	if [ $# -gt 1 ]; then
-		echo "Usage: d7 relative/path/to/dest-dir";
-		return 2;
-	fi
-	
-	cd /u01/www/wwecom7/html/$1;
+  if [ $# -gt 1 ]; then
+    echo "Usage: d7 relative/path/to/dest-dir";
+    return 2;
+  fi
 
-	if [ $? -eq 0 ]; then
-		echo dir changed to `pwd`;
-	else
-		return $?;
-	fi
+  cd /u01/www/wwecom7/html/$1;
+  retval=$?;
+  if [[ $retval -eq 0 ]]; then
+    echo dir changed to `pwd`;
+  fi
+
+  return $retval;
 }
 
 function d7m () {
 
-	if [ $# -gt 0 ]; then
-		echo "Usage: d7m accepts no args";
-		return 2;
-	fi
+  if [ $# -gt 1 ]; then
+    echo "Usage:  d7m relative/path/to/dest-dir";
+    return 2;
+  fi
 	
-	cd /u01/www/wwecom7/html/sites/all/modules/wwe;
+  cd /u01/www/wwecom7/html/sites/all/modules/wwe/$1;
+  retval=$?;
+  if [[ $retval -eq 0 ]]; then
+    echo dir changed to `pwd`;
+  fi
 
-	if [ $? -eq 0 ]; then
-		echo dir changed to `pwd`;
-	else
-		return $?;
-	fi
+  return $retval;
 }
 
 function aroot () {
 
-	if [ $# -gt 1 ]; then
-		echo "Usage: aroot relative/path/to/dest-dir";
-		return 2;
-	fi
+  if [ $# -gt 1 ]; then
+    echo "Usage: aroot relative/path/to/dest-dir";
+    return 2;
+  fi
 
-	cd /u01/www/$1;
-
-	if [ $? -eq 0 ]; then
-		echo dir changed to `pwd`;
-	else
-		return $?;
-	fi
+  cd /u01/www/$1;
+  retval=$?;
+  if [[ $retval -eq 0 ]]; then
+    echo dir changed to `pwd`;
+  fi
+  
+  return $retval;
 }
