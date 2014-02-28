@@ -11,18 +11,18 @@ if [ -f ~/.bash_aliases ]; then
 fi
 
 function backup () {
-    newname=$1.`date +%Y%m%d.%H%M.bak`;
+  newname=$1.`date +%Y%m%d.%H%M.bak`;
 
-    mv $1 $newname && cp -p $newname $1;
+  mv $1 $newname && cp -p $newname $1;
 
-    if [ $? -eq 0 ]; then
-        echo "Backed up $1 to $newname.";
-        return 0;
-    else
-        errno=$?;
-        echo "backup: failed.";
-        return $errno;
-    fi            
+  if [ $? -eq 0 ]; then
+    echo "Backed up $1 to $newname.";
+    return 0;
+  else
+    errno=$?;
+    echo "backup: failed.";
+    return $errno;
+  fi            
 }
 
 function d7 () {
