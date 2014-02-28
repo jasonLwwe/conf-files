@@ -15,10 +15,10 @@ function backup () {
 
   mv $1 $newname && cp -p $newname $1;
   retval=$?;
-  if [[ $retval -eq 0 ]]; then
+  if [ $retva; -eq 0 ]; then
     echo "Backed up $1 to $newname.";
   else
-    echo "[ERROR]:  backup failed.";
+    echo "backup: failed.";
   fi            
 
   return $retval;
