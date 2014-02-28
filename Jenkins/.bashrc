@@ -167,3 +167,24 @@ function d7m () {
   return $retval;
 }
 
+if [[ -f /usr/bin/git ]]; then
+  username=jasonLwwe;
+  usermail=jason.lyerly@wwecorp.com;
+
+  echo -n "Setting git config user.name to ${username}... ";
+  git config --global user.name $username;
+  if [[ $? -eq 0 ]]; then echo "Success!"; else echo "Fail :("; fi
+
+  echo -n "Setting git config user.email to ${useremail}... ";
+  git config --global user.email $usermail;
+  if [[ $? -eq 0 ]]; then echo "Success!"; else echo "Fail :("; fi
+
+  echo -n "Setting git config push.default to... ";
+  git config --global push.default simple &> /dev/null;
+  if [[ $? -eq 0 ]]; then
+    echo "simple";
+  else
+    echo "failed to set simple";
+  fi
+fi
+

@@ -72,29 +72,3 @@ if [[ -f ~/.bash_profile ]] ; then
   . ~/.bash_profile;
 fi
 
-if [[ -f /usr/bin/git ]]; then
-  username=jasonLwwe;
-  usermail=jason.lyerly@wwecorp.com;
-
-  echo -n "Setting git config user.name to ${username}... ";
-  git config --global user.name $username;
-  if [[ $? -eq 0 ]]; then echo "Success!"; else echo "Fail :("; fi
-
-  echo -n "Setting git config user.email to ${useremail}... ";
-  git config --global user.email $usermail;
-  if [[ $? -eq 0 ]]; then echo "Success!"; else echo "Fail :("; fi
-
-  echo -n "Setting git config push.default to... ";
-  git config --global push.default simple &> /dev/null;
-  if [[ $? -eq 0 ]]; then
-    echo "simple";
-  else
-    git config --global push.default current &> /dev/null;
-    if [[ $? -eq 0 ]]; then
-      echo "current";
-    else
-      echo "failed to set either current or simple";
-    fi
-  fi
-fi
-
