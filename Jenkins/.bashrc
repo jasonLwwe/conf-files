@@ -175,7 +175,7 @@ if [[ -f /usr/bin/git ]]; then
   git config --global user.name $username;
   if [[ $? -eq 0 ]]; then echo "Success!"; else echo "Fail :("; fi
 
-  echo -n "Setting git config user.email to ${useremail}... ";
+  echo -n "Setting git config user.email to ${usermail}... ";
   git config --global user.email $usermail;
   if [[ $? -eq 0 ]]; then echo "Success!"; else echo "Fail :("; fi
 

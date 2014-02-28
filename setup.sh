@@ -29,6 +29,8 @@ fi
 
 btime=`date +%Y%m%d.%H%M.bak`;
 for filename in `ls -1a ./${prefix}.bash* ./${prefix}.vimrc | cut -d'/' -f3`; do
+  
+  docopy=yes;
 
   # Print a line separating the output of each itereation
   separator_length=$(tput cols);
@@ -37,7 +39,6 @@ for filename in `ls -1a ./${prefix}.bash* ./${prefix}.vimrc | cut -d'/' -f3`; do
 
   dstfile=~/${filename};
   srcfile=./${prefix}${filename};
-  
   # If the destination file exists, do a backup of the original file first;
   # else just copy the file in place
   if [[ -f $dstfile ]]; then
@@ -46,7 +47,7 @@ for filename in `ls -1a ./${prefix}.bash* ./${prefix}.vimrc | cut -d'/' -f3`; do
     # else do nothing.
     diff $dstfile $srcfile &> /dev/null ; diffstat=$? ;
     if [[ $diffstat -ne 0 ]]; then
-      echo $dstfile and $srcfile are different ;
+      echo "$dstfile and $srcfile are different" ;
 
       # Make the initial backup to destfile.orig;
       # But, if .orig already exists, backup to destfile.time.bak
@@ -58,14 +59,20 @@ for filename in `ls -1a ./${prefix}.bash* ./${prefix}.vimrc | cut -d'/' -f3`; do
 
       echo -en "\tBacking up ${dstfile} to ${backup}... " ;
       mv $dstfile ${backup};
-      if [[ $? -eq 0 ]]; then echo "Sucess!"; else echo "Fail :("; fi
+      if [[ $? -eq 0 ]]; then echo "Success!"; else echo "Fail :("; fi
+    else
+      docopy=no;
+      echo $dstfile and $srcfile are the same... skip
     fi
   else
     echo "$dstfile doestn't exist";
   fi
-  echo -en "\tCopying ${srcfile} to ${dstfile}... ";
-  cp ${srcfile} ${dstfile};
-  if [[ $? -eq 0 ]]; then echo "Sucess!"; else echo "Fail :("; fi
+
+  if [ "$docopy" = "yes" ]; then
+    echo -en "\tCopying ${srcfile} to ${dstfile}... ";
+    cp ${srcfile} ${dstfile};
+    if [[ $? -eq 0 ]]; then echo "Success!"; else echo "Fail :("; fi
+  fi
 done
 
 if [[ -f ~/.bash_profile ]] ; then
