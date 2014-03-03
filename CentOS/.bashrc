@@ -84,11 +84,7 @@ if [[ -f /usr/bin/git ]]; then
   git config --global user.email $usermail;
   if [[ $? -eq 0 ]]; then echo "Success!"; else echo "Fail :("; fi
 
-  echo -n "Setting git config push.default to... ";
+  echo -n "Setting git config push.default to current... ";
   git config --global push.default current &> /dev/null;
-  if [[ $? -eq 0 ]]; then
-    echo "current";
-  else
-    echo "failed to set current";
-  fi
+  if [[ $? -eq 0 ]]; then echo "Success!"; else echo "Fail :("; fi
 fi

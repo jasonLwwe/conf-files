@@ -179,12 +179,8 @@ if [[ -f /usr/bin/git ]]; then
   git config --global user.email $usermail;
   if [[ $? -eq 0 ]]; then echo "Success!"; else echo "Fail :("; fi
 
-  echo -n "Setting git config push.default to... ";
+  echo -n "Setting git config push.default to simple... ";
   git config --global push.default simple &> /dev/null;
-  if [[ $? -eq 0 ]]; then
-    echo "simple";
-  else
-    echo "failed to set simple";
-  fi
+  if [[ $? -eq 0 ]]; then echo "Success!"; else echo "Fail :("; fi
 fi
 
