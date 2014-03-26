@@ -138,7 +138,7 @@ function backup () {
 function d7 () {
   
   if [[ $# -gt 1 ]]; then 
-    echo "Usage:  d7 relative/path/to/dest-dir";
+    echo "[ERROR] Usage:  d7 [relative/path/to/dest-dir]";
     return 3;
   fi
 
@@ -154,7 +154,7 @@ function d7 () {
 function d7m () {
   
   if [[ $# -gt 1 ]]; then
-    echo "Usage:  d7m relative/path/to/dest-dir";
+    [echo "[ERROR] Usage:  d7m [relative/path/to/dest-dir]";
     return 3;
   fi
 
@@ -166,21 +166,3 @@ function d7m () {
 
   return $retval;
 }
-
-if [[ -f /usr/bin/git ]]; then
-  username=jasonLwwe;
-  usermail=jason.lyerly@wwecorp.com;
-
-  echo -n "Setting git config user.name to ${username}... ";
-  git config --global user.name $username;
-  if [[ $? -eq 0 ]]; then echo "Success!"; else echo "Fail :("; fi
-
-  echo -n "Setting git config user.email to ${usermail}... ";
-  git config --global user.email $usermail;
-  if [[ $? -eq 0 ]]; then echo "Success!"; else echo "Fail :("; fi
-
-  echo -n "Setting git config push.default to simple... ";
-  git config --global push.default simple &> /dev/null;
-  if [[ $? -eq 0 ]]; then echo "Success!"; else echo "Fail :("; fi
-fi
-

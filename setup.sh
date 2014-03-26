@@ -27,6 +27,26 @@ if [[ "$prefix" == "Abort" ]]; then
   return 130;
 fi
 
+if [[ -f /usr/bin/git ]]; then
+  username=jasonLwwe;
+  usermail=jason.lyerly@wwecorp.com;
+
+  echo -n "Setting git config user.name to ${username}... ";
+  git config --global user.name $username;
+  if [[ $? -eq 0 ]]; then echo "Success!"; else echo "Fail :("; fi
+
+  echo -n "Setting git config user.email to ${usermail}... ";
+  git config --global user.email $usermail;
+  if [[ $? -eq 0 ]]; then echo "Success!"; else echo "Fail :("; fi
+
+  pushDefault=current;
+  if [[ "$prefix" == "Jenkins/" ]]; then
+    pushDefault=simple;
+  fi
+  echo -n "Setting git config push.default to ${pushDefault}... ";
+  if [[ $? -eq 0 ]]; then echo "Success!"; else echo "Fail :("; fi
+fi
+
 btime=`date +%Y%m%d.%H%M.bak`;
 for filename in `ls -1a ./${prefix}.bash* ./${prefix}.vimrc | cut -d'/' -f3`; do
   
