@@ -1,5 +1,5 @@
 set autoindent
-set background=light
+set background=dark
 set encoding=utf-8
 set expandtab
 set number
