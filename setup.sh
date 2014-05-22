@@ -14,17 +14,17 @@ MENU
 echo -e $menu 1>&2
 unset length menu
 
+# Get the directory that contains the conf files to install
+prefix=$(./.menu.sh)
+if [[ "$prefix" == "Abort" ]]; then
+  return 130;
+fi
+
 # install vim if it isn't already installed
 if [[ ! -e /usr/bin/vim ]]; then
   echo -n "Installing vim... ";
   sudo apt-get install vim -y &> /dev/null;
   if [[ -e /usr/bin/vim ]]; then echo "Success!"; else echo "Fail"; fi
-fi
-
-# Get the directory that contains the conf files to install
-prefix=$(./.menu.sh)
-if [[ "$prefix" == "Abort" ]]; then
-  return 130;
 fi
 
 if [[ -f /usr/bin/git ]]; then
