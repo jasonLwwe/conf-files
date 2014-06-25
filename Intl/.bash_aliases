@@ -7,6 +7,6 @@ alias ls='ls --color=auto'
 
 alias msyn="/opt/vhosts/wweregional/console/bin/app.php wwe:regional:syndicate"
 alias mstat="/opt/vhosts/wweregional/console/bin/app.php wwe:regional:status"
-alias dreg="/opt/vhosts/wweregional/html"
-alias drc="/opt/vhosts/wweregional/console"
+alias dreg="cd/opt/vhosts/wweregional/html"
+alias drc="cd /opt/vhosts/wweregional/console"
 
