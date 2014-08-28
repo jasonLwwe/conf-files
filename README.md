@@ -1,3 +1,3 @@
 conf-files
 ==========
-bash config files for use on jenkins boxes
+bash config files for use on Jenkins boxes.
