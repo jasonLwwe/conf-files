@@ -21,11 +21,11 @@ if [[ "$prefix" == "Abort" ]]; then
 fi
 
 # install vim if it isn't already installed
-if [[ ! -e /usr/bin/vim ]]; then
-  echo -n "Installing vim... ";
-  sudo apt-get install vim -y &> /dev/null;
-  if [[ -e /usr/bin/vim ]]; then echo "Success!"; else echo "Fail"; fi
-fi
+#if [[ ! -e /usr/bin/vim ]]; then
+#  echo -n "Installing vim... ";
+#  sudo apt-get install vim -y &> /dev/null;
+#  if [[ -e /usr/bin/vim ]]; then echo "Success!"; else echo "Fail"; fi
+#fi
 
 if [[ -f /usr/bin/git ]]; then
   username=jasonLwwe;
