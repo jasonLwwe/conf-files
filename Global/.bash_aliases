@@ -5,8 +5,5 @@ alias l.='ls -d .* --color=auto'
 alias ll='ls -l --color=auto'
 alias ls='ls --color=auto'
 
-alias msyn="/opt/vhosts/wweregional/console/bin/app.php wwe:regional:syndicate"
-alias mstat="/opt/vhosts/wweregional/console/bin/app.php wwe:regional:status"
-alias dreg="cd /opt/vhosts/wweregional/html"
-alias drc="cd /opt/vhosts/wweregional/console"
-alias lastr="cat /opt/vhosts/wweregional/console/config/regional_config.yml | grep lastRun | cut -d ' ' -f2 | xargs -I{} date -d @{}"
+alias dglb="cd /u01/www/wweglobal/html"
+alias drc="cd  /u01/www/wweglobal/console"
