@@ -22,15 +22,9 @@ case "$TERM" in
     xterm-color|putty-256color) color_prompt=yes;;
 esac
 if [ "$color_prompt" = yes ]; then
-    PROMPT="\[\e[0;35m\]\u\[\e[0m\]@\h \w\n\[\e[1;37m\]\$ \[\e[0m\]";
+    PROMPT="\[\e[0m\]\u\[\e[0m\]@\h \w\n\[\e[1;37m\]\$ \[\e[0m\]";
     function exitstatus {
-        laststat=$?;
-        if [ `whoami` = root ]; then
-          PROMPT="\[\e[0;35m\]\u\[\e[0m\]@\h \w\n\[\e[1;37m\]\$ \[\e[0m\]";
-        else 
-          PROMPT="\[\e[0m\]\u\[\e[0m\]@\h \w\n\[\e[1;37m\]\$ \[\e[0m\]";
-        fi
-        if [ $laststat -eq 0 ]; then
+        if [ $? -eq 0 ]; then
           PS1="\n\[\e[1;32m\]\! ${PROMPT}";
         else
           PS1="\n\[\e[1;31m\]\! ${PROMPT}";
