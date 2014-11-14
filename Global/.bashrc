@@ -9,9 +9,12 @@ if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
 
-# for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
+# for setting history, see HISTSIZE, HISTFILESIZE, and HISTCONTROL in bash(1)
 HISTSIZE=1000
+HISTFILE=~/.bash_history
 HISTFILESIZE=2000
+HISTCONTROL=ignoredups
+shopt -s histappend
 
 # check the window size after each command and, if necessary,
 # update the values of LINES and COLUMNS.
