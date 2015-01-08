@@ -1,30 +1,30 @@
 en,de,es
-" News Archive"," News-Archiv"," News Archive"
-" News"," Nachrichten"," News"
-" only available at WWE.com, the official resource for everything related to "," nur WWE.com, der offiziellen Quelle für alles im Zusammenhang zur Verfügung"," only available at WWE.com, the official resource for everything related to "
-" | Latest News, Results, Videos, Photos, and More"," | Latest News, Ergebnisse, Videos, Fotos, und mehr"," | Latest News, Results, Videos, Photos, and More"
-" | Matches, Results, Videos, Photos, and More"," | Spiele, Ergebnisse, Videos, Fotos, und mehr"," | Matches, Results, Videos, Photos, and More"
+" News Archive"," News-Archiv","Archivo de noticias"
+" News"," Nachrichten",noticias
+" only available at WWE.com, the official resource for everything related to "," nur WWE.com, der offiziellen Quelle für alles im Zusammenhang zur Verfügung","Solo disponible en WWE.com, el recurso oficial para todo lo relacionado con"
+" | Latest News, Results, Videos, Photos, and More"," | Latest News, Ergebnisse, Videos, Fotos, und mehr","| Ultimas Noticias, Resultados, Videos, Fotos, y Mas"
+" | Matches, Results, Videos, Photos, and More"," | Spiele, Ergebnisse, Videos, Fotos, und mehr","| Partidos, Resultados, Videos, Fotos, y Mas"
 " | WWE.com"," | WWE.com"," | WWE.com"
-"!talent Bio, Videos, Photos, and News Articles","!talent Bio, Videos, Fotos und News Artikel","!talent Bio, Videos, Photos, and News Articles"
-"$9.99<span class=""price-small"">/month</span>","$9.99<span class=""price-small"">/Monat</span>","$9.99<span class=""price-small"">/month</span>"
-". Access a huge archive of ",". Zugriff auf ein riesiges Archiv von",". Access a huge archive of "
+"!talent Bio, Videos, Photos, and News Articles","!talent Bio, Videos, Fotos und News Artikel","! talento Bio, Videos, Fotos, y Articulos de prensa"
+"$9.99<span class=""price-small"">/month</span>","$9.99<span class=""price-small"">/Monat</span>","$ 9,99 <span class = ""-precio pequeno""> / mes </ span>"
+". Access a huge archive of ",". Zugriff auf ein riesiges Archiv von",". Acceder a un archivo enorme de"
 "<div class=""no_archivedata"">Sorry, there are no matching Power 25 items for your request at this time. Alternatively, use the site wide search at the top of the page.</div>","<div class=""no_archivedata"">Sorry, es gibt keine passenden Leistung 25 Einzelteile für Ihre Anfrage zu diesem Zeitpunkt. Alternativ können Sie die Website weite Suche ganz oben auf der Seite.</div>","<div class=""no_archivedata"">Sorry, there are no matching Power 25 items for your request at this time. Alternatively, use the site wide search at the top of the page.</div>"�"<span class=""white"">Superstar</span> <span>Appearances</span>"
 "<span class=""white"">Superstar</span> <span>Appearances</span>","<span class=""white"">Superstar</span> <span>Appearances</span>","<span class=""white"">Superstar</span> <span>Appearances</span>"
-"<span class=""white"">Travel</span><span>Promo</span>","<span class=""white"">Travel</span><span>Promo</span>","<span class=""white"">Travel</span><span>Promo</span>"
-"<span>Browse</span> By","<span>Browse</span> By","<span>Browse</span> By"
-"<span>Most Popular</span> Superstars","<span>Most Popular</span> Superstars","<span>Most Popular</span> Superstars"
-"About !total results","About !total results","About !total results"
+"<span class=""white"">Travel</span><span>Promo</span>","<span class=""white"">Reise</span><span>Promo</span>","<span class = ""white""> Viajes </ span> <span> Promo </ span>"
+"<span>Browse</span> By","<span>blättern</span> By","<span> Examinar </ span> Por"
+"<span>Most Popular</span> Superstars","<span>Am beliebtesten</span> Supërstärs","<span> Los mas populares </ span> superestrellas"
+"About !total results","Über! Gesamtergebnisse","Acerca! Resultados totales"
 "Aland Islands","Aland Islands","Islas Aland"
-"All !type","Alle !type","All !type"
-"All Countries","Alle Länder","All Countries"
-"All Episodes","Alle Episoden","All Episodes"
-"All News","Alle News","All News"
-"All Shows + Events","Alle Shows + Events","All Shows + Events"
-"All Shows","Alle Shows","All Shows"
-"All Superstars","Alle Superstars","All Superstars"
+"All !type","Alle !type","Todo! Tipo"
+"All Countries","Alle Länder","todos los Paises"
+"All Episodes","Alle Episoden","todos los Episodios"
+"All News","Alle News","Todas las noticias"
+"All Shows + Events","Alle Shows + Events","Todos los espectaculos + Eventos"
+"All Shows","Alle Shows","todos los shows"
+"All Superstars","Alle Superstars","todas las superestrellas"
 "All Tickets","Alle Tickets","All Tickets"
 "All Videos","Alle Videos","All Videos"
-"All events are displayed in local time","Alle Ereignisse werden in der Ortszeit angegeben","All events are displayed in local time"
+"All events are displayed in local time","Alle Ereignisse werden in der Ortszeit angegeben","Todos los eventos se muestran en la hora local"
 "All superstars subject to change","Alle Superstars Änderungen vorbehalten","All superstars subject to change"
 "Amazing Videos from the WWE Video Vault","Amazing Videos aus der WWE Video Vault","Amazing Videos from the WWE Video Vault"
 "American Samoa","amerikanischen Samoa","Samoa Americana"
@@ -34,7 +34,7 @@ en,de,es
 "Back to All Superstars","Zurück zu allen Superstars","Back to All Superstars"
 "Back to Search","Zurück zu den Such","Back to Search"
 "Become a fan on Facebook","Werden Sie Fan auf Facebook","Become a fan on Facebook"
-"Bio, Videos, Photos, and News Articles","Bio, Videos, Photos, and News Articles","Bio, Videos, Photos, and News Articles"
+"Bio, Videos, Photos, and News Articles","Bio, Videos, Fotos und News Artikel","Bio, Videos, Photos, and News Articles"
 "Bosnia and Herzegovina","Bosnien und Herzegowina","Bosnia y Herzegovina"
 "Bouvet Island",Bouvet-Insel,"Isla Bouvet"
 "British Indian Ocean Territory","Britisch-Indischer Ozean","Territorio Británico del Océano Índico"
@@ -49,82 +49,82 @@ en,de,es
 "Cayman Islands",Cayman-Inseln,"Islas Caimán"
 "Central African Republic","Zentralafrikanische Republik","República Centroafricana"
 "Christmas Island",Weihnachtsinsel,"Isla de Navidad"
-"Classic Matches","Klassische Spiele","Classic Matches"
-"Click here","Klicken Sie hier","Click here"
+"Classic Matches","Klassische Spiele","Partidos clásicos"
+"Click here","Klicken Sie hier","haga clic aquí"
 "Cocos (Keeling) Islands","Cocos (Keeling) Islands","Islas Cocos (Keeling)"
 "Congo (Brazzaville)","Kongo (Brazzaville)","Congo (Brazzaville)"
 "Congo (Kinshasa)","Kongo (Kinshasa)","Congo (Kinshasa)"
 "Cook Islands",cook-Inseln,"Islas Cook"
 "Costa Rica","Costa Rica","Costa Rica"
 "Czech Republic","Tschechische Republik","República Checa"
-"DID YOU MEAN:","DID YOU MEAN:","DID YOU MEAN:"
-"DID<span>YOU KNOW?</span>","DID<span>YOU KNOW?</span>","DID<span>YOU KNOW?</span>"
-"Daily Schedule","Daily Schedule","Daily Schedule"
-"Did you know?","Did you know?","Did you know?"
+"DID YOU MEAN:","MEINTEN SIE:","QUERIAS DECIR:"
+"DID<span>YOU KNOW?</span>","DID<span>WISSEN SIE?</span>","¿SABÍA <span> SABES? </ Span>"
+"Daily Schedule","Daily Schedule","Horario Diario"
+"Did you know?","Wussten Sie?",Sabías?
 "Dominican Republic","Dominikanische Republik","República Dominicana"
 "ECW Alumni","ECW Alumni","ECW Alumni"
 "El Salvador","El Salvador","El Salvador"
-"Entrance Music","Entrance Music","Entrance Music"
-"Entrance Video","Entrance Video","Entrance Video"
+"Entrance Music","Eingang Musik","Entrada Música"
+"Entrance Video","Eingang Vidëo","La entrada de video"
 "Equatorial Guinea",Äquatorialguinea,"Guinea Ecuatorial"
 "Falkland Islands",Falkland-Inseln,"islas Malvinas"
 "Faroe Islands",Färöer,"Islas Feroe"
-"Find Tickets","Find Tickets","Find Tickets"
-"Find a Live Event Near You","Find a Live Event Near You","Find a Live Event Near You"
-"Follow !name on Twitter","Follow !name on Twitter","Follow !name on Twitter"
-"Follow WWE on Twitter","Follow WWE on Twitter","Follow WWE on Twitter"
+"Find Tickets","Tickets finden","Buscar entradas"
+"Find a Live Event Near You","Finden Sie eine Live-Veranstaltung in Ihrer Nähe","Encuentre un Evento en vivo cerca de ti!"
+"Follow !name on Twitter","Folgen! Manger auf Twitter","Siga! Nombrar en Twitter"
+"Follow WWE on Twitter","Folgen Sie WWE auf Twitter","Siga WWE en Twitter"
 "French Guiana",Französisch-Guayana,"Guayana francés"
 "French Polynesia",Französisch-Polynesien,"Polinesia francés"
 "French Southern Territories","Französisch Südliche Territorien","Territorios Franceses del Sur"
-"Full Episodes","Full Episodes","Full Episodes"
-"Get Started","Get Started","Get Started"
-"Get Tickets","Get Tickets","Get Tickets"
-"Hall of Fame","Hall of Fame","Hall of Fame"
+"Full Episodes",Episoden,"Episodios completos"
+"Get Started","Erste Schritte",empezar
+"Get Tickets","Holen Sie sich Tickets","Consiga los boletos"
+"Hall of Fame",Ruhmeshalle,"Salón de la Fama"
 "Heard Island and McDonald Islands","Heard und McDonaldinseln","Islas Heard y McDonald"
 "Hong Kong S.A.R., China","Hongkong S.A.R., China","Hong Kong S.A.R., China"
 "Isle of Man","Isle of Man","Isla de Man"
 "Ivory Coast",Elfenbeinküste,"Costa de Marfil"
-"Last Week's <span>Biggest Movers</span>","Last Week's <span>Biggest Movers</span>","Last Week's <span>Biggest Movers</span>"
-"Latest ","Latest ","Latest "
-"Latest News","Latest News","Latest News"
-"Live Events","Live Events","Live Events"
-"Live Events<span>Tickets</span>","Live Events<span>Tickets</span>","Live Events<span>Tickets</span>"
+"Last Week's <span>Biggest Movers</span>","Last Week's <span>Biggest Movers</span>","De la semana pasada <span> Las más grandes Movers </ span>"
+"Latest ","Latest ","mas reciente"
+"Latest News","Latest News","últimas Noticias"
+"Live Events","Live Events","Eventos en Vivo"
+"Live Events<span>Tickets</span>","Live Events<span>Tickets</span>","Live Events <span> Entradas </ span>"
 "Live Tour","Live Tour","Live Tour"
 "Macao S.A.R., China","Macao S.A.R., China","Macao S.A.R., China"
-"Main Event","Main Event","Main Event"
+"Main Event","Main Event","Evento Principal"
 "Marshall Islands",Marshall-Inseln,"Islas Marshall"
-"More Info","More Info","More Info"
-"NEXT <span>PAY-PER-VIEW</span>","NÄCHSTER <span>PAY-PER-VIEW</span>","NEXT <span>PAY-PER-VIEW</span>"
+"More Info","More Info","mas Info"
+"NEXT <span>PAY-PER-VIEW</span>","NÄCHSTER <span>PAY-PER-VIEW</span>","SIGUIENTE <span> PAY-PER-VIEW </ span>"
 "Netherlands Antilles","niederländische Antillen","Antillas Holandesas"
 "New Caledonia",Neukaledonien,"nueva Caledonia"
 "New Zealand",Neuseeland,"nueva Zelanda"
-"Next Article","Nächster Artikel","Next Article"
-"Next Day","Nächster Tag","Next Day"
-"Next Event","Nächste Veranstaltung","Next Event"
-"Next Page","Nächste Seite","Next Page"
-"Next Poll","Nächste Umfrage","Next Poll"
+"Next Article","Nächster Artikel","Siguiente artículo"
+"Next Day","Nächster Tag","Siguiente día"
+"Next Event","Nächste Veranstaltung","Siguiente Carrera"
+"Next Page","Nächste Seite","Siguiente Página"
+"Next Poll","Nächste Umfrage","Siguiente Poll"
 "No Channels Available","Keine Kanäle vorhanden","No Channels Available"
 "Norfolk Island",Norfolkinsel,"Isla Norfolk"
 "North Korea",Nordkorea,"Corea del Norte"
 "Northern Mariana Islands","Northern Mariana Islands","Islas Marianas del Norte"
-"Now Playing","Sie hören","Now Playing"
-"ON SALE","AUF VERKAUF","ON SALE"
+"Now Playing","Sie hören","Reproduciendo ahora"
+"ON SALE","AUF VERKAUF","EN VENTA"
 "Online PPV","Onlinën PPV","PPV Onliné"
 "Order Now!","Jetzt bestellen!","Solicitar ahora!"
 "Order Now","Jetzt bestellen","Solicitar ahora"
 "Order PPV","Bestellen PPV","Solicitar PPV"
-"Order Pay-Per-View","Bestellen Pay-Per-View","Order Pay-Per-View"
-"Page !page of !pagecount","Page !page of !pagecount","Page !page of !pagecount"
-"Page !page of !total","Page !page of !total","Page !page of !total"
+"Order Pay-Per-View","Bestellen Pay-Per-View","Orden de Pago Por Ver"
+"Page !page of !pagecount","Page !page of !pagecount","Pagina! De! PageCount"
+"Page !page of !total","Page !page of !total","Pagina de sugerencias de! Totales"
 "Palestinian Territory","palästinensische Autonomiegebiete","Territorio Palestino"
 "Papua New Guinea",Papua-Neuguinea,"Papúa Nueva Guinea"
 "Postal Code",Postleitzahl,"Código Postal"
-"Presented By","Präsentiert von","Presented By"
-"Preview the Match","Vorschau des Spiels","Preview the Match"
-"Previous Page","Vorherige Seite","Previous Page"
-"Previous Poll","Vorherige Umfrage","Previous Poll"
+"Presented By","Präsentiert von","presentado por"
+"Preview the Match","Vorschau des Spiels","Vista previa del Partido"
+"Previous Page","Vorherige Seite","Pagina Anterior"
+"Previous Poll","Vorherige Umfrage","Encuesta anterior"
 "Puerto Rico","Puerto Rico","Puerto Rico"
-"Purchase WWE tickets to ","Erwerben WWE Tickets ","Purchase WWE tickets to "
+"Purchase WWE tickets to ","Erwerben WWE Tickets ","Compra entradas WWE a"
 "Raw Replays","Wiederholung Räw","Repetición de Raw"
 "Raw Supershow","Räw Supershow","Ráw Supershow"
 "Read Article","Artikel lesen","Leer Artículo"
@@ -133,9 +133,9 @@ en,de,es
 "Read List","Lesen Liste","Leer Lista"
 "Read More",Weiterlesen,"Leer Más"
 "Recent Events","Letzte Veranstaltungen","Eventos Recientes"
-"Round ","Runde ","Round "
-"SEARCH EVENTS","Suche Veranstaltungen","SEARCH EVENTS"
-"SHOW !span Listings !spanend","Karte !span Anzeigen !spanend","SHOW !span Listings !spanend"
+"Round ","Runde ",ronda
+"SEARCH EVENTS","Suche Veranstaltungen","Buscar eventos"
+"SHOW !span Listings !spanend","Karte !span Anzeigen !spanend","ESPECTÁCULO! Abarcar Listados! SpanEnd"
 "Saint Barthélemy","saint Barthélemy","San Bartolomé"
 "Saint Helena","St. Helena","Santa Helena"
 "Saint Kitts and Nevis","St. Kitts und Nevis","San Cristóbal y Nieves"
@@ -146,15 +146,15 @@ en,de,es
 "San Marino","San Marino","San Marino"
 "Sao Tome and Principe","Sao Tome und Principe","Santo Tomé y Príncipe"
 "Saudi Arabia",Saudi-Arabien,"Arabia Saudita"
-"Select a country","Wählen Sie ein Land","Select a country"
-"Show Listings for: ","Zeige Anzeigen für: ","Show Listings for: "
-"Show Type","Typ Der","Show Type"
+"Select a country","Wählen Sie ein Land","Seleccione un país"
+"Show Listings for: ","Zeige Anzeigen für: ","Mostrar Información para:"
+"Show Type","Typ Der","Mostrar Tipo"
 "Sierra Leone","Sierra Leone","Sierra Leona"
 "Sign In",Anmelden,Registrarse
 "Signature Move","Unterschrift Bewegung","Signature Move"
 "Sint Maarten","Sint Maarten","Sint Maarten"
 "Solomon Islands",Salomon-Inseln,"islas Salomón"
-"Sorry, there are no matching News items for your request at this time. Please use the dropdown menus provided above to assist in finding additional News articles you might be interested in. Alternatively, use the site wide search at the top of the page.","Sorry, there are no matching News items for your request at this time. Please use the dropdown menus provided above to assist in finding additional News articles you might be interested in. Alternatively, use the site wide search at the top of the page.","Sorry, there are no matching News items for your request at this time. Please use the dropdown menus provided above to assist in finding additional News articles you might be interested in. Alternatively, use the site wide search at the top of the page."
+"Sorry, there are no matching News items for your request at this time. Please use the dropdown menus provided above to assist in finding additional News articles you might be interested in. Alternatively, use the site wide search at the top of the page.","Sorry, there are no matching News items for your request at this time. Please use the dropdown menus provided above to assist in finding additional News articles you might be interested in. Alternatively, use the site wide search at the top of the page.","Lo sentimos, no hay artículos a juego Noticias para su solicitud en este momento. Por favor, use los menús desplegables proporcionados anteriormente para ayudar a encontrar artículos de noticias Quizás se encuentre interesado en. Como alternativa, utilice la amplia búsqueda de sitio en la parte superior de la página."
 "Sort by:","Sortieren nach:","Ordenar por:"
 "South Africa",Südafrika,Sudáfrica
 "South Georgia and the South Sandwich Islands","Südgeorgien und die Südlichen Sandwichinseln","Georgia del Sur y las Islas Sandwich del Sur"
@@ -168,17 +168,17 @@ en,de,es
 "Superstar Schedule",Superstär-Termine,"Superestrellar Calendario"
 "Survivor Series Travel &amp; Hotel Package","Survivor Series Travel &amp; Hotel Package","Survivor Series Travel &amp; Hotel Package"
 "Svalbard and Jan Mayen","Svalbard und Jan Mayen","Svalbard y Jan Mayen"
-"TOTAL VOTES","TOTAL VOTES","TOTAL VOTES"
-"Take Another WWE Poll","Nehmen wir ein anderes WWE Umfrage","Take Another WWE Poll"
-"Thank You For Voting!","Danke für ihre Bewertung!","Thank You For Voting!"
-"Thank you for visiting. This poll is now closed.","Danke für Ihren Besuch. Diese Umfrage ist geschlossen.","Thank you for visiting. This poll is now closed."
-"The Official Destination for WWE Superstars","Das offizielle Ziel für die WWE Superstars","The Official Destination for WWE Superstars"
-"The Official Site of the WWE Universe","The Official Site of the WWE Universe","The Official Site of the WWE Universe"
-"There are no pages matching your search. Please try different search term.","There are no pages matching your search. Please try different search term.","There are no pages matching your search. Please try different search term."
-"This video's page","This video's page","This video's page"
-"Tickets on Sale:","Tickets on Sale:","Tickets on Sale:"
+"TOTAL VOTES","TOTAL VOTES","Votos en total"
+"Take Another WWE Poll","Nehmen wir ein anderes WWE Umfrage","Tome Otra WWE Poll"
+"Thank You For Voting!","Danke für ihre Bewertung!","Gracias por votar!"
+"Thank you for visiting. This poll is now closed.","Danke für Ihren Besuch. Diese Umfrage ist geschlossen.","Gracias por su visita. Esta encuesta se ha cerrado."
+"The Official Destination for WWE Superstars","Das offizielle Ziel für die WWE Superstars","El destino oficial de WWE Superstars"
+"The Official Site of the WWE Universe","The Official Site of the WWE Universe","La pagina oficial de la WWE"
+"There are no pages matching your search. Please try different search term.","There are no pages matching your search. Please try different search term.","No hay paginas que coincidan con su busqueda. Por favor, intente diferente termino de búsqueda."
+"This video's page","This video's page","La pagina de este video"
+"Tickets on Sale:","Tickets on Sale:","Entradas a la venta:"
 "Trinidad and Tobago","Trinidad und Tobago","Trinidad y Tobago"
-"Tune In",Hören,"Tune In"
+"Tune In",Hören,sintonizar
 "Turks and Caicos Islands","Turks und Caicos Inseln","Islas Turcas y Caicos"
 "U.S. Virgin Islands",US-Jungferninseln,"Islas Vírgenes de Estados Unidos"
 "United Arab Emirates","Vereinigte Arabische Emirate","Emiratos Árabes Unidos"
@@ -187,61 +187,61 @@ en,de,es
 "United States","Vereinigte Staaten","Estados Unidos"
 "Up Next","Nach oben Weiter","Up Next"
 "Upcoming Events","Bevorstehende Veranstaltungen","Próximos eventos"
-"VIDEO PLAYLIST","VIDEO PLAYLIST","VIDEO PLAYLIST"
-"VIEW ALL","ALLE ANZEIGEN","VIEW ALL"
-"VIP CHAT WITH:","VIP CHAT WITH:","VIP CHAT WITH:"
-"View !count result","View !count result","View !count result"
-"View All !longspan WWE Chatter !longspanend","Alle anzeigen !longspan WWE Chatter !longspanend","View All !longspan WWE Chatter !longspanend"
-"View All News","Alle Nachrichten","View All News"
-"View All Upcoming Events","Alle Bevorstehende Veranstaltungen","View All Upcoming Events"
-"View All WWE Chatter","Alle anzeigen WWE Chatter","View All WWE Chatter"
-"View All WWE Events","Alle WWE Events","View All WWE Events"
-"View All","Alle anzeigen","View All"
-"View Bracket","Bracket anzeigen","View Bracket"
-"View Comments",Kommentare,"View Comments"
-"View Details","Details Anzeigen","View Details"
-"View Gallery","Ansicht Galerie","View Gallery"
-"View More Facts","Mehr Fakten","View More Facts"
+"VIDEO PLAYLIST","VIDEO PLAYLIST","LISTA DE REPRODUCCION DE VIDEO"
+"VIEW ALL","ALLE ANZEIGEN","VER TODO"
+"VIP CHAT WITH:","VIP CHAT WITH:","CHAT CON VIP:"
+"View !count result","View !count result","Ver! Contar resultado"
+"View All !longspan WWE Chatter !longspanend","Alle anzeigen !longspan WWE Chatter !longspanend","Ver todos! Longspan longspanend WWE Chatter!"
+"View All News","Alle Nachrichten","Ver todas las noticias"
+"View All Upcoming Events","Alle Bevorstehende Veranstaltungen","Ver todos los Proximos Eventos"
+"View All WWE Chatter","Alle anzeigen WWE Chatter","Ver todos WWE Chatter"
+"View All WWE Events","Alle WWE Events","Ver todos los eventos de la WWE"
+"View All","Alle anzeigen","Ver todos"
+"View Bracket","Bracket anzeigen","Ver Bracket"
+"View Comments",Kommentare,"Ver Comentarios"
+"View Details","Details Anzeigen","Ver detalles"
+"View Gallery","Ansicht Galerie","Ver galeria"
+"View More Facts","Mehr Fakten","Ver Mas Datos"
 "View More","Mehr Anzeigen","Ver Más"
-"View Page","Ansicht Page","View Page"
-"View Photos","Ansicht Photos","View Photos"
-"View Playlist","Ansicht Playlist","View Playlist"
-"View all !count results","Alle !count Ergebnisse","View all !count results"
-"View all Superstar appearances","Alle Superstar-Auftritte","View all Superstar appearances"
-"Visit WWE.com for the official archive of ","Besuchen WWE.com für den offiziellen Archiv von","Visit WWE.com for the official archive of "
-"Visit WWE.com for the ultimate collection of ","Besuchen WWE.com für die entscheidende Sammlung der","Visit WWE.com for the ultimate collection of "
-"Vote Now","Jetzt abstimmen","Vote Now"
+"View Page","Ansicht Page","Ver Pagina"
+"View Photos","Ansicht Photos","Mira las fotos"
+"View Playlist","Ansicht Playlist","Ver lista de reproduccion"
+"View all !count results","Alle !count Ergebnisse","Ver todos! Contar resultados"
+"View all Superstar appearances","Alle Superstar-Auftritte","Ver todas las apariencias de la superestrella"
+"Visit WWE.com for the official archive of ","Besuchen WWE.com für den offiziellen Archiv von","Visita WWE.com para el archivo oficial de"
+"Visit WWE.com for the ultimate collection of ","Besuchen WWE.com für die entscheidende Sammlung der","Visita WWE.com para la ultima coleccion de"
+"Vote Now","Jetzt abstimmen","Vota ahora"
 "WCW Alumni","WCW Alumni","WCW Alumni"
 "WWE Alumni","WWE Alümni","WWE Alumni"
-"WWE Classics, the Official Destination for the Complete History of WWE, WCW, ECW, NWA, AWA and More!","WWE Klassiker des Amts Destination für die komplette Geschichte der WWE, WCW, ECW, NWA, AWA und vieles mehr!","WWE Classics, the Official Destination for the Complete History of WWE, WCW, ECW, NWA, AWA and More!"
+"WWE Classics, the Official Destination for the Complete History of WWE, WCW, ECW, NWA, AWA and More!","WWE Klassiker des Amts Destination für die komplette Geschichte der WWE, WCW, ECW, NWA, AWA und vieles mehr!","WWE Classics, el destino oficial de la historia completa de la WWE, WCW, ECW, NWA, AWA y mas!"
 "WWE Network","WWE Netzwërk","WWE Network"
-"WWE News, Wrestling News and Wrestling Rumors","WWE News Wrestling News and Wrestling Gerüchte","WWE News, Wrestling News and Wrestling Rumors"
-"WWE Shows, the Home of Raw, SmackDown, WWE Superstars and our new WWE YouTube Webisodes","WWE Shows, die Startseite von Raw, Smackdown, WWE Superstars und unser neuer WWE YouTube Webisodes","WWE Shows, the Home of Raw, SmackDown, WWE Superstars and our new WWE YouTube Webisodes"
-"WWE Tickets and Live Events Information from WWE","WWE Tickets und Live-Events Informationen vom WWE-","WWE Tickets and Live Events Information from WWE"
-"WWE, the recognized leader in global sports-entertainment, featuring the unrivaled Superstars of the ring including John Cena, Randy Orton, The Rock, CM Punk, Triple H and The Undertaker, as well as WWE Divas and Legends.","WWE, der anerkannte Marktführer in der globalen Sports Entertainment, mit den unvergleichlichen Superstars des Rings mit John Cena, Randy Orton, The Rock, CM Punk, Triple H und dem Undertaker sowie WWE Divas und Legenden.","WWE, the recognized leader in global sports-entertainment, featuring the unrivaled Superstars of the ring including John Cena, Randy Orton, The Rock, CM Punk, Triple H and The Undertaker, as well as WWE Divas and Legends."
-"WWE.com: The Official Site of the WWE Universe","WWE.com: Die offizielle Website des WWE-Universums","WWE.com: The Official Site of the WWE Universe"
+"WWE News, Wrestling News and Wrestling Rumors","WWE News Wrestling News and Wrestling Gerüchte","Noticias WWE, Lucha Noticias y Rumores Wrestling"
+"WWE Shows, the Home of Raw, SmackDown, WWE Superstars and our new WWE YouTube Webisodes","WWE Shows, die Startseite von Raw, Smackdown, WWE Superstars und unser neuer WWE YouTube Webisodes","Shows de WWE, el Hogar de Raw, SmackDown, WWE Superstars y nuestro nuevo WWE YouTube Webisodes"
+"WWE Tickets and Live Events Information from WWE","WWE Tickets und Live-Events Informationen vom WWE-","Entradas WWE y en vivo Eventos de la WWE"
+"WWE, the recognized leader in global sports-entertainment, featuring the unrivaled Superstars of the ring including John Cena, Randy Orton, The Rock, CM Punk, Triple H and The Undertaker, as well as WWE Divas and Legends.","WWE, der anerkannte Marktführer in der globalen Sports Entertainment, mit den unvergleichlichen Superstars des Rings mit John Cena, Randy Orton, The Rock, CM Punk, Triple H und dem Undertaker sowie WWE Divas und Legenden.","WWE, el reconocido líder mundial en el deporte-espectaculo, con las superestrellas incomparables del timbre, incluyendo a John Cena, Randy Orton, The Rock, CM Punk, Triple H y The Undertaker, así como WWE Divas y Leyendas."
+"WWE.com: The Official Site of the WWE Universe","WWE.com: Die offizielle Website des WWE-Universums","WWE.com: La pagina oficial de la WWE"
 "WWEUniverse:Official Twitter account of the WWE Universe","WWEUniverse: Offizielle Twitter-Account des WWE-Universums","WWEUniverse: Oficial cuenta de Twitter de la WWE"
 "Wallis and Futuna","Wallis und Futuna","Wallis y Futuna"
-"Watch Video","Beobachten Video","Watch Video"
-"Watch Videos","Beobachten Videos","Watch Videos"
+"Watch Video","Beobachten Video","Ver Video"
+"Watch Videos","Beobachten Videos","Ver Videos"
 "Western Sahara",Westsahara,"Sáhara Occidental"
-"Who Will Win?","Wer gewinnt?","Who Will Win?"
-"With six month commitment","Mit 6 Monate Engagement","With six month commitment"
+"Who Will Win?","Wer gewinnt?","¿Quien ganara?"
+"With six month commitment","Mit 6 Monate Engagement","Con el compromiso seis meses"
 "YOU COULD ALSO TRY:","Sie auch versuchen, KÖNNTE:","USTED PODRÍA TAMBIÉN TRY:"
 "You May Also Like","Sie können auch lieben","También le gustará"
-"active first","active first","active first"
+"active first","aktive ersten","activa primero"
 "cast your vote!","Ihre Stimme!","cast your vote!"
-"posted !time ago","posted !time ago","posted !time ago"
-"see the full results","see the full results","see the full results"
-"viagogo Ticket Exchange","viagogo Ticket Exchange","viagogo Ticket Exchange"
-ALL,ALLE,ALL
+"posted !time ago","posted !time ago","Hace tiempo! publicado"
+"see the full results","see the full results","ver los resultados completos"
+"viagogo Ticket Exchange","viagogo Ticket Exchange","viagogo Cambio"
+ALL,ALLE,TODO
 ARCHIVE,ARCHIV,ARCHIVE
 ARTICLES,ARTIKEL,ARTICLES
 Afghanistan,Afghanistan,Afganistán
 Albania,Albanien,Albania
 Algeria,Algerien,Argelia
-Alias,Aliäs,Alias
-All,Alle,All
+Alias,Aliäs,alias
+All,Alle,todos
 Alumni,Alümni,Alumni
 Andorra,Andorra,Andorra
 Angola,Angola,Angola
@@ -267,7 +267,7 @@ Belize,Belize,Belice
 Benin,Benin,Benin
 Bermuda,Bermuda,Bermuda
 Bhutan,Bhutan,Bután
-Bio,Bio,Bio
+Bio,er,Bio
 Bolivia,Bolivien,Bolivia
 Botswana,Botswana,Botswana
 Brazil,Brasilien,Brasil
@@ -275,7 +275,7 @@ Brunei,Brunei,Brunei
 Bulgaria,Bulgarien,Bulgaria
 Burundi,Burundi,Burundi
 CHAMPIONS,CHÄMPIONS,CHAMPIONS
-CURRENT,CURRENT,CURRENT
+CURRENT,CURRENT,ACTUAL
 Cambodia,Kambodscha,Camboya
 Cameroon,Kamerun,Camerún
 Canada,Kanada,Canadá
@@ -287,20 +287,20 @@ China,China,China
 Clips,Clips,Clips
 Colombia,Kolumbien,Colombia
 Comoros,Komoren,Comoras
-Country,Land,Country
+Country,Land,país
 Croatia,Kroatien,Croacia
 Cuba,Kuba,Cuba
 Curaçao,Curaçao,Curaçao
-Current,Current,Current
+Current,Strom,corriente
 Cyprus,Zypern,Chipre
-Date,Date,Date
-Day.,Day.,Day.
-Days,Days,Days
-Defeated,Defeated,Defeated
+Date,Datum,fecha
+Day.,Däy.,Day.
+Days,Tage,días
+Defeated,unterlegen,derrotado
 Denmark,Dänemark,Dinamarca
-Details,Details,Details
-Distance,Entfernung,Distance
-Divas,Divas,Divas
+Details,Einzelheiten,Detalles
+Distance,Entfernung,distancia
+Divas,Diväs,Divas
 Djibouti,Djibouti,Djibouti
 Dominica,Dominica,Dominica
 ET,ET,ET
@@ -309,17 +309,17 @@ Egypt,Ägypten,Egipto
 Eritrea,Eritrea,Eritrea
 Estonia,Estland,Estonia
 Ethiopia,Äthiopien,Etiopía
-Event,Event,Event
-Event<span>Calendar</span>,Event<span>Calendar</span>,Event<span>Calendar</span>
-Events,Events,Events
+Event,Ereignis,evento
+Event<span>Calendar</span>,Ereignis<span>Kalender</span>,"Evento <span> Calendario </ span>"
+Events,Geschehen,Eventos
 Fiji,Fidschi,Fiji
-Filters,Filters,Filters
-Final,Final,Final
+Filters,Filters,Filtros
+Final,letzte,final
 Finland,Finnland,Finlandia
-Follow,Follow,Follow
+Follow,folgen,seguir
 France,Frankreich,Francia
 Friday,Freitag,viernes
-From,From,From
+From,von,desde
 Gabon,Gabun,Gabón
 Gambia,Gambia,Gambia
 Georgia,Georgia,Georgia
@@ -337,15 +337,15 @@ Guinea,Guinea,Guinea
 Guinea-Bissau,Guinea-Bissau,Guinea-Bissau
 Guyana,Guyana,Guayana
 Haiti,Haiti,Haití
-Height,Height,Height
+Height,Höhe,altura
 Honduras,Honduras,Honduras
-Hours,Hours,Hours
+Hours,Stunden,horas
 Hr.,Hr.,Hr.
 Hungary,Ungarn,Hungría
 Iceland,Island,Islandia
 India,Indien,India
 Indonesia,Indonesien,Indonesia
-Info,Info,Info
+Info,Info,info
 Iran,Iran,Irán
 Iraq,Irak,Irak
 Ireland,Irland,Irlanda
@@ -362,7 +362,7 @@ Kilometers,Kilõmeters,Kilómetros
 Kiribati,Kiribati,Kiribati
 Kuwait,Kuwait,Kuwait
 Kyrgyzstan,Kirgisistan,Kirguistán
-LISTS,LISTS,LISTS
+LISTS,LISTS,LISTAS
 Laos,Laos,Laos
 Latvia,Lettland,Letonia
 Lebanon,Libanon,Líbano
@@ -371,11 +371,11 @@ Liberia,Liberia,Liberia
 Libya,Libyen,Libia
 Liechtenstein,Liechtenstein,Liechtenstein
 Lithuania,Litauen,Lituania
-Location,Location,Location
-Login,Login,Login
-Logout,Logout,Logout
+Location,Location,ubicación
+Login,Login,"Iniciar Sesión"
+Logout,Logout,"Cerrar sesión"
 Luxembourg,Luxemburg,Luxemburgo
-MILESTONES,MILESTONES,MILESTONES
+MILESTONES,MILESTONES,HITOS
 Macedonia,Mazedonien,macedonia
 Madagascar,Madagaskar,Madagascar
 Malawi,Malawi,Malawi
@@ -384,47 +384,47 @@ Maldives,Malediven,Maldivas
 Mali,Mali,Malí
 Malta,Malta,Malta
 Martinique,Martinique,Martinica
-Matchups,Matchups,Matchups
+Matchups,Matchups,enfrentamientos
 Mauritania,Mauretanien,Mauritania
 Mauritius,Mauritius,Mauricio
 Mayotte,Mayotte,Mayotte
-Merchandise,Merchandise,Merchandise
+Merchandise,Merchandise,mercancias
 Mexico,Mexiko,México
 Micronesia,Mikronesien,Micronesia
 Miles,Meilen,Miles
 Min.,Min.,Min.
-Minutes,Minutes,Minutes
+Minutes,Minutes,acta
 Moldova,Moldawien,Moldavia
 Monaco,Monaco,Mónaco
 Monday,Montag,lunes
 Mongolia,Mongolei,Mongolia
 Montenegro,Montenegro,Montenegro
-Month,Month,Month
+Month,Month,mes
 Montserrat,Montserrat,Montserrat
-More,More,More
+More,More,mas
 Morocco,Marokko,Marruecos
 Mozambique,Mosambik,Mozambique
 Myanmar,Myanmar,Myanmar
-NEXT,nächster,NEXT
+NEXT,nächster,SIGUIENTE
 NXT,NXT,NXT
 Namibia,Namibia,Namibia
 Nauru,Nauru,Nauru
 Nepal,Nepal,Nepal
 Netherlands,Niederlande,"Países Bajos"
-Network<span>Program</span>,Network<span>Program</span>,Network<span>Program</span>
-Next,NÄCHSTER,Next
-Next<span>Event</span>,Nächste<span>Seite</span>,Next<span>Event</span>
+Network<span>Program</span>,Network<span>Program</span>,"Red <span> Programa </ span>"
+Next,NÄCHSTER,siguiente
+Next<span>Event</span>,Nächste<span>Seite</span>,"Siguiente <span> Evento </ span>"
 Nicaragua,Nicaragua,Nicaragua
 Niger,Niger,Níger
 Nigeria,Nigeria,Nigeria
 Niue,Niue,Niue
 Norway,Norwegen,Noruega
-Now,Jetzt,Now
+Now,Jetzt,ahora
 Oman,Oman,Omán
-PHOTOS,FOTOS,PHOTOS
-POLLS,POLLS,POLLS
+PHOTOS,FOTOS,FOTOS
+POLLS,POLLS,ENCUESTAS
 PPV,PPV,PPV
-PREVIOUS,FRÜHER,PREVIOUS
+PREVIOUS,FRÜHER,ANTERIOR
 Pakistan,Pakistan,Pakistán
 Palau,Palau,Palau
 Panama,Panama,Panamá
@@ -432,60 +432,60 @@ Paraguay,Paraguay,Paraguay
 Pay-Per-View,Pay-Per-View,Pay-Per-View
 Peru,Peru,Perú
 Philippines,Philippinen,Filipinas
-Photos,Fotos,Photos
+Photos,Fotos,Fotos
 Pitcairn,Pitcairn,Pitcairn
 Playlist,Playlist,Playlist
-Playlists,Playlists,Playlists
+Playlists,Playlists,"Listas de reproducción"
 Poland,Polen,Polonia
 Portugal,Portugal,Portugal
-Power,Leistung,Power
-Present,Vorhanden,Present
-Previous,Früher,Previous
-Purchase<span>Tickets</span>,Tickets<span>Kaufen</span>,Purchase<span>Tickets</span>
+Power,Leistung,energia
+Present,Vorhanden,presente
+Previous,Früher,anterior
+Purchase<span>Tickets</span>,Tickets<span>Kaufen</span>,"Compra de <span> Entradas </ span>"
 Qatar,Katar,Katar
-Rank,Rang,Rank
-Rankings,Ränkings,Rankings
-Raw,Raw,Raw
+Rank,Rang,rango
+Rankings,Ränkings,clasificaciones
+Raw,Raw,crudo
 Related,Verbunden,Conexo
 Relevance,Relevanz,Pertinencia
 Reunion,Wiedervereinigung,reunión
-Reviews,Bewertungen,Reviews
+Reviews,Bewertungen,Comentarios
 Romania,Rumänien,Rumania
-Roster,Dienstplan,Roster
+Roster,Dienstplan,lista
 Russia,Russland,Rusia
 Rwanda,Ruanda,Ruanda
-SHOWS,SHOWS,SHOWS
+SHOWS,SHOWS,ESPECTACULOS
 SUBMIT,SENDEN,ENVIAR
-SUPERSTARS,SUPERSTÄRS,SUPERSTARS
+SUPERSTARS,SUPERSTÄRS,SUPERESTRELLAS
 Samoa,Samoa,Samoa
 Saturday,Samstag,sábado
-Search,Suche,Search
+Search,Suche,busqueda
 Sec.,Sec.,Sec.
-Seconds,Sekunden,Seconds
+Seconds,Sekunden,segundos
 Senegal,Senegal,Senegal
 Serbia,Serbien,Serbia
 Seychelles,Seychellen,Seychelles
-Shows,Shows,Shows
+Shows,Shows,espectaculos
 Singapore,Singapur,Singapur
 Slovakia,Slowakei,Eslovaquia
 Slovenia,Slowenien,Eslovenia
 SmackDown,SmackDown,SmackDown
 Somalia,Somalia,Somalia
-Sort,Sort,Sort
+Sort,Sort,clase
 Spain,Spanien,España
 State,Zustand,Estado
 Sudan,Sudan,Sudán
 Sunday,Sonntag,domingo
 Superstar,Superstär,Superestrella
 Superstar<span>Appearances</span>,Superstär-<span>Auftritte</span>,Apariciones<span>Superstar</span>
-Superstars,Superstärs,Superstars
+Superstars,Superstärs,superestrellas
 Suriname,Suriname,Suriname
 Swaziland,Swasiland,Swazilandia
 Sweden,Schweden,Suecia
 Switzerland,Schweiz,Suiza
 Syria,Syrien,Siria
 TICKETS,TICKETS,Entradas
-Tags,Schlagworte,Tags
+Tags,Schlagworte,Etiquetas
 Taiwan,Taiwan,Taiwán
 Tajikistan,Tadschikistan,Tayikistán
 Tanzania,Tansania,Tanzania
@@ -493,7 +493,7 @@ Thailand,Thailand,Tailandia
 Thursday,Donnerstag,jueves
 Tickets,Tickëts,Entradas
 Timor-Leste,Timor-Leste,Timor-Leste
-Today,Today,Today
+Today,Today,hoy
 Togo,Togo,Togo
 Tokelau,Tokelau,Tokelau
 Tonga,Tonga,Tonga
@@ -514,20 +514,20 @@ Venezuela,Venezuela,Venezuela
 Video,Video,Video
 Videos,Videos,Videos
 Vietnam,Vietnam,Vietnam
-Vote,Stimme,Vote
+Vote,Stimme,voto
 WWE,WWE,WWE
-Watch,Beobachten,Watch
+Watch,Beobachten,reloj
 Wednesday,Mittwoch,miércoles
-Weight,Gewicht,Weight
-Welcome,Willkommen,Welcome
+Weight,Gewicht,peso
+Welcome,Willkommen,bienvenida
 Yemen,Jemen,Yemen
 Zambia,Sambia,Zambia
 Zimbabwe,Simbabwe,Zimbabue
 Zip/Postcode,Postleitzahl,"Código Postal"
-close,close,close
-on,on,on
-round,Runde,round
-to,to,to
-unpublished,unpublished,unpublished
-vote,stimme,vote
+close,"in der Nähe",cerca
+on,on,en
+round,Runde,ronda
+to,to,a
+unpublished,unpublished,inedito
+vote,stimme,voto
 vs,vs,vs
