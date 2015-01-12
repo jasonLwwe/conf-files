@@ -1,4 +1,9 @@
 en,de,es
+"WWE World<br />Heavyweight Champion","WWE World<br />Heavyweight Champion","WWE World<br />Heavyweight Champion"
+"Intercontinental<br />Champion","Intercontinental<br />Champion","Intercontinental<br />Champion"
+"United States<br />Champion","United States<br />Champion","United States<br />Champion"
+"Divas<br />Champion","Divas<br />Champion","Divas<br />Champion"
+"Tag Team<br />Champion","Tag Team<br />Champion","Tag Team<br />Champion"
 "WWE.com: The Official Site of the WWE Universe","WWE.com: Die offizielle Website des WWE-Universums","WWE.com: La pagina oficial de la WWE"
 " | WWE.com"," | WWE.com"," | WWE.com"
 "The Official Site of the WWE Universe","Die offizielle Website des WWE-Universums","La pagina oficial de la WWE"
@@ -26,6 +31,9 @@ en,de,es
 "View Bracket","Bracket anzeigen","Ver Bracket"
 "View Page","Ansicht Page","Ver Pagina"
 Vote,Stimme,voto
+News,News,News
+Videos,Videos,Videos
+Photos,Fotos,Fotos
 "WWEUniverse:Official Twitter account of the WWE Universe","WWEUniverse: Offizielle Twitter-Account des WWE-Universums","WWEUniverse: Oficial cuenta de Twitter de la WWE"
 "VIP CHAT WITH:","VIP CHAT WITH:","CHAT CON VIP:"
 "Sponsored By","Gefördert durch","Patrocinado Por"
@@ -63,12 +71,10 @@ Chatter,Geplapper,Charla
 "All superstars subject to change","Alle Superstars Änderungen vorbehalten","All superstars subject to change"
 Now,Jetzt,ahora
 Next,NÄCHSTER,siguiente
-Videos,Videos,Videos
 "Full Episodes",Episoden,"Episodios completos"
 Clips,Clips,Clips
 Playlists,Playlists,"Listas de reproducción"
 "Classic Matches","Klassische Spiele","Partidos clásicos"
-Photos,Fotos,Fotos
 Related,Verbunden,Conexo
 "Next Article","Nächster Artikel","Siguiente artículo"
 "BY !author","Von !author","POR !author"
@@ -104,6 +110,7 @@ MILESTONES,MILESTONES,HITOS
 "Back to All Superstars","Zurück zu allen Superstars","Back to All Superstars"
 "VIDEO PLAYLIST","VIDEO PLAYLIST","LISTA DE REPRODUCCION DE VIDEO"
 "VIEW ALL","ALLE ANZEIGEN","VER TODO"
+"Back to Superstar Stats","Back to Superstar Stats","Back to Superstar Stats"
 Height,Höhe,altura
 Weight,Gewicht,peso
 From,von,desde
@@ -168,6 +175,12 @@ Power,Leistung,energia
 Rankings,Ränkings,clasificaciones
 "Survivor Series Travel &amp; Hotel Package","Survivor Series Travel &amp; Hotel Pakët","Survivor Series Travel &amp; Hotel Package"
 "<span class=""white"">Travel</span><span>Promo</span>","<span class=""white"">Reise</span><span>Promo</span>","<span class = ""white""> Viajes </ span> <span> Promo </ span>"
+<span>Merchandise</span>,<span>Merchandise</span>,<span>Merchandise</span>
+"Get all your ","Get all your ","Get all your "
+" gear at WWEShop Now!"," gear at WWEShop Now!"," gear at WWEShop Now!"
+WWE<span>Merchandise</span>,WWE<span>Merchandise</span>,WWE<span>Merchandise</span>
+"Get all your gear at WWEShop Now!","Get all your gear at WWEShop Now!","Get all your gear at WWEShop Now!"
+"Also from WWEShop","Also from WWEShop","Also from WWEShop"
 "Start Ranking Now!","Starten Rang Now!","Iniciar Clasificación Ahora!"
 "Last Week's <span>Biggest Movers</span>","Last Week's <span>Biggest Movers</span>","De la semana pasada <span> Las más grandes Movers </ span>"
 Sort,Sort,clase
@@ -192,6 +205,7 @@ VIDEOS,VIDEOS,VIDEOS
 PHOTOS,FOTOS,FOTOS
 ARTICLES,ARTIKEL,ARTICLES
 LISTS,LISTS,LISTAS
+<span>Archive</span>,<span>Archive</span>,<span>Archive</span>
 "Next Event","Nächste Veranstaltung","Siguiente Carrera"
 "Upcoming Events","Bevorstehende Veranstaltungen","Próximos eventos"
 "Order Pay-Per-View","Bestellen Pay-Per-View","Orden de Pago Por Ver"
@@ -237,6 +251,9 @@ Details,Einzelheiten,Detalles
 "All Shows + Events","Alle Shows + Events","Todos los espectaculos + Eventos"
 "All Episodes","Alle Episoden","todos los Episodios"
 "All Superstars","Alle Superstars","todas las superestrellas"
+"WWE News","WWE News","WWE News"
+"Archive from","Archive from","Archive from"
+Archive,Archive,Archive
 "Previous Page","Vorherige Seite","Pagina Anterior"
 "Next Page","Nächste Seite","Siguiente Página"
 "Read Full Story","Lesen Sie die komplette Geschichte","Lea la historia completa"
@@ -273,280 +290,280 @@ Reviews,Bewertungen,Comentarios
 Join,Beitreten,Unirse
 "Sign In",Anmelden,Registrarse
 Welcome,Willkommen,bienvenida
-Afghanistan,Afghanistan,Afganistán
-"Aland Islands","Aland Islands","Islas Aland"
-Albania,Albanien,Albania
-Algeria,Algerien,Argelia
-"American Samoa","amerikanischen Samoa","Samoa Americana"
 Andorra,Andorra,Andorra
-Angola,Angola,Angola
-Anguilla,Anguilla,Anguila
-Antarctica,Antarktika,Antártida
+"United Arab Emirates","Vereinigte Arabische Emirate","Emiratos Árabes Unidos"
+Afghanistan,Afghanistan,Afganistán
 "Antigua and Barbuda","Antigua und Barbuda","Antigua y Barbuda"
-Apr,Apr,Apr
-Argentina,Argentinien,Argentina
+Anguilla,Anguilla,Anguila
+Albania,Albanien,Albania
 Armenia,Armenien,Armenia
-Aruba,Aruba,Aruba
-Aug,Aug,Aug
-Australia,Australien,Australia
+"Netherlands Antilles","niederländische Antillen","Antillas Holandesas"
+Angola,Angola,Angola
+Antarctica,Antarktika,Antártida
+Argentina,Argentinien,Argentina
+"American Samoa","amerikanischen Samoa","Samoa Americana"
 Austria,Österreich,Austria
+Australia,Australien,Australia
+Aruba,Aruba,Aruba
+"Aland Islands","Aland Islands","Islas Aland"
 Azerbaijan,Aserbaidschan,Azerbaiyán
-Bahamas,Bahamas,Bahamas
-Bahrain,Bahrein,Bahrein
-Bangladesh,Bangladesch,Bangladesh
-Barbados,Barbados,Barbados
-Belarus,Weißrussland,Bielorrusia
-Belgium,Belgien,Bélgica
-Belize,Belize,Belice
-Benin,Benin,Benin
-Bermuda,Bermuda,Bermuda
-Bhutan,Bhutan,Bután
-Bolivia,Bolivien,Bolivia
 "Bosnia and Herzegovina","Bosnien und Herzegowina","Bosnia y Herzegovina"
-Botswana,Botswana,Botswana
-"Bouvet Island",Bouvet-Insel,"Isla Bouvet"
-Brazil,Brasilien,Brasil
-"British Indian Ocean Territory","Britisch-Indischer Ozean","Territorio Británico del Océano Índico"
-"British Virgin Islands","Britische Jungferninseln","Islas Vírgenes Británicas"
-Brunei,Brunei,Brunei
-Bulgaria,Bulgarien,Bulgaria
+Barbados,Barbados,Barbados
+Bangladesh,Bangladesch,Bangladesh
+Belgium,Belgien,Bélgica
 "Burkina Faso","Burkina Faso","Burkina Faso"
+Bulgaria,Bulgarien,Bulgaria
+Bahrain,Bahrein,Bahrein
 Burundi,Burundi,Burundi
-Cambodia,Kambodscha,Camboya
-Cameroon,Kamerun,Camerún
-Canada,Kanada,Canadá
-"Cape Verde","Kap Verde","Cabo Verde"
+Benin,Benin,Benin
+"Saint Barthélemy","saint Barthélemy","San Bartolomé"
+Bermuda,Bermuda,Bermuda
+Brunei,Brunei,Brunei
+Bolivia,Bolivien,Bolivia
 "Caribbean Netherlands","karibische Niederlande","Caribe Países Bajos"
-"Cayman Islands",Cayman-Inseln,"Islas Caimán"
-"Central African Republic","Zentralafrikanische Republik","República Centroafricana"
-Chad,Tschad,Chad
-Chile,Chile,Chile
-China,China,China
-"Christmas Island",Weihnachtsinsel,"Isla de Navidad"
+Brazil,Brasilien,Brasil
+Bahamas,Bahamas,Bahamas
+Bhutan,Bhutan,Bután
+"Bouvet Island",Bouvet-Insel,"Isla Bouvet"
+Botswana,Botswana,Botswana
+Belarus,Weißrussland,Bielorrusia
+Belize,Belize,Belice
+Canada,Kanada,Canadá
 "Cocos (Keeling) Islands","Cocos (Keeling) Islands","Islas Cocos (Keeling)"
-Colombia,Kolumbien,Colombia
-Comoros,Komoren,Comoras
-"Congo (Brazzaville)","Kongo (Brazzaville)","Congo (Brazzaville)"
 "Congo (Kinshasa)","Kongo (Kinshasa)","Congo (Kinshasa)"
+"Central African Republic","Zentralafrikanische Republik","República Centroafricana"
+"Congo (Brazzaville)","Kongo (Brazzaville)","Congo (Brazzaville)"
+Switzerland,Schweiz,Suiza
+"Ivory Coast",Elfenbeinküste,"Costa de Marfil"
 "Cook Islands",cook-Inseln,"Islas Cook"
+Chile,Chile,Chile
+Cameroon,Kamerun,Camerún
+China,China,China
+Colombia,Kolumbien,Colombia
 "Costa Rica","Costa Rica","Costa Rica"
-Croatia,Kroatien,Croacia
 Cuba,Kuba,Cuba
+"Cape Verde","Kap Verde","Cabo Verde"
 Curaçao,Curaçao,Curaçao
+"Christmas Island",Weihnachtsinsel,"Isla de Navidad"
 Cyprus,Zypern,Chipre
 "Czech Republic","Tschechische Republik","República Checa"
-Dec,Dec,Dec
-Denmark,Dänemark,Dinamarca
+Germany,Deutschland,Alemania
 Djibouti,Djibouti,Djibouti
+Denmark,Dänemark,Dinamarca
 Dominica,Dominica,Dominica
 "Dominican Republic","Dominikanische Republik","República Dominicana"
+Algeria,Algerien,Argelia
 Ecuador,Ecuador,Ecuador
-Egypt,Ägypten,Egipto
-"El Salvador","El Salvador","El Salvador"
-"Equatorial Guinea",Äquatorialguinea,"Guinea Ecuatorial"
-Eritrea,Eritrea,Eritrea
 Estonia,Estland,Estonia
+Egypt,Ägypten,Egipto
+"Western Sahara",Westsahara,"Sáhara Occidental"
+Eritrea,Eritrea,Eritrea
+Spain,Spanien,España
 Ethiopia,Äthiopien,Etiopía
-"Falkland Islands",Falkland-Inseln,"islas Malvinas"
-"Faroe Islands",Färöer,"Islas Feroe"
-Feb,Feb,Feb
-Fiji,Fidschi,Fiji
 Finland,Finnland,Finlandia
+Fiji,Fidschi,Fiji
+"Falkland Islands",Falkland-Inseln,"islas Malvinas"
+Micronesia,Mikronesien,Micronesia
+"Faroe Islands",Färöer,"Islas Feroe"
 France,Frankreich,Francia
-"French Guiana",Französisch-Guayana,"Guayana francés"
-"French Polynesia",Französisch-Polynesien,"Polinesia francés"
-"French Southern Territories","Französisch Südliche Territorien","Territorios Franceses del Sur"
-Fri,Fri,Fri
-Friday,Freitag,viernes
 Gabon,Gabun,Gabón
-Gambia,Gambia,Gambia
+"United Kingdom",Großbritannien,"Reino Unido"
+Grenada,Grenada,Granada
 Georgia,Georgia,Georgia
-Germany,Deutschland,Alemania
+"French Guiana",Französisch-Guayana,"Guayana francés"
+Guernsey,guernsey,Guernsey
 Ghana,Ghana,Ghana
 Gibraltar,Gibraltar,Gibraltar
-Greece,Griechenland,Grecia
 Greenland,Grönland,Groenlandia
-Grenada,Grenada,Granada
-Guadeloupe,Guadeloupe,Guadalupe
-Guam,Guam,Guam
-Guatemala,Guatemala,Guatemala
-Guernsey,guernsey,Guernsey
+Gambia,Gambia,Gambia
 Guinea,Guinea,Guinea
+Guadeloupe,Guadeloupe,Guadalupe
+"Equatorial Guinea",Äquatorialguinea,"Guinea Ecuatorial"
+Greece,Griechenland,Grecia
+"South Georgia and the South Sandwich Islands","Südgeorgien und die Südlichen Sandwichinseln","Georgia del Sur y las Islas Sandwich del Sur"
+Guatemala,Guatemala,Guatemala
+Guam,Guam,Guam
 Guinea-Bissau,Guinea-Bissau,Guinea-Bissau
 Guyana,Guyana,Guayana
-Haiti,Haiti,Haití
+"Hong Kong S.A.R., China","Hongkong S.A.R., China","Hong Kong S.A.R., China"
 "Heard Island and McDonald Islands","Heard und McDonaldinseln","Islas Heard y McDonald"
 Honduras,Honduras,Honduras
-"Hong Kong S.A.R., China","Hongkong S.A.R., China","Hong Kong S.A.R., China"
+Croatia,Kroatien,Croacia
+Haiti,Haiti,Haití
 Hungary,Ungarn,Hungría
-Iceland,Island,Islandia
-India,Indien,India
 Indonesia,Indonesien,Indonesia
-Iran,Iran,Irán
-Iraq,Irak,Irak
 Ireland,Irland,Irlanda
-"Isle of Man","Isle of Man","Isla de Man"
 Israel,Israel,Israel
+"Isle of Man","Isle of Man","Isla de Man"
+India,Indien,India
+"British Indian Ocean Territory","Britisch-Indischer Ozean","Territorio Británico del Océano Índico"
+Iraq,Irak,Irak
+Iran,Iran,Irán
+Iceland,Island,Islandia
 Italy,Italien,Italia
-"Ivory Coast",Elfenbeinküste,"Costa de Marfil"
-Jamaica,Jamaika,Jamaica
-Jan,Jan,Jan
-Japan,Japan,Japón
 Jersey,Jersey,Jersey
+Jamaica,Jamaika,Jamaica
 Jordan,Jordan,Jordania
-Jul,Jul,Jul
-Jun,Jun,Jun
-Kazakhstan,Kasachstan,Kazajstán
+Japan,Japan,Japón
 Kenya,Kenia,Kenia
-Kiribati,Kiribati,Kiribati
-Kuwait,Kuwait,Kuwait
 Kyrgyzstan,Kirgisistan,Kirguistán
+Cambodia,Kambodscha,Camboya
+Kiribati,Kiribati,Kiribati
+Comoros,Komoren,Comoras
+"Saint Kitts and Nevis","St. Kitts und Nevis","San Cristóbal y Nieves"
+"North Korea",Nordkorea,"Corea del Norte"
+"South Korea",Südkorea,"Corea del Sur"
+Kuwait,Kuwait,Kuwait
+"Cayman Islands",Cayman-Inseln,"Islas Caimán"
+Kazakhstan,Kasachstan,Kazajstán
 Laos,Laos,Laos
-Latvia,Lettland,Letonia
 Lebanon,Libanon,Líbano
-Lesotho,Lesotho,Lesoto
-Liberia,Liberia,Liberia
-Libya,Libyen,Libia
+"Saint Lucia","St. Lucia","Santa Lucía"
 Liechtenstein,Liechtenstein,Liechtenstein
+"Sri Lanka","Sri Lanka","Sri Lanka"
+Liberia,Liberia,Liberia
+Lesotho,Lesotho,Lesoto
 Lithuania,Litauen,Lituania
 Luxembourg,Luxemburg,Luxemburgo
-"Macao S.A.R., China","Macao S.A.R., China","Macao S.A.R., China"
-Macedonia,Mazedonien,macedonia
+Latvia,Lettland,Letonia
+Libya,Libyen,Libia
+Morocco,Marokko,Marruecos
+Monaco,Monaco,Mónaco
+Moldova,Moldawien,Moldavia
+Montenegro,Montenegro,Montenegro
+"Saint Martin (French part)","Saint Martin (Französisch Teil)","San Martín (parte francesa)"
 Madagascar,Madagaskar,Madagascar
-Malawi,Malawi,Malawi
-Malaysia,Malaysia,Malasia
-Maldives,Malediven,Maldivas
-Mali,Mali,Malí
-Malta,Malta,Malta
-Mar,Mar,Mar
 "Marshall Islands",Marshall-Inseln,"Islas Marshall"
+Macedonia,Mazedonien,macedonia
+Mali,Mali,Malí
+Myanmar,Myanmar,Myanmar
+Mongolia,Mongolei,Mongolia
+"Macao S.A.R., China","Macao S.A.R., China","Macao S.A.R., China"
+"Northern Mariana Islands","Northern Mariana Islands","Islas Marianas del Norte"
 Martinique,Martinique,Martinica
 Mauritania,Mauretanien,Mauritania
-Mauritius,Mauritius,Mauricio
-May,May,May
-Mayotte,Mayotte,Mayotte
-Mexico,Mexiko,México
-Micronesia,Mikronesien,Micronesia
-Moldova,Moldawien,Moldavia
-Mon,Mon,Mon
-Monaco,Monaco,Mónaco
-Monday,Montag,lunes
-Mongolia,Mongolei,Mongolia
-Montenegro,Montenegro,Montenegro
 Montserrat,Montserrat,Montserrat
-Morocco,Marokko,Marruecos
+Malta,Malta,Malta
+Mauritius,Mauritius,Mauricio
+Maldives,Malediven,Maldivas
+Malawi,Malawi,Malawi
+Mexico,Mexiko,México
+Malaysia,Malaysia,Malasia
 Mozambique,Mosambik,Mozambique
-Myanmar,Myanmar,Myanmar
 Namibia,Namibia,Namibia
-Nauru,Nauru,Nauru
-Nepal,Nepal,Nepal
-Netherlands,Niederlande,"Países Bajos"
-"Netherlands Antilles","niederländische Antillen","Antillas Holandesas"
 "New Caledonia",Neukaledonien,"nueva Caledonia"
-"New Zealand",Neuseeland,"nueva Zelanda"
-Nicaragua,Nicaragua,Nicaragua
 Niger,Niger,Níger
-Nigeria,Nigeria,Nigeria
-Niue,Niue,Niue
 "Norfolk Island",Norfolkinsel,"Isla Norfolk"
-"North Korea",Nordkorea,"Corea del Norte"
-"Northern Mariana Islands","Northern Mariana Islands","Islas Marianas del Norte"
+Nigeria,Nigeria,Nigeria
+Nicaragua,Nicaragua,Nicaragua
+Netherlands,Niederlande,"Países Bajos"
 Norway,Norwegen,Noruega
-Nov,Nov,Nov
-Oct,Oct,Oct
+Nepal,Nepal,Nepal
+Nauru,Nauru,Nauru
+Niue,Niue,Niue
+"New Zealand",Neuseeland,"nueva Zelanda"
 Oman,Oman,Omán
-Pakistan,Pakistan,Pakistán
-Palau,Palau,Palau
-"Palestinian Territory","palästinensische Autonomiegebiete","Territorio Palestino"
 Panama,Panama,Panamá
-"Papua New Guinea",Papua-Neuguinea,"Papúa Nueva Guinea"
-Paraguay,Paraguay,Paraguay
 Peru,Peru,Perú
+"French Polynesia",Französisch-Polynesien,"Polinesia francés"
+"Papua New Guinea",Papua-Neuguinea,"Papúa Nueva Guinea"
 Philippines,Philippinen,Filipinas
-Pitcairn,Pitcairn,Pitcairn
+Pakistan,Pakistan,Pakistán
 Poland,Polen,Polonia
-Portugal,Portugal,Portugal
+"Saint Pierre and Miquelon","St. Pierre und Miquelon","San Pedro y Miquelón"
+Pitcairn,Pitcairn,Pitcairn
 "Puerto Rico","Puerto Rico","Puerto Rico"
+"Palestinian Territory","palästinensische Autonomiegebiete","Territorio Palestino"
+Portugal,Portugal,Portugal
+Palau,Palau,Palau
+Paraguay,Paraguay,Paraguay
 Qatar,Katar,Katar
 Reunion,Wiedervereinigung,reunión
 Romania,Rumänien,Rumania
+Serbia,Serbien,Serbia
 Russia,Russland,Rusia
 Rwanda,Ruanda,Ruanda
-"Saint Barthélemy","saint Barthélemy","San Bartolomé"
-"Saint Helena","St. Helena","Santa Helena"
-"Saint Kitts and Nevis","St. Kitts und Nevis","San Cristóbal y Nieves"
-"Saint Lucia","St. Lucia","Santa Lucía"
-"Saint Martin (French part)","Saint Martin (Französisch Teil)","San Martín (parte francesa)"
-"Saint Pierre and Miquelon","St. Pierre und Miquelon","San Pedro y Miquelón"
-"Saint Vincent and the Grenadines","St. Vincent und die Grenadinen","San Vicente y las Granadinas"
-Samoa,Samoa,Samoa
-"San Marino","San Marino","San Marino"
-"Sao Tome and Principe","Sao Tome und Principe","Santo Tomé y Príncipe"
-Sat,Sat,Sat
-Saturday,Samstag,sábado
 "Saudi Arabia",Saudi-Arabien,"Arabia Saudita"
-Senegal,Senegal,Senegal
-Sep,Sep,Sep
-Serbia,Serbien,Serbia
-Seychelles,Seychellen,Seychelles
-"Sierra Leone","Sierra Leone","Sierra Leona"
-Singapore,Singapur,Singapur
-"Sint Maarten","Sint Maarten","Sint Maarten"
-Slovakia,Slowakei,Eslovaquia
-Slovenia,Slowenien,Eslovenia
 "Solomon Islands",Salomon-Inseln,"islas Salomón"
-Somalia,Somalia,Somalia
-"South Africa",Südafrika,Sudáfrica
-"South Georgia and the South Sandwich Islands","Südgeorgien und die Südlichen Sandwichinseln","Georgia del Sur y las Islas Sandwich del Sur"
-"South Korea",Südkorea,"Corea del Sur"
-"South Sudan",Süd-Sudan,"Sudán del Sur"
-Spain,Spanien,España
-"Sri Lanka","Sri Lanka","Sri Lanka"
+Seychelles,Seychellen,Seychelles
 Sudan,Sudan,Sudán
-Sun,Sun,Sun
-Sunday,Sonntag,domingo
-Superstar<span>Appearances</span>,Superstär-<span>Auftritte</span>,Apariciones<span>Superstar</span>
-Suriname,Suriname,Suriname
-"Svalbard and Jan Mayen","Svalbard und Jan Mayen","Svalbard y Jan Mayen"
-Swaziland,Swasiland,Swazilandia
 Sweden,Schweden,Suecia
-Switzerland,Schweiz,Suiza
+Singapore,Singapur,Singapur
+"Saint Helena","St. Helena","Santa Helena"
+Slovenia,Slowenien,Eslovenia
+"Svalbard and Jan Mayen","Svalbard und Jan Mayen","Svalbard y Jan Mayen"
+Slovakia,Slowakei,Eslovaquia
+"Sierra Leone","Sierra Leone","Sierra Leona"
+"San Marino","San Marino","San Marino"
+Senegal,Senegal,Senegal
+Somalia,Somalia,Somalia
+Suriname,Suriname,Suriname
+"South Sudan",Süd-Sudan,"Sudán del Sur"
+"Sao Tome and Principe","Sao Tome und Principe","Santo Tomé y Príncipe"
+"El Salvador","El Salvador","El Salvador"
+"Sint Maarten","Sint Maarten","Sint Maarten"
 Syria,Syrien,Siria
-Taiwan,Taiwan,Taiwán
-Tajikistan,Tadschikistan,Tayikistán
-Tanzania,Tansania,Tanzania
-Thailand,Thailand,Tailandia
-Thu,Thu,Thu
-Thursday,Donnerstag,jueves
-Timor-Leste,Timor-Leste,Timor-Leste
-Togo,Togo,Togo
-Tokelau,Tokelau,Tokelau
-Tonga,Tonga,Tonga
-"Trinidad and Tobago","Trinidad und Tobago","Trinidad y Tobago"
-Tue,Tue,Tue
-Tuesday,Dienstag,martes
-Tunisia,Tunesien,Túnez
-Turkey,Türkei,Pavo
-Turkmenistan,Turkmenistan,Turkmenistán
+Swaziland,Swasiland,Swazilandia
 "Turks and Caicos Islands","Turks und Caicos Inseln","Islas Turcas y Caicos"
+Chad,Tschad,Chad
+"French Southern Territories","Französisch Südliche Territorien","Territorios Franceses del Sur"
+Togo,Togo,Togo
+Thailand,Thailand,Tailandia
+Tajikistan,Tadschikistan,Tayikistán
+Tokelau,Tokelau,Tokelau
+Timor-Leste,Timor-Leste,Timor-Leste
+Turkmenistan,Turkmenistan,Turkmenistán
+Tunisia,Tunesien,Túnez
+Tonga,Tonga,Tonga
+Turkey,Türkei,Pavo
+"Trinidad and Tobago","Trinidad und Tobago","Trinidad y Tobago"
 Tuvalu,Tuvalu,Tuvalu
-"U.S. Virgin Islands",US-Jungferninseln,"Islas Vírgenes de Estados Unidos"
-Uganda,Uganda,Uganda
+Taiwan,Taiwan,Taiwán
+Tanzania,Tansania,Tanzania
 Ukraine,Ukraine,Ucrania
-"United Arab Emirates","Vereinigte Arabische Emirate","Emiratos Árabes Unidos"
-"United Kingdom",Großbritannien,"Reino Unido"
-"United States","Vereinigte Staaten","Estados Unidos"
+Uganda,Uganda,Uganda
 "United States Minor Outlying Islands","USA, kleinere ausgelagerte Inseln","Estados Unidos Islas menores alejadas de"
+"United States","Vereinigte Staaten","Estados Unidos"
 Uruguay,Uruguay,Uruguay
 Uzbekistan,Usbekistan,Uzbekistán
-Vanuatu,Vanuatu,Vanuatu
 Vatican,Vatikan,Vaticano
+"Saint Vincent and the Grenadines","St. Vincent und die Grenadinen","San Vicente y las Granadinas"
 Venezuela,Venezuela,Venezuela
+"British Virgin Islands","Britische Jungferninseln","Islas Vírgenes Británicas"
+"U.S. Virgin Islands",US-Jungferninseln,"Islas Vírgenes de Estados Unidos"
 Vietnam,Vietnam,Vietnam
+Vanuatu,Vanuatu,Vanuatu
 "Wallis and Futuna","Wallis und Futuna","Wallis y Futuna"
-Wed,Wed,Wed
-Wednesday,Mittwoch,miércoles
-"Western Sahara",Westsahara,"Sáhara Occidental"
+Samoa,Samoa,Samoa
 Yemen,Jemen,Yemen
+Mayotte,Mayotte,Mayotte
+"South Africa",Südafrika,Sudáfrica
 Zambia,Sambia,Zambia
 Zimbabwe,Simbabwe,Zimbabue
+Monday,Montag,lunes
+Tuesday,Dienstag,martes
+Wednesday,Mittwoch,miércoles
+Thursday,Donnerstag,jueves
+Friday,Freitag,viernes
+Saturday,Samstag,sábado
+Sunday,Sonntag,domingo
+Mon,Mon,Mon
+Tue,Tue,Tue
+Wed,Wed,Wed
+Thu,Thu,Thu
+Fri,Fri,Fri
+Sat,Sat,Sat
+Sun,Sun,Sun
+Jan,Jan,Jan
+Feb,Feb,Feb
+Mar,Mar,Mar
+Apr,Apr,Apr
+May,May,May
+Jun,Jun,Jun
+Jul,Jul,Jul
+Aug,Aug,Aug
+Sep,Sep,Sep
+Oct,Oct,Oct
+Nov,Nov,Nov
+Dec,Dec,Dec
+Superstar<span>Appearances</span>,Superstär-<span>Auftritte</span>,Apariciones<span>Superstar</span>
