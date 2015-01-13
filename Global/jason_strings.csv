@@ -7,13 +7,15 @@ en,de,es
 "WWE.com: The Official Site of the WWE Universe","WWE.com: Die offizielle Website des WWE-Universums","WWE.com: La pagina oficial de la WWE"
 " | WWE.com"," | WWE.com"," | WWE.com"
 "The Official Site of the WWE Universe","Die offizielle Website des WWE-Universums","La pagina oficial de la WWE"
-" News Archive"," News-Archiv","Archivo de noticias"
+"News Archive","Nëwz Archïve","News Archive"
+from,von,desde
 "WWE Tickets and Live Events Information from WWE","WWE Tickets und Live-Events Informationen vom WWE-","Entradas WWE y en vivo Eventos de la WWE"
 "Amazing Videos from the WWE Video Vault","Amazing Videos aus der WWE Video Vault","Amazing Videos from the WWE Video Vault"
 "Captivating Photos and Close-Up Images of all your favorite WWE Superstars","Faszinierende Bilder und Nahaufnahmen von all Ihren Lieblings WWE Superstars","Captivating Photos and Close-Up Images of all your favorite WWE Superstars"
 "WWE Classics, the Official Destination for the Complete History of WWE, WCW, ECW, NWA, AWA and More!","WWE Klassiker des Amts Destination für die komplette Geschichte der WWE, WCW, ECW, NWA, AWA und vieles mehr!","WWE Classics, el destino oficial de la historia completa de la WWE, WCW, ECW, NWA, AWA y mas!"
 "WWE Shows, the Home of Raw, SmackDown, WWE Superstars and our new WWE YouTube Webisodes","WWE Shows, die Startseite von Raw, Smackdown, WWE Superstars und unser neuer WWE YouTube Webisodes","Shows de WWE, el Hogar de Raw, SmackDown, WWE Superstars y nuestro nuevo WWE YouTube Webisodes"
 "WWE News, Wrestling News and Wrestling Rumors","WWE News Wrestling News and Wrestling Gerüchte","Noticias WWE, Lucha Noticias y Rumores Wrestling"
+tickets,tickets,tickets
 " | Latest News, Results, Videos, Photos, and More"," | Latest News, Ergebnisse, Videos, Fotos, und mehr","| Ultimas Noticias, Resultados, Videos, Fotos, y Mas"
 " | Matches, Results, Videos, Photos, and More"," | Spiele, Ergebnisse, Videos, Fotos, und mehr","| Partidos, Resultados, Videos, Fotos, y Mas"
 "The Official Destination for WWE Superstars","Das offizielle Ziel für die WWE Superstars","El destino oficial de WWE Superstars"
@@ -31,7 +33,7 @@ en,de,es
 "View Bracket","Bracket anzeigen","Ver Bracket"
 "View Page","Ansicht Page","Ver Pagina"
 Vote,Stimme,voto
-News,News,News
+News,Nëwz,News
 Videos,Videos,Videos
 Photos,Fotos,Fotos
 "WWEUniverse:Official Twitter account of the WWE Universe","WWEUniverse: Offizielle Twitter-Account des WWE-Universums","WWEUniverse: Oficial cuenta de Twitter de la WWE"
@@ -287,7 +289,7 @@ Reviews,Bewertungen,Comentarios
 "NEXT <span>PAY-PER-VIEW</span>","NÄCHSTER <span>PAY-PER-VIEW</span>","SIGUIENTE <span> PAY-PER-VIEW </ span>"
 "$9.99<span class=""price-small"">/month</span>","$9.99<span class=""price-small"">/Monat</span>","$ 9,99 <span class = ""-precio pequeno""> / mes </ span>"
 "With six month commitment","Mit 6 Monate Engagement","Con el compromiso seis meses"
-Join,Beitreten,Unirse
+Join,Beitreten,Registrarse
 "Sign In",Anmelden,Registrarse
 Welcome,Willkommen,bienvenida
 Andorra,Andorra,Andorra
@@ -566,4 +568,5 @@ Sep,Sep,Sep
 Oct,Oct,Oct
 Nov,Nov,Nov
 Dec,Dec,Dec
+" News Archive"," News-Archiv","Archivo de noticias"
 Superstar<span>Appearances</span>,Superstär-<span>Auftritte</span>,Apariciones<span>Superstar</span>
