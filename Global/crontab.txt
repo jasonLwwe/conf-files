@@ -1,0 +1,1 @@
+1 1 * * * (cd /u01/www/wweglobal/html && drush cron 2>&1 > /tmp/cron.log)
