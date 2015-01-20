@@ -86,7 +86,7 @@ Tags,Schlagworte,Etiquetas
 PREVIOUS,FRÜHER,ANTERIOR
 NEXT,nächster,SIGUIENTE
 "!talent Bio, Videos, Photos, and News Articles","!talent Bio, Videos, Fotos und News Artikel","! talento Bio, Videos, Fotos, y Articulos de prensa"
-Articles,Artikel,Articles
+Articles,Artikel,Artículos
 "You May Also Like","Sie können auch lieben","También le gustará"
 Present,Vorhanden,presente
 "Did you know?","Wussten Sie?",Sabías?
@@ -103,7 +103,7 @@ Date,Datum,fecha
 Video,Video,Video
 Rank,Rang,rango
 to,to,a
-ARCHIVE,ARCHIV,ARCHIVE
+ARCHIVE,ARCHIV,ARCHIVO
 "Now Playing","Sie hören","Reproduciendo ahora"
 "Up Next","Nach oben Weiter","Up Next"
 "This video's page","Seite dieses Video","La pagina de este video"
@@ -177,9 +177,9 @@ Power,Leistung,energia
 Rankings,Ränkings,clasificaciones
 "Survivor Series Travel &amp; Hotel Package","Survivor Series Travel &amp; Hotel Pakët","Survivor Series Travel &amp; Hotel Package"
 "<span class=""white"">Travel</span><span>Promo</span>","<span class=""white"">Reise</span><span>Promo</span>","<span class = ""white""> Viajes </ span> <span> Promo </ span>"
-<span>Merchandise</span>,<span>Merchandise</span>,<span>Merchandise</span>
+<span>Merchandise</span>,<span>Merchandise</span>,<span>Mercancías</span>
 "Get all your ","Get all your ","Get all your "
-" gear at WWEShop Now!"," gear at WWEShop Now!"," gear at WWEShop Now!"
+" gear at WWEShop Now!"," gang bei WWEShop Now!"," engranaje en WWEShop Ahora!"
 WWE<span>Merchandise</span>,WWE<span>Merchandise</span>,WWE<span>Merchandise</span>
 "Get all your gear at WWEShop Now!","Get all your gear at WWEShop Now!","Get all your gear at WWEShop Now!"
 "Also from WWEShop","Also from WWEShop","Also from WWEShop"
@@ -190,7 +190,7 @@ Sort,Sort,clase
 "View !count result","View !count result","Ver! Contar resultado"
 Superstars,Superstärs,superestrellas
 Events,Geschehen,Eventos
-Article,Artikel,Article
+Article,Artikel,Artículo
 "All !type","Alle !type","Todo! Tipo"
 "There are no pages matching your search. Please try different search term.","Die folgende Seite, die Ihrer Forschung. Bitte versuchen Sie einen anderen Suchbegriff ein.","No hay paginas que coincidan con su busqueda. Por favor, intente diferente termino de búsqueda."
 "posted !time ago","posted !time ago","Hace tiempo! publicado"
@@ -205,9 +205,9 @@ SHOWS,SHOWS,ESPECTACULOS
 TICKETS,TICKËTS,Entradas
 VIDEOS,VIDEOS,VIDEOS
 PHOTOS,FOTOS,FOTOS
-ARTICLES,ARTIKEL,ARTICLES
+ARTICLES,ARTIKEL,ARTÍCULOS
 LISTS,LISTS,LISTAS
-<span>Archive</span>,<span>Archive</span>,<span>Archive</span>
+<span>Archive</span>,<span>Archivieren</span>,<span>Archivo</span>
 "Next Event","Nächste Veranstaltung","Siguiente Carrera"
 "Upcoming Events","Bevorstehende Veranstaltungen","Próximos eventos"
 "Order Pay-Per-View","Bestellen Pay-Per-View","Orden de Pago Por Ver"
@@ -255,7 +255,7 @@ Details,Einzelheiten,Detalles
 "All Superstars","Alle Superstars","todas las superestrellas"
 "WWE News","WWE News","WWE News"
 "Archive from","Archive from","Archive from"
-Archive,Archive,Archive
+Archive,Archive,Archivo
 "Previous Page","Vorherige Seite","Pagina Anterior"
 "Next Page","Nächste Seite","Siguiente Página"
 "Read Full Story","Lesen Sie die komplette Geschichte","Lea la historia completa"
@@ -294,7 +294,7 @@ Join,Beitreten,Registrarse
 Welcome,Willkommen,bienvenida
 Andorra,Andorra,Andorra
 "United Arab Emirates","Vereinigte Arabische Emirate","Emiratos Árabes Unidos"
-Afghanistan,Afghanistan,Afganistán
+Afghanistan,Afghanistän,Afganistán
 "Antigua and Barbuda","Antigua und Barbuda","Antigua y Barbuda"
 Anguilla,Anguilla,Anguila
 Albania,Albanien,Albania
