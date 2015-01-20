@@ -57,8 +57,8 @@ Next<span>Event</span>,Nächste<span>Seite</span>,"Siguiente <span> Evento </ sp
 "Order Now!","Jetzt bestellen!","Solicitar ahora!"
 More,Mehr,mas
 WWE,WWE,WWE
-Shows,Shows,espectaculos
-Search,Suche,busqueda
+Shows,Shows,Espectaculos
+Search,Suche,Busqueda
 Network<span>Program</span>,Network<span>Program</span>,"Red <span> Programa </ span>"
 "Raw Replays","Wiederholung Räw","Repetición de Raw"
 ET,ET,ET
@@ -116,7 +116,7 @@ MILESTONES,MILESTONES,HITOS
 Height,Höhe,altura
 Weight,Gewicht,peso
 From,von,desde
-"Signature Move","Unterschrift Bewegung","Signature Move"
+"Signature Move","Unterschrift Bewegung","Firma Movimiento"
 Alias,Aliäs,alias
 "Career Highlights","Beruflicher Werdegang","Career Highlights"
 "Read More",Weiterlesen,"Leer Más"
@@ -185,7 +185,7 @@ WWE<span>Merchandise</span>,WWE<span>Merchandise</span>,WWE<span>Merchandise</sp
 "Also from WWEShop","Also from WWEShop","Also from WWEShop"
 "Start Ranking Now!","Starten Rang Now!","Iniciar Clasificación Ahora!"
 "Last Week's <span>Biggest Movers</span>","Last Week's <span>Biggest Movers</span>","De la semana pasada <span> Las más grandes Movers </ span>"
-Sort,Sort,clase
+Sort,Sort,Clase
 "View all !count results","Alle !count Ergebnisse","Ver todos! Contar resultados"
 "View !count result","View !count result","Ver! Contar resultado"
 Superstars,Superstärs,superestrellas
@@ -217,7 +217,7 @@ LISTS,LISTS,LISTAS
 Days,Tage,días
 Hours,Stunden,horas
 Minutes,Minutes,acta
-Seconds,Sekunden,segundos
+Seconds,Sekunden,Segundos
 "Get Tickets","Holen Sie sich Tickets","Consiga los boletos"
 "Find Tickets","Tickets finden","Buscar entradas"
 vs,vs,vs
@@ -248,7 +248,7 @@ Filters,Filters,Filtros
 Details,Einzelheiten,Detalles
 "Superstar Appearances",Superstär-Auftritte,"Apariciones Superstar"
 "Bio, Videos, Photos, and News Articles","Bio, Videos, Fotos und News Artikel","Bio, Videos, Photos, and News Articles"
-"SEARCH EVENTS","Suche Veranstaltungen","Buscar eventos"
+"SEARCH EVENTS","Suche Veranstaltungen","Buscar Eventos"
 "Live Events<span>Tickets</span>","Live Events<span>Tickets</span>","Live Events <span> Entradas </ span>"
 "All Shows + Events","Alle Shows + Events","Todos los espectaculos + Eventos"
 "All Episodes","Alle Episoden","todos los Episodios"
@@ -281,7 +281,7 @@ Roster,Dienstplan,lista
 "Sorry, there are no matching News items for your request at this time. Please use the dropdown menus provided above to assist in finding additional News articles you might be interested in. Alternatively, use the site wide search at the top of the page.","Sorry, es gibt keine passenden Nachrichten Einzelteile für Ihre Anfrage zu diesem Zeitpunkt. Bitte verwenden Sie die Dropdown-Menüs oben bereitgestellt, um bei der Suche nach weiteren Nachrichten Artikel, die Sie interessieren könnten zu unterstützen. Alternativ können Sie die Website weite Suche ganz oben auf der Seite.","Lo sentimos, no hay artículos a juego Noticias para su solicitud en este momento. Por favor, use los menús desplegables proporcionados anteriormente para ayudar a encontrar artículos de noticias Quizás se encuentre interesado en. Como alternativa, utilice la amplia búsqueda de sitio en la parte superior de la página."
 "Click here","Klicken Sie hier","haga clic aquí"
 "Daily Schedule","Daily Schedule","Horario Diario"
-Today,Today,hoy
+Today,Today,Hoy
 "Next Day","Nächster Tag","Siguiente día"
 "WWE Network","WWE Netzwërk","WWE Network"
 "Get Started","Erste Schritte",empezar
@@ -290,7 +290,7 @@ Reviews,Bewertungen,Comentarios
 "$9.99<span class=""price-small"">/month</span>","$9.99<span class=""price-small"">/Monat</span>","$ 9,99 <span class = ""-precio pequeno""> / mes </ span>"
 "With six month commitment","Mit 6 Monate Engagement","Con el compromiso seis meses"
 Join,Beitreten,Registrarse
-"Sign In",Anmelden,Registrarse
+"Sign In",Anmelden,"Iniciar Sesión"
 Welcome,Willkommen,bienvenida
 Andorra,Andorra,Andorra
 "United Arab Emirates","Vereinigte Arabische Emirate","Emiratos Árabes Unidos"
@@ -486,7 +486,7 @@ Serbia,Serbien,Serbia
 Russia,Russland,Rusia
 Rwanda,Ruanda,Ruanda
 "Saudi Arabia",Saudi-Arabien,"Arabia Saudita"
-"Solomon Islands",Salomon-Inseln,"islas Salomón"
+"Solomon Islands",Salomon-Inseln,"Islas Salomón"
 Seychelles,Seychellen,Seychelles
 Sudan,Sudan,Sudán
 Sweden,Schweden,Suecia
@@ -547,7 +547,7 @@ Tuesday,Dienstag,martes
 Wednesday,Mittwoch,miércoles
 Thursday,Donnerstag,jueves
 Friday,Freitag,viernes
-Saturday,Samstag,sábado
+Saturday,Samstag,Sábado
 Sunday,Sonntag,domingo
 Mon,Mon,Mon
 Tue,Tue,Tue
