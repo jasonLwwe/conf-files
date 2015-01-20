@@ -16,14 +16,14 @@ from,von,desde
 "WWE Shows, the Home of Raw, SmackDown, WWE Superstars and our new WWE YouTube Webisodes","WWE Shows, die Startseite von Raw, Smackdown, WWE Superstars und unser neuer WWE YouTube Webisodes","Shows de WWE, el Hogar de Raw, SmackDown, WWE Superstars y nuestro nuevo WWE YouTube Webisodes"
 "WWE News, Wrestling News and Wrestling Rumors","WWE News Wrestling News and Wrestling Gerüchte","Noticias WWE, Lucha Noticias y Rumores Wrestling"
 tickets,tickets,tickets
-" | Latest News, Results, Videos, Photos, and More"," | Latest News, Ergebnisse, Videos, Fotos, und mehr","| Ultimas Noticias, Resultados, Videos, Fotos, y Mas"
-" | Matches, Results, Videos, Photos, and More"," | Spiele, Ergebnisse, Videos, Fotos, und mehr","| Partidos, Resultados, Videos, Fotos, y Mas"
+" | Latest News, Results, Videos, Photos, and More"," | Latest News, Ergebnisse, Videos, Fotos, und mehr"," | Ultimas Noticias, Resultados, Videos, Fotos, y Mas"
+" | Matches, Results, Videos, Photos, and More"," | Spiele, Ergebnisse, Videos, Fotos, und mehr"," | Partidos, Resultados, Videos, Fotos, y Mas"
 "The Official Destination for WWE Superstars","Das offizielle Ziel für die WWE Superstars","El destino oficial de WWE Superstars"
 "WWE, the recognized leader in global sports-entertainment, featuring the unrivaled Superstars of the ring including John Cena, Randy Orton, The Rock, CM Punk, Triple H and The Undertaker, as well as WWE Divas and Legends.","WWE, der anerkannte Marktführer in der globalen Sports Entertainment, mit den unvergleichlichen Superstars des Rings mit John Cena, Randy Orton, The Rock, CM Punk, Triple H und dem Undertaker sowie WWE Divas und Legenden.","WWE, el reconocido líder mundial en el deporte-espectaculo, con las superestrellas incomparables del timbre, incluyendo a John Cena, Randy Orton, The Rock, CM Punk, Triple H y The Undertaker, así como WWE Divas y Leyendas."
 "Purchase WWE tickets to ","Erwerben WWE Tickets ","Compra entradas WWE a"
 "Visit WWE.com for the ultimate collection of ","Besuchen WWE.com für die entscheidende Sammlung der ","Visita WWE.com para la ultima coleccion de "
 ". Access a huge archive of ",". Zugriff auf ein riesiges Archiv von",". Acceder a un archivo enorme de"
-" only available at WWE.com, the official resource for everything related to "," nur WWE.com, der offiziellen Quelle für alles im Zusammenhang zur Verfügung","Solo disponible en WWE.com, el recurso oficial para todo lo relacionado con"
+" only available at WWE.com, the official resource for everything related to "," nur WWE.com, der offiziellen Quelle für alles im Zusammenhang zur Verfügung"," Solo disponible en WWE.com, el recurso oficial para todo lo relacionado con"
 "Visit WWE.com for the official archive of ","Besuchen WWE.com für den offiziellen Archiv von ","Visita WWE.com para el archivo oficial de "
 "Watch Video","Beobachten Video","Ver Video"
 "Read Article","Artikel lesen","Leer Artículo"
@@ -212,7 +212,7 @@ LISTS,LISTS,LISTAS
 "Upcoming Events","Bevorstehende Veranstaltungen","Próximos eventos"
 "Order Pay-Per-View","Bestellen Pay-Per-View","Orden de Pago Por Ver"
 "Latest ",Letzte,"mas reciente"
-" News"," Nachrichten",noticias
+" News"," Nachrichten"," Noticias"
 "View All WWE Events","Alle WWE Events","Ver todos los eventos de la WWE"
 Days,Tage,días
 Hours,Stunden,horas
@@ -568,5 +568,5 @@ Sep,Sep,Sep
 Oct,Oct,Oct
 Nov,Nov,Nov
 Dec,Dec,Dec
-" News Archive"," News-Archiv","Archivo de noticias"
+" News Archive"," News-Archiv"," Archivo de noticias"
 Superstar<span>Appearances</span>,Superstär-<span>Auftritte</span>,Apariciones<span>Superstar</span>
