@@ -59,6 +59,11 @@ More,Mehr,mas
 WWE,WWE,WWE
 Shows,Shows,Espectaculos
 Search,Suche,Busqueda
+"View All Shows","View All Shows","View All Shows"
+"View All Superstars","View All Superstars","View All Superstars"
+"View All Videos","View All Videos","View All Videos"
+"View All Photos","View All Photos","View All Photos"
+"Explore Classics","Explore Classics","Explore Classics"
 Network<span>Program</span>,Network<span>Program</span>,"Red <span> Programa </ span>"
 "Raw Replays","Wiederholung Räw","Repetición de Raw"
 ET,ET,ET
@@ -70,6 +75,7 @@ on,on,en
 Superstar,Superstär,Superestrella
 Chatter,Geplapper,Charla
 "View All !longspan WWE Chatter !longspanend","Alle anzeigen !longspan WWE Chatter !longspanend","Ver todos! Longspan longspanend WWE Chatter!"
+"Error in expiration date. Please set it with format: yyyy/MM/dd HH:mm:ss","Error in expiration date. Please set it with format: yyyy/MM/dd HH:mm:ss","Error in expiration date. Please set it with format: yyyy/MM/dd HH:mm:ss"
 "All superstars subject to change","Alle Superstars Änderungen vorbehalten","All superstars subject to change"
 Now,Jetzt,ahora
 Next,NÄCHSTER,siguiente
@@ -165,6 +171,8 @@ vote,stimme,voto
 round,Runde,ronda
 "cast your vote!","Ihre Stimme!","cast your vote!"
 "TOTAL VOTES","TOTAL VOTES","Votos en total"
+"the wwe universe has spoken!","das WWE-Universum hat gesprochen!","das WWE-Universum hat gesprochen!"
+"has won!","hat gewonnen!","ha ganado!"
 "see the full results","finden Sie die vollständigen Ergebnisse","ver los resultados completos"
 "<span class=""white"">Superstar</span> <span>Appearances</span>","<span class=""white"">Superstar</span> <span>Appearances</span>","<span class=""white"">Superstar</span> <span>Appearances</span>"
 "View All","Alle anzeigen","Ver todos"
@@ -222,6 +230,7 @@ Seconds,Sekunden,Segundos
 "Find Tickets","Tickets finden","Buscar entradas"
 vs,vs,vs
 "Who Will Win?","Wer gewinnt?","¿Quien ganara?"
+"Total votes: ","Total votes: ","Total votes: "
 "Find a Live Event Near You","Finden Sie eine Live-Veranstaltung in Ihrer Nähe","Encuentre un Evento en vivo cerca de ti!"
 "Show Type","Typ Der","Mostrar Tipo"
 Pay-Per-View,Pay-Per-View,Pay-Per-View
@@ -233,6 +242,8 @@ Country,Land,país
 Distance,Entfernung,distancia
 Miles,Meilen,Miles
 Kilometers,Kilõmeters,Kilómetros
+"United States","Vereinigte Staaten","Estados Unidos"
+All,Alle,todos
 "All Shows","Alle Shows","todos los shows"
 PPV,PPV,PPV
 VIP,VIP,VIP
@@ -240,7 +251,6 @@ Event,Ereignis,evento
 "All Countries","Alle Länder","todos los Paises"
 Zip/Postcode,Postleitzahl,"Código Postal"
 State,Zustand,Estado
-All,Alle,todos
 Month,Monat,mes
 "All events are displayed in local time","Alle Ereignisse werden in der Ortszeit angegeben","Todos los eventos se muestran en la hora local"
 Filters,Filters,Filtros
@@ -279,6 +289,8 @@ Roster,Dienstplan,lista
 "No Channels Available","Keine Kanäle vorhanden","No Channels Available"
 "<div class=""no_archivedata"">Sorry, there are no matching Power 25 items for your request at this time. Alternatively, use the site wide search at the top of the page.</div>","<div class=""no_archivedata"">Sorry, es gibt keine passenden Leistung 25 Einzelteile für Ihre Anfrage zu diesem Zeitpunkt. Alternativ können Sie die Website weite Suche ganz oben auf der Seite.</div>","<div class=""no_archivedata"">Sorry, there are no matching Power 25 items for your request at this time. Alternatively, use the site wide search at the top of the page.</div>�""<span class=""""white"""">Superstar</span> <span>Appearances</span>"""
 "Sorry, there are no matching News items for your request at this time. Please use the dropdown menus provided above to assist in finding additional News articles you might be interested in. Alternatively, use the site wide search at the top of the page.","Sorry, es gibt keine passenden Nachrichten Einzelteile für Ihre Anfrage zu diesem Zeitpunkt. Bitte verwenden Sie die Dropdown-Menüs oben bereitgestellt, um bei der Suche nach weiteren Nachrichten Artikel, die Sie interessieren könnten zu unterstützen. Alternativ können Sie die Website weite Suche ganz oben auf der Seite.","Lo sentimos, no hay artículos a juego Noticias para su solicitud en este momento. Por favor, use los menús desplegables proporcionados anteriormente para ayudar a encontrar artículos de noticias Quizás se encuentre interesado en. Como alternativa, utilice la amplia búsqueda de sitio en la parte superior de la página."
+" Rankings"," Rankings"," Rankings"
+"WWE's Rankings","WWE's Rankings","WWE's Rankings"
 "Click here","Klicken Sie hier","haga clic aquí"
 "Daily Schedule","Daily Schedule","Horario Diario"
 Today,Today,Hoy
@@ -525,7 +537,6 @@ Tanzania,Tansania,Tanzania
 Ukraine,Ukraine,Ucrania
 Uganda,Uganda,Uganda
 "United States Minor Outlying Islands","USA, kleinere ausgelagerte Inseln","Estados Unidos Islas menores alejadas de"
-"United States","Vereinigte Staaten","Estados Unidos"
 Uruguay,Uruguay,Uruguay
 Uzbekistan,Usbekistan,Uzbekistán
 Vatican,Vatikan,Vaticano
