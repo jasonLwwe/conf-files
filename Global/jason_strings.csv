@@ -1,8 +1,8 @@
 en,de,es
-"WWE World<br />Heavyweight Champion","WWE World<br />Heavyweight Champion","WWE World<br />Heavyweight Champion"
-"Intercontinental<br />Champion","Intercontinental<br />Champion","Intercontinental<br />Champion"
-"United States<br />Champion","United States<br />Champion","United States<br />Champion"
-"Divas<br />Champion","Divas<br />Champion","Divas<br />Champion"
+"WWE World<br />Heavyweight Champion","WWE Welt<br />Schwergewichts-Champion","WWE World<br />Heavyweight Champion"
+"Intercontinental<br />Champion","Interkontinental<br />Champion","Intercontinental<br />Champion"
+"United States<br />Champion","United States<br />Champion","United States<br />Campeón"
+"Divas<br />Champion","Divas<br />Champion","Divas<br /> Campeón"
 "Tag Team<br />Champion","Tag Team<br />Champion","Tag Team<br />Champion"
 "WWE.com: The Official Site of the WWE Universe","WWE.com: Die offizielle Website des WWE-Universums","WWE.com: La pagina oficial de la WWE"
 " | WWE.com"," | WWE.com"," | WWE.com"
@@ -29,7 +29,7 @@ tickets,tickets,tickets
 "Read Article","Artikel lesen","Leer Artículo"
 "Read List","Lesen Liste","Leer Lista"
 "View Gallery","Ansicht Galerie","Ver galeria"
-"View Playlist","Ansicht Playlist","Ver lista de reproduccion"
+"View Playlist","Ansicht Playlist","Ver Lista De Reproduccion"
 "View Bracket","Bracket anzeigen","Ver Bracket"
 "View Page","Ansicht Page","Ver Pagina"
 Vote,Stimme,voto
@@ -137,7 +137,7 @@ Info,Infö,info
 SUBMIT,SENDEN,ENVIAR
 "Thank you for visiting. This poll is now closed.","Danke für Ihren Besuch. Diese Umfrage ist geschlossen.","Gracias por su visita. Esta encuesta se ha cerrado."
 "Take Another WWE Poll","Nehmen wir ein anderes WWE Umfrage","Tome Otra WWE Poll"
-"View Photos","Ansicht Photos","Mira las fotos"
+"View Photos","Ansicht Photos","Mira Las Fotos"
 "Watch Videos","Beobachten Videos","Ver Videos"
 "Thank You For Voting!","Danke für ihre Bewertung!","Gracias por votar!"
 "Back to Search","Zurück zu den Such","Back to Search"
@@ -171,13 +171,13 @@ vote,stimme,voto
 round,Runde,ronda
 "cast your vote!","Ihre Stimme!","cast your vote!"
 "TOTAL VOTES","TOTAL VOTES","Votos en total"
-"the wwe universe has spoken!","das WWE-Universum hat gesprochen!","das WWE-Universum hat gesprochen!"
-"has won!","hat gewonnen!","ha ganado!"
+"the wwe universe has spoken!","das WWE-Universum hat gesprochen!","the wwe universe has spoken!"
+"has won!","hat gewonnen!","has won!"
 "see the full results","finden Sie die vollständigen Ergebnisse","ver los resultados completos"
 "<span class=""white"">Superstar</span> <span>Appearances</span>","<span class=""white"">Superstar</span> <span>Appearances</span>","<span class=""white"">Superstar</span> <span>Appearances</span>"
 "View All","Alle anzeigen","Ver todos"
 "View Details","Details Anzeigen","Ver detalles"
-"Vote Now","Jetzt abstimmen","Vota ahora"
+"Vote Now","Jetzt abstimmen","Vota Ahora"
 POLLS,POLLS,ENCUESTAS
 Purchase<span>Tickets</span>,Tickets<span>Kaufen</span>,"Compra de <span> Entradas </ span>"
 "All Tickets","Alle Tickets","All Tickets"
@@ -303,7 +303,7 @@ Reviews,Bewertungen,Comentarios
 "With six month commitment","Mit 6 Monate Engagement","Con el compromiso seis meses"
 Join,Beitreten,Registrarse
 "Sign In",Anmelden,"Iniciar Sesión"
-Welcome,Willkommen,bienvenida
+Welcome,Willkommen,Bienvenida
 Andorra,Andorra,Andorra
 "United Arab Emirates","Vereinigte Arabische Emirate","Emiratos Árabes Unidos"
 Afghanistan,Afghanistän,Afganistán
@@ -555,7 +555,7 @@ Zambia,Sambia,Zambia
 Zimbabwe,Simbabwe,Zimbabue
 Monday,Montag,lunes
 Tuesday,Dienstag,martes
-Wednesday,Mittwoch,miércoles
+Wednesday,Mittwoch,Miércoles
 Thursday,Donnerstag,jueves
 Friday,Freitag,viernes
 Saturday,Samstag,Sábado
@@ -571,7 +571,6 @@ Jan,Jan,Jan
 Feb,Feb,Feb
 Mar,Mar,Mar
 Apr,Apr,Apr
-May,May,May
 Jun,Jun,Jun
 Jul,Jul,Jul
 Aug,Aug,Aug
@@ -581,3 +580,6 @@ Nov,Nov,Nov
 Dec,Dec,Dec
 " News Archive"," News-Archiv"," Archivo de noticias"
 Superstar<span>Appearances</span>,Superstär-<span>Auftritte</span>,Apariciones<span>Superstar</span>
+"WWE World<br/>Heavyweight Champion","WWE World<br/>Heavyweight Champion","WWE World<br/>Campeón de peso pesado"
+"Intercontinental Champion","Intercontinental Champion","Intercontinental <br /> Campeón"
+"Tag Team Champion","Tag Team Champion","Tag Team<br />Campeón"
