@@ -60,7 +60,7 @@ function d7 () {
     return 3;
   fi
 
-  cd /opt/vhosts/wwecom7/html/$1;
+  cd /u01/www/wwecom7/html/$1;
   retval=$?;
   if [[ $retval -eq 0 ]]; then
     echo dir changed to `pwd`;
@@ -76,7 +76,7 @@ function d7m () {
     return 3;
   fi
 
-  cd /opt/vhosts/wwecom7/html/sites/all/modules/wwe/$1;
+  cd /u01/www/wwecom7/html/sites/all/modules/wwe/$1 ;
   retval=$?;
   if [[ $retval -eq 0 ]]; then
     echo dir changed to `pwd`;
