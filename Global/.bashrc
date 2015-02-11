@@ -85,3 +85,34 @@ function d7m () {
   return $retval;
 }
 
+function dglb () {
+
+  if [[ $# -gt 1 ]]; then
+    echo "[ERROR] Usage:  dglb [relative/path/to/dest-dir]";
+    return 3;
+  fi
+
+  cd /u01/www/wweglobal/html/$1;
+  retval=$?;
+  if [[ $retval -eq 0 ]]; then
+    echo dir changed to `pwd`;
+  fi
+
+  return $retval;
+}
+
+function drc () {
+
+  if [[ $# -gt 1 ]]; then
+    echo "[ERROR] Usage:  drc [relative/path/to/dest-dir]";
+    return 3;
+  fi
+
+  cd /u01/www/wweglobal/console/$1;
+  retval=$?;
+  if [[ $retval -eq 0 ]]; then
+    echo dir changed to `pwd`;
+  fi
+
+  return $retval;
+}
