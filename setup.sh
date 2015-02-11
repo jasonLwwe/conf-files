@@ -27,26 +27,56 @@ fi
 #  if [[ -e /usr/bin/vim ]]; then echo "Success!"; else echo "Fail"; fi
 #fi
 
+function result_msg() {
+   if [[ $? -eq 0 ]]; then echo "Success!"; else echo -e "Fail\n$1"; fi
+}
+
+# Make bin folder in ~ and put some scripts in it.
+userbin=~/bin
+if [[ ! -d $userbin ]]; then
+  echo -n "Creating ${userbin}... ";
+  ERROR=$(mkdir $userbin 2>&1 >/dev/null);
+  result_msg "$ERROR";
+
+  if [[ -d $userbin && -f .cmp.php ]]; then
+    echo -en "\tMoving .cmp.php to ${userbin}/cmp.php... ";  
+    ERROR=$(cp -p .cmp.php ${userbin}/cmp.php 2>&1 >/dev/null);
+    result_msg "$ERROR";
+    if [[ ! -x ${userbin}/cmp.php ]]; then
+      chmod +x ${userbin}/cmp.php;
+    fi
+
+    echo -en "\tMoving .copy.sh to ${userbin}/.copy.sh... ";
+    ERROR=$(cp -p .copy.sh ${userbin}/copy.sh 2>&1 >/dev/null);
+    result_msg "$ERROR";
+    if [[ ! -x ${userbin}/copy.sh ]]; then
+      chmod +x ${userbin}/copy.sh;
+    fi
+  fi
+fi
+unset userbin;
+
 if [[ -f /usr/bin/git ]]; then
   username=jasonLwwe;
   usermail=jason.lyerly@wwecorp.com;
 
   echo -n "Setting git config user.name to ${username}... ";
-  git config --global user.name ${username};
-  if [[ $? -eq 0 ]]; then echo "Success!"; else echo "Fail :("; fi
+  ERROR=$(git config --global user.name ${username} 2>&1 >/dev/null);
+  result_msg "$ERROR";
 
   echo -n "Setting git config user.email to ${usermail}... ";
-  git config --global user.email ${usermail};
-  if [[ $? -eq 0 ]]; then echo "Success!"; else echo "Fail :("; fi
+  ERROR=$(git config --global user.email ${usermail} 2>&1 >/dev/null);
+  result_msg "$ERROR";
 
   pushDefault=current;
   if [[ "$prefix" == "Jenkins/" ]] || [[  "$prefix" == "Intl/" ]]; then
     pushDefault=simple;
   fi
   echo -n "Setting git config push.default to ${pushDefault}... ";
-  git config --global push.default ${pushDefault};
-  if [[ $? -eq 0 ]]; then echo "Success!"; else echo "Fail :("; fi
+  ERROR=$(git config --global push.default ${pushDefault} 2>&1 >/dev/null);
+  result_msg "$ERROR";
 fi
+unset username usermail pushDefault
 
 btime=`date +%Y%m%d.%H%M.bak`;
 for filename in `ls -1a ./${prefix}.bash* ./${prefix}.vimrc | cut -d'/' -f3`; do
@@ -79,8 +109,8 @@ for filename in `ls -1a ./${prefix}.bash* ./${prefix}.vimrc | cut -d'/' -f3`; do
       fi
 
       echo -en "\tBacking up ${dstfile} to ${backup}... " ;
-      mv $dstfile ${backup};
-      if [[ $? -eq 0 ]]; then echo "Success!"; else echo "Fail :("; fi
+      ERR0R=$(mv $dstfile ${backup} 2>&1 >/dev/null);
+      result_msg "$ERROR";
     else
       docopy=no;
       echo $dstfile and $srcfile are the same... skip
@@ -91,12 +121,18 @@ for filename in `ls -1a ./${prefix}.bash* ./${prefix}.vimrc | cut -d'/' -f3`; do
 
   if [ "$docopy" = "yes" ]; then
     echo -en "\tCopying ${srcfile} to ${dstfile}... ";
-    cp ${srcfile} ${dstfile};
-    if [[ $? -eq 0 ]]; then echo "Success!"; else echo "Fail :("; fi
+    ERROR=$(cp ${srcfile} ${dstfile} 2>&1 >/dev/null);
+    result_msg "$ERROR";
   fi
+
+  unset dstfile srcfile docopy separator_length diffstat;
 done
 
 if [[ -f ~/.bash_profile ]] ; then
   . ~/.bash_profile;
 fi
 
+unset -f result_msg
+unset ERROR
+unset prefix
+unset btime
