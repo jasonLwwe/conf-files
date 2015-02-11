@@ -41,6 +41,7 @@ Photos,Fotos,Fotos
 "Sponsored By","Gefördert durch","Patrocinado Por"
 Login,Lögin,"Iniciar Sesión"
 Logout,Abmelden,"Cerrar sesión"
+Worldwide,Weltweit,Mundial
 "Buy Tickets","Tickets kaufen","Comprar Entradas"
 "All News","Alle News","Todas las noticias"
 "<span>Browse</span> By","<span>blättern</span> By","<span> Examinar </ span> Por"
@@ -115,7 +116,7 @@ ARCHIVE,ARCHIV,ARCHIVO
 "This video's page","Seite dieses Video","La pagina de este video"
 Playlist,Playlist,Playlist
 MILESTONES,MILESTONES,HITOS
-"Back to All Superstars","Zurück zu allen Superstars","Back to All Superstars"
+"Back to All Superstars","Zurück zu Allen Superstars","Volver a Todas las Superestrellas"
 "VIDEO PLAYLIST","VIDEO PLAYLIST","LISTA DE REPRODUCCION DE VIDEO"
 "VIEW ALL","ALLE ANZEIGEN","VER TODO"
 "Back to Superstar Stats","Back to Superstar Stats","Back to Superstar Stats"
@@ -299,7 +300,7 @@ Today,Today,Hoy
 "Get Started","Erste Schritte",empezar
 Reviews,Bewertungen,Comentarios
 "NEXT <span>PAY-PER-VIEW</span>","NÄCHSTER <span>PAY-PER-VIEW</span>","SIGUIENTE <span> PAY-PER-VIEW </ span>"
-"$9.99<span class=""price-small"">/month</span>","$9.99<span class=""price-small"">/Monat</span>","$ 9,99 <span class = ""-precio pequeno""> / mes </ span>"
+"$9.99<span class=""price-small"">/month</span>","$9.99<span class=""price-small"">/Monat</span>","$ 9,99 <span class = ""price-small"">/mes</ span>"
 "With six month commitment","Mit 6 Monate Engagement","Con el compromiso seis meses"
 Join,Beitreten,Registrarse
 "Sign In",Anmelden,"Iniciar Sesión"
@@ -571,6 +572,7 @@ Jan,Jan,Jan
 Feb,Feb,Feb
 Mar,Mar,Mar
 Apr,Apr,Apr
+May,May,May
 Jun,Jun,Jun
 Jul,Jul,Jul
 Aug,Aug,Aug
@@ -583,3 +585,6 @@ Superstar<span>Appearances</span>,Superstär-<span>Auftritte</span>,Apariciones<
 "WWE World<br/>Heavyweight Champion","WWE World<br/>Heavyweight Champion","WWE World<br/>Campeón de peso pesado"
 "Intercontinental Champion","Intercontinental Champion","Intercontinental <br /> Campeón"
 "Tag Team Champion","Tag Team Champion","Tag Team<br />Campeón"
+English,Englisch,Inglés
+German,Deutsch,Alemán
+Spanish,Spanisch,Español
