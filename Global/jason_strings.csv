@@ -113,6 +113,7 @@ to,to,a
 ARCHIVE,ARCHIV,ARCHIVO
 "Now Playing","Sie hören","Reproduciendo ahora"
 "Up Next","Als nächstes","Up Next"
+Less,Less,Less
 "This video's page","Seite dieses Video","La pagina de este video"
 Playlist,Playlist,Playlist
 MILESTONES,MILESTONES,HITOS
@@ -253,6 +254,7 @@ Event,Ereignis,Evento
 Zip/Postcode,Postleitzahl,"Código Postal"
 State,Staat,Estado
 Month,Monat,Mes
+"Search Events","Search Events","Search Events"
 "All events are displayed in local time","Alle Events werden in Ortzeit angezeigt","Todos los eventos están en horario local"
 Filters,Filter,Filtro
 "Live Events","Live Events","Eventos en Vivo"
