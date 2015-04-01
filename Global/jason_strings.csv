@@ -32,51 +32,52 @@ tickets,tickets,tickets
 "View Playlist","Ansicht Playlist","Ver Lista De Reproduccion"
 "View Bracket","Bracket anzeigen","Ver Bracket"
 "View Page","Ansicht Page","Ver Pagina"
-Vote,Stimme,voto
+Vote,Stimme,Voto
 News,Nëwz,Noticias
-Videos,Videos,Videos
+Videos,Videös,Videós
 Photos,Fotos,Fotos
 "WWEUniverse:Official Twitter account of the WWE Universe","WWEUniverse: Offizieller Twitter-Account des WWE-Universums","WWEUniverse: Oficial cuenta de Twitter de la WWE"
 "VIP CHAT WITH:","VIP-CHAT MIT:","CHAT VIP CON:"
 "Sponsored By","Gesponsert von","Patrocinado por"
 Login,Lögin,"Iniciar Sesión"
 Logout,Abmelden,"Cerrar sesión"
+Arabic,Arabisch,Árabe
 Worldwide,Weltweit,Internacional
 "Buy Tickets","Tickets kaufen","Comprar boletos"
 "All News","Alle News","Todas las noticias"
 "<span>Browse</span> By","<span>blättern</span> By","<span> Examinar </ span> Por"
 "<span>Most Popular</span> Superstars","<span>Am beliebtesten</span> Supërstärs","<span> Los mas populares </ span> superestrellas"
 "Tickets on Sale:",Ticket-Verkauf:,"Entradas a la venta:"
-"More Info","Mehr Info","mas Info"
+"More Info","Mehr Info","Mas Info"
 "View All Upcoming Events","Alle Bevorstehende Veranstaltungen","Ver todos los Proximos Eventos"
-"viagogo Ticket Exchange","viagogo Ticket Exchange","viagogo Cambio"
+"viagogo Ticket Exchange","viagogo Austausch","viagogo Cambio"
 Day.,Däy.,Day.
 Hr.,Hr.,Hr.
 Min.,Min.,Min.
 Sec.,Sec.,Sec.
 Next<span>Event</span>,Nächste<span>Seite</span>,"Siguiente <span> Evento </ span>"
 "Order Now!","Jetzt bestellen!","Solicitar ahora!"
-More,Mehr,mas
+More,Mehr,Mas
 WWE,WWE,WWE
-Shows,Shows,Espectaculos
+Shows,Shöws,Espectaculos
 Search,Suche,Buscar
-"View All Shows","View All Shows","View All Shows"
-"View All Superstars","View All Superstars","View All Superstars"
-"View All Videos","View All Videos","View All Videos"
-"View All Photos","View All Photos","View All Photos"
-"Explore Classics","Explore Classics","Explore Classics"
-Network<span>Program</span>,Network<span>Program</span>,"Red <span> Programa </ span>"
+"View All Shows","Alle Shows","Ver todos los Shows"
+"View All Superstars","Alle Superstars","Ver todas las superestrellas"
+"View All Videos","Alle Videos anzeigen","Ver todos los videos"
+"View All Photos","Alle Fotos","Ver todas las fotos"
+"Explore Classics","Entdecken Classics","Explorar Classics"
+Network<span>Program</span>,Netzwerk-<span>Programm</span>,"Red<span>Programa</span>"
 "Raw Replays","Wiederholung Räw","Repetición de Raw"
 ET,ET,ET
 "View all Superstar appearances","Alle Superstar Auftritte anzeigen","Ver todas las presentaciones de superestrellas"
 "Main Event","Main Event","Evento Principal"
-"Tune In",Hören,sintonizar
-on,on,en
+"Tune In",Hören,Sintonizar
+on,auf,en
 "View All WWE Chatter","Alle anzeigen WWE Chatter","Ver todos WWE Chatter"
 Superstar,Superstär,Superestrella
 Chatter,Geplapper,Charla
-"View All !longspan WWE Chatter !longspanend","Alle anzeigen !longspan WWE Chatter !longspanend","Ver todos! Longspan longspanend WWE Chatter!"
-"Error in expiration date. Please set it with format: yyyy/MM/dd HH:mm:ss","Error in expiration date. Please set it with format: yyyy/MM/dd HH:mm:ss","Error in expiration date. Please set it with format: yyyy/MM/dd HH:mm:ss"
+"View All !longspan WWE Chatter !longspanend","Alle anzeigen !longspan WWE Chatter !longspanend","Ver todos !longspan WWE Chatter !longspanend"
+"Error in expiration date. Please set it with format: yyyy/MM/dd HH:mm:ss","Fehler beim Ablaufdatum. Bitte setzen Sie es mit Format: yyyy/MM/dd HH:mm:ss","Error en la fecha de caducidad. Por favor, establece que con el formato: yyyy/MM/dd HH:mm:ss"
 "All superstars subject to change","Änderungen bei Superstars sind vorbehalten","Todas las Superestrellas están sujetas a cambio"
 Now,Jetzt,Ahora
 Next,Weiter,Sig
@@ -95,44 +96,44 @@ NEXT,WEITER,Sig
 "!talent Bio, Videos, Photos, and News Articles","Biografie, Videos, Fotos und Aktuelles von !talent","Biografía del !talent, Videos, Fotos y Artículos de noticias"
 Articles,Artikel,Artículos
 "You May Also Like","Das könnte Dir auch gefallen","También le puede gustar"
-Present,Vorhanden,presente
+Present,Vorhanden,Presente
 "Did you know?","Wussten Sie?",Sabías?
 Previous,Zurück,Ant
 "Latest News","Letzte News","Últimas noticias"
 "View All News","Alle News anzeigen","Ver todas las noticias"
 "Entrance Video",Einzugsvideo,"Video de entrada"
 "All Videos","Alle Videos","Todos los videos"
-Watch,Beobachten,reloj
-Champion,Chämpion,Champion
-Defeated,unterlegen,derrotado
-Location,Location,ubicación
-Date,Datum,fecha
-Video,Video,Video
-Rank,Rang,rango
-to,to,a
+Watch,Beobachten,Reloj
+Champion,Chämpion,Campeón
+Defeated,Unterlegen,Derrotado
+Location,Locatiön,Ubicación
+Date,Datum,Fecha
+Video,Video,Vídeo
+Rank,Rang,Rango
+to,"bis zur",a
 ARCHIVE,ARCHIV,ARCHIVO
 "Now Playing","Sie hören","Reproduciendo ahora"
-"Up Next","Als nächstes","Up Next"
-Less,Less,Less
+"Up Next","Als nächstes","Arriba Siguiente"
+Less,Weniger,Menos
 "This video's page","Seite dieses Video","La pagina de este video"
-Playlist,Playlist,Playlist
-MILESTONES,MILESTONES,HITOS
+Playlist,Playlïst,Playlíst
+MILESTONES,MEILENSTEINE,HITOS
 "Back to All Superstars","Zurück zu allen Superstars",Regresar
 "VIDEO PLAYLIST","VIDEO PLAYLIST","LISTA DE REPRODUCCIÓN DE VIDEOS"
 "VIEW ALL","ALLE ANZEIGEN","VER TODOS"
-"Back to Superstar Stats","Back to Superstar Stats","Back to Superstar Stats"
+"Back to Superstar Stats","Zurück zum Superstar-Statistik","Volver a la superestrella Estadísticas"
 Height,Größe,Altura
 Weight,Gewicht,Peso
 From,Herkunft,De
 "Signature Move","Unterschrift Bewegung","Movimiento característico"
-Alias,Pseudonym,alias
+Alias,Pseudonym,Aliás
 "Career Highlights","Karriere Höhepunkte","Logros destacados"
 "Read More","Mehr lesen","Leer más"
-Bio,er,Biografía
+Bio,Biö,Biõ
 Tickets,Tickëts,Boletos
 Attractions,Sehenswürdigkeiten,atracciones
 "Superstar Schedule",Superstär-Termine,"Superestrellar Calendario"
-Info,Infö,info
+Info,Infö,Infõ
 "Order Now","Jetzt bestellen","Solicitar ahora"
 "Next Poll","Nächste Umfrage","Siguiente Poll"
 "Previous Poll","Vorherige Umfrage","Encuesta anterior"
@@ -142,7 +143,7 @@ SUBMIT,SENDEN,ENVIAR
 "View Photos","Ansicht Photos","Mira Las Fotos"
 "Watch Videos","Beobachten Videos","Ver Videos"
 "Thank You For Voting!","Danke für ihre Bewertung!","Gracias por votar!"
-"Back to Search","Zurück zur Suche","Volver a la búsqueda"
+"Back to Search","Zurück zur Suche","Volver a la Búsqueda"
 "Order PPV","PPV bestellen","Pedir PPV"
 "ON SALE"," AKTUELL VERFÜGBAR","EN VENTA"
 "Buy Vip","VIP Paket kaufen","Comprar VIP"
@@ -152,8 +153,8 @@ SUBMIT,SENDEN,ENVIAR
 "Become a fan on Facebook","Werde Fan auf Facebook","Hágase fan en Facebook"
 Follow,Folgen,Seguir
 Merchandise,"Fan Artikel",Mercadería
-"Start Shopping","Einkauf beginnen","Comenzar a comprar"
-"Entrance Music",Einzugsmusik,"Música de entrada"
+"Start Shopping","Einkauf Beginnen","Comenzar a Comprar"
+"Entrance Music",Einzugsmusik,"Música de Entrada"
 "BY !name","Von !name","POR !name"
 "Page !page of !total","Page !page of !total","Pagina de sugerencias de! Totales"
 "Preview the Match","Vorschau des Spiels","Vista previa del Partido"
