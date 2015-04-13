@@ -1,13 +1,13 @@
 en,de,es
-"WWE World<br />Heavyweight Champion","WWE Welt<br />Schwergewichts-Champion","WWE World<br />Heavyweight Campeón"
-"Intercontinental<br />Champion","Interkontinental<br />Champion","Intercontinental<br />Campeón"
+"WWE World<br />Heavyweight Champion","WWE Welt <br />Schwergewichts Champion Titel","WWE World<br />Heavyweight Campeón"
+"Intercontinental<br />Champion","Intercöntinental<br />Champion","Intercontinental<br />Campeón"
 "United States<br />Champion","United States<br />Champion","United States<br />Campeón"
 "Divas<br />Champion","Divas<br />Champion","Divas<br /> Campeón"
 "Tag Team<br />Champion","Tag Team<br />Champion","Tag Team<br />Campeón"
 "WWE.com: The Official Site of the WWE Universe","WWE.com: Die offizielle Seite des WWE-Universums","WWE.com: La pagina oficial de la WWE"
 " | WWE.com"," | WWE.com"," | WWE.com"
 "The Official Site of the WWE Universe","Die offizielle Seite des WWE-Universums","El sitio oficial del Universo WWE"
-"News Archive","Nëwz Archïve","News Archive"
+"News Archive",News-Archiv,"News Archive"
 from,von,desde
 "WWE Tickets and Live Events Information from WWE","WWE Tickets und Informationen zu WWE Live-Events","Boletos WWE e información de eventos en vivo de WWE"
 "Amazing Videos from the WWE Video Vault","Aufregende Videos aus der WWE Video Schatzkammer","Amazing Videos from the WWE Video Vault"
@@ -19,19 +19,19 @@ tickets,tickets,tickets
 " | Latest News, Results, Videos, Photos, and More"," | Aktuelle News, Ergebnisse, Videos, Fotos und Mehr"," | Ultimas Noticias, Resultados, Videos, Fotos, y Mas"
 " | Matches, Results, Videos, Photos, and More"," | Matches, Ergebnisse, Videos, Fotos und Mehr"," | Partidos, Resultados, Videos, Fotos, y Mas"
 "The Official Destination for WWE Superstars","Die offizielle Seite für WWE Superstars","El destino oficial de WWE Superstars"
-"WWE, the recognized leader in global sports-entertainment, featuring the unrivaled Superstars of the ring including John Cena, Randy Orton, The Rock, CM Punk, Triple H and The Undertaker, as well as WWE Divas and Legends.","WWE, der anerkannte weltweite Marktführer im Sport-Entertainment, mit den unübertroffenen Superstars des Rings, einschließlich John Cena, Randy Orton, The Rock, CM Punk, Triple H und The Undertaker sowie WWE Diven und Legenden. ","WWE, el reconocido líder global en entretenimiento deportivo, con las Superestellas inigualables del ring como John Cena, Randy Orton, La Roca, Triple H y The Undertaker, así como Divas y Leyendas WWE"
-"Purchase WWE tickets to ","Erwerben WWE Tickets ","Compra entradas WWE a"
+"WWE, the recognized leader in global sports-entertainment, featuring the unrivaled Superstars of the ring including John Cena, Randy Orton, The Rock, CM Punk, Triple H and The Undertaker, as well as WWE Divas and Legends.","WWE, der anerkannte weltweite Marktführer im Sport-Entertainment, mit den unübertroffenen Superstars des Rings, einschließlich John Cena, Randy Orton, The Rock, CM Punk, Triple H und The Undertaker sowie WWE Diven und Legenden.","WWE, el reconocido líder global en entretenimiento deportivo, con las Superestellas inigualables del ring como John Cena, Randy Orton, La Roca, Triple H y The Undertaker, así como Divas y Leyendas WWE"
+"Purchase WWE tickets to ","Erwerben WWE Tickets ","Compra entradas WWE a "
 "Visit WWE.com for the ultimate collection of ","Besuchen WWE.com für die entscheidende Sammlung der ","Visita WWE.com para la ultima coleccion de "
-". Access a huge archive of ",". Zugriff auf ein riesiges Archiv von",". Acceder a un archivo enorme de"
-" only available at WWE.com, the official resource for everything related to "," nur WWE.com, der offiziellen Quelle für alles im Zusammenhang zur Verfügung"," Solo disponible en WWE.com, el recurso oficial para todo lo relacionado con"
+". Access a huge archive of ",". Zugriff auf ein riesiges Archiv von ",". Acceder a un archivo enorme de "
+" only available at WWE.com, the official resource for everything related to "," nur WWE.com, die offizielle Quelle für alles, was im Zusammenhang mit zur Verfügung "," Solo disponible en WWE.com, el recurso oficial para todo lo relacionado con "
 "Visit WWE.com for the official archive of ","Besuchen WWE.com für den offiziellen Archiv von ","Visita WWE.com para el archivo oficial de "
 "Watch Video","Beobachten Video","Ver Video"
 "Read Article","Artikel lesen","Leer Artículo"
 "Read List","Lesen Liste","Leer Lista"
-"View Gallery","Ansicht Galerie","Ver galeria"
+"View Gallery",Ansicht-Galerie,"Ver galeria"
 "View Playlist","Ansicht Playlist","Ver Lista De Reproduccion"
 "View Bracket","Bracket anzeigen","Ver Bracket"
-"View Page","Ansicht Page","Ver Pagina"
+"View Page","Ansicht Seite","Ver Pagina"
 Vote,Stimme,Voto
 News,Nëwz,Noticias
 Videos,Videös,Videós
@@ -39,39 +39,39 @@ Photos,Fotos,Fotos
 "WWEUniverse:Official Twitter account of the WWE Universe","WWEUniverse: Offizieller Twitter-Account des WWE-Universums","WWEUniverse: Oficial cuenta de Twitter de la WWE"
 "VIP CHAT WITH:","VIP-CHAT MIT:","CHAT VIP CON:"
 "Sponsored By","Gesponsert von","Patrocinado por"
-Login,Lögin,"Iniciar Sesión"
+Login,"Anmelden","Iniciar Sesión"
 Logout,Abmelden,"Cerrar sesión"
 Arabic,Arabisch,Árabe
 Worldwide,Weltweit,Internacional
 "Buy Tickets","Tickets kaufen","Comprar boletos"
 "All News","Alle News","Todas las noticias"
-"<span>Browse</span> By","<span>blättern</span> By","<span> Examinar </ span> Por"
-"<span>Most Popular</span> Superstars","<span>Am beliebtesten</span> Supërstärs","<span> Los mas populares </ span> superestrellas"
+"<span>Browse</span> By","<span>Browser</span> Mit","<span> Examinar </ span> Por"
+"<span>Most Popular</span> Superstars","<span>Die beliebtesten</span> Superstars","<span> Los mas populares </ span> superestrellas"
 "Tickets on Sale:",Ticket-Verkauf:,"Entradas a la venta:"
-"More Info","Mehr Info","Mas Info"
+"More Info","Mehr Infos","Mas Info"
 "View All Upcoming Events","Alle Bevorstehende Veranstaltungen","Ver todos los Proximos Eventos"
-"viagogo Ticket Exchange","viagogo Austausch","viagogo Cambio"
-Day.,Däy.,Day.
-Hr.,Hr.,Hr.
+"viagogo Ticket Exchange","viagogo Ticket Austausch","viagogo Cambio"
+Day.,Tag.,Day.
+Hr.,S.,Hr.
 Min.,Min.,Min.
-Sec.,Sec.,Sec.
-Next<span>Event</span>,Nächste<span>Seite</span>,"Siguiente <span> Evento </ span>"
-"Order Now!","Jetzt bestellen!","Solicitar ahora!"
+Sec.,Sek.,Sec.
+Next<span>Event</span>,Nächste<span>Veranstaltung</span>,"Siguiente <span> Evento </ span>"
+"Order Now!","Jetzt Bestellen!","Solicitar ahora!"
 More,Mehr,Mas
 WWE,WWE,WWE
-Shows,Shöws,Espectaculos
+Shows,"Zeigt An",Espectaculos
 Search,Suche,Buscar
 "View All Shows","Alle Shows","Ver todos los Shows"
 "View All Superstars","Alle Superstars","Ver todas las superestrellas"
-"View All Videos","Alle Videos anzeigen","Ver todos los videos"
+"View All Videos","Alle Videos","Ver todos los videos"
 "View All Photos","Alle Fotos","Ver todas las fotos"
 "Explore Classics","Entdecken Classics","Explorar Classics"
-Network<span>Program</span>,Netzwerk-<span>Programm</span>,"Red<span>Programa</span>"
+Network<span>Program</span>,Network<span>Programm</span>,Red<span>Programa</span>
 "Raw Replays","Wiederholung Räw","Repetición de Raw"
 ET,ET,ET
 "View all Superstar appearances","Alle Superstar Auftritte anzeigen","Ver todas las presentaciones de superestrellas"
 "Main Event","Main Event","Evento Principal"
-"Tune In",Hören,Sintonizar
+"Tune In",Einschalten,Sintonizar
 on,auf,en
 "View All WWE Chatter","Alle anzeigen WWE Chatter","Ver todos WWE Chatter"
 Superstar,Superstär,Superestrella
@@ -90,7 +90,7 @@ Related,Verbunden,Conexo
 "BY !author","VON !author","POR !author"
 "Page !page of !pagecount","Seite !page von !pagecount","Página !page de !pagecount"
 "View Comments","Kommentare anzeigen","Ver Comentarios"
-Tags,Schlagworte,Etiquetas
+Tags,Marke,Etiquetas
 PREVIOUS,ZURÜCK,Ant
 NEXT,WEITER,Sig
 "!talent Bio, Videos, Photos, and News Articles","Biografie, Videos, Fotos und Aktuelles von !talent","Biografía del !talent, Videos, Fotos y Artículos de noticias"
@@ -103,16 +103,16 @@ Previous,Zurück,Ant
 "View All News","Alle News anzeigen","Ver todas las noticias"
 "Entrance Video",Einzugsvideo,"Video de entrada"
 "All Videos","Alle Videos","Todos los videos"
-Watch,Beobachten,Reloj
+Watch,"Achten Auf",Reloj
 Champion,Chämpion,Campeón
 Defeated,Unterlegen,Derrotado
-Location,Locatiön,Ubicación
+Location,Lage,Ubicación
 Date,Datum,Fecha
 Video,Video,Vídeo
 Rank,Rang,Rango
-to,"bis zur",a
-ARCHIVE,ARCHIV,ARCHIVO
-"Now Playing","Sie hören","Reproduciendo ahora"
+to,zu,a
+ARCHIVE,ARCHIVIEREN,ARCHIVO
+"Now Playing",Jetzt,"Reproduciendo ahora"
 "Up Next","Als nächstes","Arriba Siguiente"
 Less,Weniger,Menos
 "This video's page","Seite dieses Video","La pagina de este video"
@@ -121,29 +121,29 @@ MILESTONES,MEILENSTEINE,HITOS
 "Back to All Superstars","Zurück zu allen Superstars",Regresar
 "VIDEO PLAYLIST","VIDEO PLAYLIST","LISTA DE REPRODUCCIÓN DE VIDEOS"
 "VIEW ALL","ALLE ANZEIGEN","VER TODOS"
-"Back to Superstar Stats","Zurück zum Superstar-Statistik","Volver a la superestrella Estadísticas"
+"Back to Superstar Stats","Zurück zum Statistik","Volver a la superestrella Estadísticas"
 Height,Größe,Altura
 Weight,Gewicht,Peso
 From,Herkunft,De
-"Signature Move","Unterschrift Bewegung","Movimiento característico"
+"Signature Move","Beweg Dich","Movimiento característico"
 Alias,Pseudonym,Aliás
 "Career Highlights","Karriere Höhepunkte","Logros destacados"
 "Read More","Mehr lesen","Leer más"
-Bio,Biö,Biõ
+Bio,Biö,Biografía
 Tickets,Tickëts,Boletos
 Attractions,Sehenswürdigkeiten,atracciones
-"Superstar Schedule",Superstär-Termine,"Superestrellar Calendario"
+"Superstar Schedule",Superstar-Termine,"Superestrellar Calendario"
 Info,Infö,Infõ
-"Order Now","Jetzt bestellen","Solicitar ahora"
+"Order Now","Jetzt Bestellen","Solicitar ahora"
 "Next Poll","Nächste Umfrage","Siguiente Poll"
 "Previous Poll","Vorherige Umfrage","Encuesta anterior"
 SUBMIT,SENDEN,ENVIAR
 "Thank you for visiting. This poll is now closed.","Danke für Ihren Besuch. Diese Umfrage ist geschlossen.","Gracias por su visita. Esta encuesta se ha cerrado."
 "Take Another WWE Poll","Nehmen wir ein anderes WWE Umfrage","Tome Otra WWE Poll"
-"View Photos","Ansicht Photos","Mira Las Fotos"
+"View Photos","Fotos ansehen","Mira Las Fotos"
 "Watch Videos","Beobachten Videos","Ver Videos"
 "Thank You For Voting!","Danke für ihre Bewertung!","Gracias por votar!"
-"Back to Search","Zurück zur Suche","Volver a la Búsqueda"
+"Back to Search","Zurück zur Suche","Volver a la búsqueda"
 "Order PPV","PPV bestellen","Pedir PPV"
 "ON SALE"," AKTUELL VERFÜGBAR","EN VENTA"
 "Buy Vip","VIP Paket kaufen","Comprar VIP"
@@ -153,48 +153,48 @@ SUBMIT,SENDEN,ENVIAR
 "Become a fan on Facebook","Werde Fan auf Facebook","Hágase fan en Facebook"
 Follow,Folgen,Seguir
 Merchandise,"Fan Artikel",Mercadería
-"Start Shopping","Einkauf Beginnen","Comenzar a Comprar"
-"Entrance Music",Einzugsmusik,"Música de Entrada"
-"BY !name","Von !name","POR !name"
-"Page !page of !total","Page !page of !total","Pagina de sugerencias de! Totales"
+"Start Shopping","Einkauf beginnen","Comenzar a comprar"
+"Entrance Music",Einzugsmusik,"Música de entrada"
+"BY !name","VON !name","POR !name"
+"Page !page of !total","Seite !page von !total","Pagina de sugerencias de! Totales"
 "Preview the Match","Vorschau des Spiels","Vista previa del Partido"
 "active first","aktive ersten","activa primero"
-unpublished,unpublished,inedito
+unpublished,unveröffentlicht,inedito
 Matchups,Matchups,enfrentamientos
 Announced,Angekündigt,Announced
 "Read Full Article","Lesen Sie die komplette Artikel","Leer el artículo completo"
 "View More Facts","Mehr Fakten","Ver Mas Datos"
-"DID<span>YOU KNOW?</span>","DID<span>WISSEN SIE?</span>","¿SABÍA <span> SABES? </ Span>"
+"DID<span>YOU KNOW?</span>",WUSSTEN<span>SIE?</span>,"¿SABÍA <span> SABES? </ Span>"
 "Online PPV","Onlinën PPV","PPV Onliné"
 "View More","Mehr Anzeigen","Ver Más"
-Final,letzte,final
-"Round ","Runde ",ronda
-close,"in der Nähe",cerca
+Final,Letzte,final
+"Round ","Runde ","Ronda "
+close,schließen,cerca
 vote,stimme,voto
-round,Runde,ronda
+round,runde,ronda
 "cast your vote!","Ihre Stimme!","cast your vote!"
-"TOTAL VOTES","TOTAL VOTES","Votos en total"
+"TOTAL VOTES",Kundenbewertungen,"Votos en total"
 "the wwe universe has spoken!","das WWE-Universum hat gesprochen!","the wwe universe has spoken!"
 "has won!","hat gewonnen!","ha ganado!"
 "see the full results","finden Sie die vollständigen Ergebnisse","ver los resultados completos"
-"<span class=""white"">Superstar</span> <span>Appearances</span>","<span class=""white"">Superstar</span> <span>Appearances</span>","<span class=""white"">Superstar</span> <span>Appearances</span>"
+"<span class=""white"">Superstar</span> <span>Appearances</span>","<span class=""white"">Superstar-</span> <span>Auftritte</span>","<span class=""white"">Superstar</span> <span>Appearances</span>"
 "View All","Alle anzeigen","Ver todos"
 "View Details","Details Anzeigen","Ver detalles"
 "Vote Now","Jetzt abstimmen","Vota Ahora"
-POLLS,POLLS,ENCUESTAS
+POLLS,UMFRAGEN,ENCUESTAS
 Purchase<span>Tickets</span>,Tickets<span>kaufen</span>,Comprar<span>boletos</span>
 "All Tickets","Alle Tickets","Todos los boletos"
-Power,Leistung,energia
-Rankings,Ränkings,clasificaciones
-"Survivor Series Travel &amp; Hotel Package","Survivor Series Travel &amp; Hotel Pakët","Survivor Series Travel &amp; Hotel Package"
-"<span class=""white"">Travel</span><span>Promo</span>","<span class=""white"">Reise</span><span>Promo</span>","<span class = ""white""> Viajes </ span> <span> Promo </ span>"
-<span>Merchandise</span>,<span>Merchandise</span>,<span>Mercancías</span>
-"Get all your ","Get all your ","Get all your "
-" gear at WWEShop Now!"," gang bei WWEShop Now!"," engranaje en WWEShop Ahora!"
-WWE<span>Merchandise</span>,WWE<span>Merchandise</span>,WWE<span>Merchandise</span>
-"Get all your gear at WWEShop Now!","Get all your gear at WWEShop Now!","Get all your gear at WWEShop Now!"
-"Also from WWEShop","Also from WWEShop","Also from WWEShop"
-"Start Ranking Now!","Starten Rang Now!","Iniciar Clasificación Ahora!"
+Power,"Der Macht",energia
+Rankings,Einstufung,Clasificaciones
+"Survivor Series Travel &amp; Hotel Package","Survivor Series Reisen &amp; Hotel Package","Survivor Series Travel &amp; Hotel Package"
+"<span class=""white"">Travel</span><span>Promo</span>","<span class=""white"">Reisel</span><span>Werbung</span>","<span class =""white"">Viajes</span><span>Promo</span>"
+<span>Merchandise</span>,<span>Waren</span>,<span>Mercancías</span>
+"Get all your ","Erhalten Sie alle Ihre ","Get all your "
+" gear at WWEShop Now!"," gang bei WWE-Versand!"," engranaje en WWEShop Ahora!"
+WWE<span>Merchandise</span>,WWE<span>Waren</span>,WWE<span>Merchandise</span>
+"Get all your gear at WWEShop Now!","Holen Sie sich alle Ihre Ausrüstung bei WWE-EuroShop!","Get all your gear at WWEShop Now!"
+"Also from WWEShop","Auch von WWE EuroShop","Also from WWEShop"
+"Start Ranking Now!","Starten Sie jetzt mieten!","Iniciar Clasificación Ahora!"
 "Last Week's <span>Biggest Movers</span>","Letzte Woche<span>Größter Aufsteiger</span>","De la semana pasada <span> Las más grandes Movers </ span>"
 Sort,Sortieren,Ordenar
 "View all !count results","Alle !count Ergebnisse anzeigen","Ver todos los !count resultados"
@@ -204,38 +204,38 @@ Events,Veranstaltungen,Eventos
 Article,Artikel,Artículo
 "All !type","Alle !type","Todos !type"
 "There are no pages matching your search. Please try different search term.","Die folgende Seite, die Ihrer Forschung. Bitte versuchen Sie einen anderen Suchbegriff ein.","No hay paginas que coincidan con su busqueda. Por favor, intente diferente termino de búsqueda."
-"posted !time ago","posted !time ago","Hace tiempo! publicado"
+"posted !time ago","Veröffentlicht vor !time stunde","Hace tiempo! publicado"
 "DID YOU MEAN:","MEINTEN SIE:","QUERIAS DECIR:"
-"YOU COULD ALSO TRY:","Sie auch versuchen, KÖNNTE:","USTED PODRÍA TAMBIÉN TRY:"
-"About !total results","Über! Gesamtergebnisse","Acerca! Resultados totales"
+"YOU COULD ALSO TRY:","Sie könnten auch versuchen:","USTED PODRÍA TAMBIÉN TRY:"
+"About !total results","Über !total Ergebnisse","Acerca! Resultados totales"
 "Sort by:","Sortieren nach:","Ordenar por:"
 Relevance,Relevanz,Pertinencia
 ALL,ALLE,TODO
 SUPERSTARS,SUPERSTÄRS,SUPERESTRELLAS
-SHOWS,SHOWS,ESPECTACULOS
+SHOWS,"ZEIGT AN",ESPECTACULOS
 TICKETS,TICKËTS,Entradas
 VIDEOS,VIDEOS,VIDEOS
 PHOTOS,FOTOS,FOTOS
 ARTICLES,ARTIKEL,ARTÍCULOS
-LISTS,LISTS,LISTAS
+LISTS,LISTEN,LISTAS
 <span>Archive</span>,<span>Archivieren</span>,<span>Archivo</span>
 "Next Event","Nächste Veranstaltung","Siguiente Carrera"
-"Upcoming Events","Bevorstehende Veranstaltungen","Próximos eventos"
-"Order Pay-Per-View","Bestellen Pay-Per-View","Orden de Pago Por Ver"
-"Latest ",Letzte,"mas reciente"
+"Upcoming Events","kommende Veranstaltungen","Próximos eventos"
+"Order Pay-Per-View","Pay-Per-View Bestellen","Orden de Pago Por Ver"
+"Latest ","Letzte ","Mas Reciente "
 " News"," Nachrichten"," Noticias"
 "View All WWE Events","Alle WWE Events","Ver todos los eventos de la WWE"
 Days,Tage,días
 Hours,Stunden,horas
-Minutes,Minutes,acta
+Minutes,Minuten,acta
 Seconds,Sekunden,Segundos
 "Get Tickets","Holen Sie sich Tickets","Consiga los boletos"
 "Find Tickets","Tickets finden","Buscar entradas"
 vs,vs,vs
-"Who Will Win?","Wer gewinnt?","¿Quien ganara?"
-"Total votes: ","Total votes: ","Total votes: "
+"Who Will Win?","Wer Wird Gewinnen?","¿Quien ganara?"
+"Total votes: ","Kundenbewertungen: ","Total votes: "
 "Find a Live Event Near You","Finden Sie eine Live-Veranstaltung in Ihrer Nähe","Encuentre un Evento en vivo cerca de ti!"
-"Show Type","Typ Der","Mostrar Tipo"
+"Show Type","Typ der","Mostrar Tipo"
 Pay-Per-View,Pay-Per-View,Pay-Per-View
 "Raw Supershow","Räw Supershow","Ráw Supershow"
 SmackDown,SmackDown,SmackDown
@@ -245,7 +245,7 @@ Country,Land,País
 Distance,Entfernung,Distancia
 Miles,Meilen,Millas
 Kilometers,Kilometer,Kilómetros
-"United States","Vereinigte Staaten","Estados Unidos"
+"United States","Vereinigten Staaten","Estados Unidos"
 All,Alle,Todo
 "All Shows","Alle Shows","Todos los Shows"
 PPV,PPV,PPV
@@ -255,28 +255,28 @@ Event,Ereignis,Evento
 Zip/Postcode,Postleitzahl,"Código Postal"
 State,Staat,Estado
 Month,Monat,Mes
-"Search Events","Search Events","Search Events"
+"Search Events","Suche Veranstaltungen","Search Events"
 "All events are displayed in local time","Alle Events werden in Ortzeit angezeigt","Todos los eventos están en horario local"
 Filters,Filter,Filtro
-"Live Events","Live Events","Eventos en Vivo"
-Details,Einzelheiten,Detalles
-"Superstar Appearances",Superstär-Auftritte,"Apariciones Superstar"
+"Live Events",Live-Events,"Eventos en Vivo"
+Details,Nähere,Detalles
+"Superstar Appearances",Superstar-Auftritte,"Apariciones Superstar"
 "Bio, Videos, Photos, and News Articles","Bio, Videos, Fotos und News Artikel","Bio, Videos, Photos, and News Articles"
 "SEARCH EVENTS","Suche Veranstaltungen","Buscar Eventos"
-"Live Events<span>Tickets</span>","Live Events<span>Tickets</span>","Live Events <span> Entradas </ span>"
-"All Shows + Events","Alle Shows + Events","Todos los espectaculos + Eventos"
+"Live Events<span>Tickets</span>",Live-Events<span>Tickets</span>,"Live Events <span> Entradas </ span>"
+"All Shows + Events","Alle Shows + Geschehen","Todos los espectaculos + Eventos"
 "All Episodes","Alle Episoden","todos los Episodios"
 "All Superstars","Alle Superstars","todas las superestrellas"
 "WWE News","WWE News","WWE News"
-"Archive from","Archive from","Archive from"
-Archive,Archive,Archivo
+"Archive from","Archiv aus","Archive from"
+Archive,Archivieren,Archivo
 "Previous Page","Letzte Seite","Pagina Anterior"
 "Next Page","Nächste Seite","Siguiente Página"
 "Read Full Story","Lesen Sie die komplette Geschichte","Lea la historia completa"
 Alumni,Alümni,Alumni
 "Hall of Fame",Ruhmeshalle,"Salón de la fama"
-Event<span>Calendar</span>,Ereignis<span>Kalender</span>,"Evento <span> Calendario </ span>"
-"Recent Events","Letzte Veranstaltungen","Eventos Recientes"
+Event<span>Calendar</span>,Veranstaltungs<span>kalender</span>,"Evento <span> Calendario </ span>"
+"Recent Events",Veranstaltungen,"Eventos Recientes"
 CHAMPIONS,CHÄMPIONS,CAMPEONES
 Current,Aktuell,Actual
 CURRENT,AKTUELL,ACTUAL
@@ -287,23 +287,23 @@ Raw,Raw,crudo
 Roster,Dienstplan,Lista
 "WCW Alumni","WCW Alumni","Ex alumnos de la WCW"
 "WWE Alumni","WWE Alümni","Ex alumnos de la WWE"
-"SHOW !span Listings !spanend","Karte !span Anzeigen !spanend","ESPECTÁCULO! Abarcar Listados! SpanEnd"
-"Show Listings for: ","Zeige Anzeigen für: ","Mostrar Información para:"
+"SHOW !span Listings !spanend","Karte !span anzeigen !spanend","ESPECTÁCULO! Abarcar Listados! SpanEnd"
+"Show Listings for: ","Zeige Anzeigen für: ","Mostrar Información para: "
 "Select a country","Wählen Sie ein Land","Seleccione un país"
 "No Channels Available","Keine Kanäle vorhanden","No Channels Available"
 "<div class=""no_archivedata"">Sorry, there are no matching Power 25 items for your request at this time. Alternatively, use the site wide search at the top of the page.</div>","<div class=""no_archivedata"">Sorry, es gibt keine passenden Leistung 25 Einzelteile für Ihre Anfrage zu diesem Zeitpunkt. Alternativ können Sie die Website weite Suche ganz oben auf der Seite.</div>","<div class=""no_archivedata"">Sorry, there are no matching Power 25 items for your request at this time. Alternatively, use the site wide search at the top of the page.</div>�""<span class=""""white"""">Superstar</span> <span>Appearances</span>"""
 "Sorry, there are no matching News items for your request at this time. Please use the dropdown menus provided above to assist in finding additional News articles you might be interested in. Alternatively, use the site wide search at the top of the page.","Sorry, es gibt keine passenden Nachrichten Einzelteile für Ihre Anfrage zu diesem Zeitpunkt. Bitte verwenden Sie die Dropdown-Menüs oben bereitgestellt, um bei der Suche nach weiteren Nachrichten Artikel, die Sie interessieren könnten zu unterstützen. Alternativ können Sie die Website weite Suche ganz oben auf der Seite.","Lo sentimos, no hay artículos a juego Noticias para su solicitud en este momento. Por favor, use los menús desplegables proporcionados anteriormente para ayudar a encontrar artículos de noticias Quizás se encuentre interesado en. Como alternativa, utilice la amplia búsqueda de sitio en la parte superior de la página."
 " Rankings"," Rankings"," Rankings"
 "WWE's Rankings","WWE's Rankings","WWE's Rankings"
-"Click here","Klicken Sie hier","haga clic aquí"
+"Click here","Klicken Sie Hier","haga clic aquí"
 "Daily Schedule","Daily Schedule","Horario Diario"
-Today,Today,Hoy
+Today,Heute,Hoy
 "Next Day","Nächster Tag","Siguiente día"
 "WWE Network","WWE Netzwërk","WWE Network"
 "Get Started","Erste Schritte",empezar
 Reviews,Bewertungen,Comentarios
-"NEXT <span>PAY-PER-VIEW</span>","NÄCHSTER <span>PAY-PER-VIEW</span>","SIGUIENTE <span> PAY-PER-VIEW </ span>"
-"$9.99<span class=""price-small"">/month</span>","$9.99<span class=""price-small"">/Monat</span>","$ 9,99 <span class = ""price-small"">/mes</ span>"
+"NEXT <span>PAY-PER-VIEW</span>","Nächste <span>PAY-PER-VIEW</span>","SIGUIENTE <span> PAY-PER-VIEW </ span>"
+"$9.99<span class=""price-small"">/month</span>","$9,99<span class=""price-small"">/monat</span>","$ 9,99 <span class =""price-small"">/mes</ span>"
 "With six month commitment","Mit 6 Monate Engagement","Con el compromiso seis meses"
 Join,Beitreten,Registrarse
 "Sign In",Anmelden,"Iniciar sesión"
@@ -338,7 +338,7 @@ Benin,Benin,Benin
 Bermuda,Bermuda,Bermuda
 Brunei,Brunei,Brunei
 Bolivia,Bolivien,Bolivia
-"Caribbean Netherlands","karibische Niederlande","Caribe Países Bajos"
+"Caribbean Netherlands","Karibische Niederlande","Caribe Países Bajos"
 Brazil,Brasilien,Brasil
 Bahamas,Bahamas,Bahamas
 Bhutan,Bhutan,Bután
@@ -502,7 +502,7 @@ Serbia,Serbien,Serbia
 Russia,Russland,Rusia
 Rwanda,Ruanda,Ruanda
 "Saudi Arabia",Saudi-Arabien,"Arabia Saudita"
-"Solomon Islands",Salomon-Inseln,"Islas Salomón"
+"Solomon Islands",Salomon-Inseln,"islas Salomón"
 Seychelles,Seychellen,Seychelles
 Sudan,Sudan,Sudán
 Sweden,Schweden,Suecia
@@ -559,17 +559,17 @@ Zambia,Sambia,Zambia
 Zimbabwe,Simbabwe,Zimbabue
 Monday,Montag,lunes
 Tuesday,Dienstag,martes
-Wednesday,Mittwoch,Miércoles
+Wednesday,Mittwoch,miércoles
 Thursday,Donnerstag,jueves
 Friday,Freitag,viernes
-Saturday,Samstag,Sábado
+Saturday,Sämstag,sábado
 Sunday,Sonntag,domingo
 Mon,Mon,Mon
-Tue,Tue,Tue
+Tue,Die,Tue
 Wed,Wed,Wed
 Thu,Thu,Thu
 Fri,Fri,Fri
-Sat,Sat,Sat
+Sat,Säm,Sat
 Sun,Sun,Sun
 Jan,Jan,Jan
 Feb,Feb,Feb
@@ -582,12 +582,11 @@ Aug,Aug,Aug
 Sep,Sep,Sep
 Oct,Oct,Oct
 Nov,Nov,Nov
-Dec,Dec,Dec
+Dec,Dez,Dec
 " News Archive"," News-Archiv"," Archivo de noticias"
 "Intercontinental Champion","Intercontinental Champion","Intercontinental <br /> Campeón"
 "Tag Team Champion","Tag Team Champion","Tag Team<br />Campeón"
-"WWE Universe: Official Twitter account of the WWE Universe","WWE Universe: Official Twitter account of the WWE Universe","WWE Universe: cuenta oficial en Twitter de la WWE Universe"
-"WWE World<br/>Heavyweight Champion","WWE World<br/>Heavyweight Champion","WWE World<br/>Campeón de peso pesado"
+"WWE Universe: Official Twitter account of the WWE Universe","WWE-Universum: Offizielle Twitter-Account des WWE-Universums","WWE Universe: cuenta oficial en Twitter de la WWE Universe"
 Auction,Auktion,Subasta
 Community,Community,Comunidad
 English,Englisch,Inglés
