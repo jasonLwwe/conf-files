@@ -116,3 +116,20 @@ function drc () {
 
   return $retval;
 }
+
+function jenk () {
+
+  if [[ $# -gt 1 ]]; then
+    echo "[ERROR] Usage: jenk [relative/path/to/dest-dir]";
+    return 3;
+  fi
+  
+  cd /opt/wwe/jenkins/$1;
+  reval=$?;
+  if [[ $retval -eq 0 ]]; then
+    echo dir changed to `pwd`;
+  fi
+
+  return $retval;
+}
+
