@@ -133,3 +133,18 @@ function jenk () {
   return $retval;
 }
 
+function dred () {
+
+  if [[ $# -gt 1 ]]; then
+      echo "[ERROR] Usage: dred [relative/path/to/dest-dir]";
+      return 3;
+  fi
+
+  cd /u01/www/wwe3redesign/$1;
+  retval=$?;
+  if [[ $retval -eq 0 ]]; then
+    echo dir changed to `pwd`;
+  fi
+
+  return $retval;
+}
