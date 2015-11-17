@@ -38,20 +38,34 @@ if [[ ! -d $userbin ]]; then
   ERROR=$(mkdir $userbin 2>&1 >/dev/null);
   result_msg "$ERROR";
 
-  if [[ -d $userbin && -f .cmp.php ]]; then
-    echo -en "\tMoving .cmp.php to ${userbin}/cmp.php... ";  
-    ERROR=$(cp -p .cmp.php ${userbin}/cmp.php 2>&1 >/dev/null);
-    result_msg "$ERROR";
-    if [[ ! -x ${userbin}/cmp.php ]]; then
-      chmod +x ${userbin}/cmp.php;
+  if [[ -d $userbin  ]]; then
+    if [[ -f .cmp.php ]]; then
+      echo -en "\tMoving .cmp.php to ${userbin}/cmp.php... ";  
+      ERROR=$(cp -p .cmp.php ${userbin}/cmp.php 2>&1 >/dev/null);
+      result_msg "$ERROR";
+      if [[ ! -x ${userbin}/cmp.php ]]; then
+        chmod +x ${userbin}/cmp.php;
+      fi
     fi
 
-    echo -en "\tMoving .copy.sh to ${userbin}/.copy.sh... ";
-    ERROR=$(cp -p .copy.sh ${userbin}/copy.sh 2>&1 >/dev/null);
-    result_msg "$ERROR";
-    if [[ ! -x ${userbin}/copy.sh ]]; then
-      chmod +x ${userbin}/copy.sh;
+    if [[ -f .copy.sh ]]; then
+      echo -en "\tMoving .copy.sh to ${userbin}/.copy.sh... ";
+      ERROR=$(cp -p .copy.sh ${userbin}/copy.sh 2>&1 >/dev/null);
+      result_msg "$ERROR";
+      if [[ ! -x ${userbin}/copy.sh ]]; then
+        chmod +x ${userbin}/copy.sh;
+      fi
     fi
+
+    if [[ -f .install-db.sh ]]; then
+      echo -en "\tMoving .install-db.sh to ${userbin}/.install-db.sh... ";
+      ERROR=$(cp -p .install-db.sh to ${userbin}/install-db.sh 2>&1 >/dev/null);
+      result_msg "$ERROR";
+      if [[ ! -x ${userbin}/install-db.sh]]; then
+        chmod +x ${userbin}/install-db.sh;
+      fi
+    fi
+
   fi
 fi
 unset userbin;
