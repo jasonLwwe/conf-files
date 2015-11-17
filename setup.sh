@@ -33,42 +33,55 @@ function result_msg() {
 
 # Make bin folder in ~ and put some scripts in it.
 userbin=~/bin
+srcbin=./.bin
 if [[ ! -d $userbin ]]; then
   echo -n "Creating ${userbin}... ";
   ERROR=$(mkdir $userbin 2>&1 >/dev/null);
   result_msg "$ERROR";
+  
+  if [[ -d $srcbin && -d $userbin ]]; then
 
-  if [[ -d $userbin  ]]; then
-    if [[ -f .cmp.php ]]; then
-      echo -en "\tMoving .cmp.php to ${userbin}/cmp.php... ";  
-      ERROR=$(cp -p .cmp.php ${userbin}/cmp.php 2>&1 >/dev/null);
+    for file in `ls -1 $srcbin`; do
+      srcfile=${srcbin}/${file};
+      dstfile=${userbin}/${file};
+      echo -en "\tMoving $srcfile to ${dstfile}... ";
+      ERROR=$(cp -p $srcfile $dstfile 2>&1 >/dev/null);
       result_msg "$ERROR";
-      if [[ ! -x ${userbin}/cmp.php ]]; then
-        chmod +x ${userbin}/cmp.php;
+      if [[ ! -x $dstfile ]]; then
+        chmod +x ${dstfile};
       fi
-    fi
+    done
+    unset srcfile dstfile;
 
-    if [[ -f .copy.sh ]]; then
-      echo -en "\tMoving .copy.sh to ${userbin}/.copy.sh... ";
-      ERROR=$(cp -p .copy.sh ${userbin}/copy.sh 2>&1 >/dev/null);
-      result_msg "$ERROR";
-      if [[ ! -x ${userbin}/copy.sh ]]; then
-        chmod +x ${userbin}/copy.sh;
-      fi
-    fi
+      #if [[ -f .cmp.php ]]; then
+      #  echo -en "\tMoving .cmp.php to ${userbin}/cmp.php... ";  
+      #  ERROR=$(cp -p .cmp.php ${userbin}/cmp.php 2>&1 >/dev/null);
+      #  result_msg "$ERROR";
+      #  if [[ ! -x ${userbin}/cmp.php ]]; then
+      #    chmod +x ${userbin}/cmp.php;
+      #  fi
+      #fi
 
-    if [[ -f .install-db.sh ]]; then
-      echo -en "\tMoving .install-db.sh to ${userbin}/.install-db.sh... ";
-      ERROR=$(cp -p .install-db.sh to ${userbin}/install-db.sh 2>&1 >/dev/null);
-      result_msg "$ERROR";
-      if [[ ! -x ${userbin}/install-db.sh]]; then
-        chmod +x ${userbin}/install-db.sh;
-      fi
-    fi
+      #if [[ -f .copy.sh ]]; then
+      #  echo -en "\tMoving .copy.sh to ${userbin}/.copy.sh... ";
+      #  ERROR=$(cp -p .copy.sh ${userbin}/copy.sh 2>&1 >/dev/null);
+      #  result_msg "$ERROR";
+      #  if [[ ! -x ${userbin}/copy.sh ]]; then
+      #    chmod +x ${userbin}/copy.sh;
+      #  fi
+      #fi
 
+      #if [[ -f .install-db.sh ]]; then
+      #  echo -en "\tMoving .install-db.sh to ${userbin}/.install-db.sh... ";
+      #  ERROR=$(cp -p .install-db.sh to ${userbin}/install-db.sh 2>&1 >/dev/null);
+      #  result_msg "$ERROR";
+      #  if [[ ! -x ${userbin}/install-db.sh]]; then
+      #    chmod +x ${userbin}/install-db.sh;
+      #  fi
+      #fi
   fi
 fi
-unset userbin;
+unset userbin srcbin;
 
 if [[ -f /usr/bin/git ]]; then
   username=jasonLwwe;
