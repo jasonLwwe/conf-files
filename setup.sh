@@ -45,7 +45,7 @@ if [[ ! -d $userbin ]]; then
       srcfile=${srcbin}/${file};
       dstfile=${userbin}/${file};
       echo -en "\tMoving $srcfile to ${dstfile}... ";
-      ERROR=$(cp -p $srcfile $dstfile 2>&1 >/dev/null);
+      ERROR=$(cp -pR $srcfile $dstfile 2>&1 >/dev/null);
       result_msg "$ERROR";
       if [[ ! -x $dstfile ]]; then
         chmod +x ${dstfile};
