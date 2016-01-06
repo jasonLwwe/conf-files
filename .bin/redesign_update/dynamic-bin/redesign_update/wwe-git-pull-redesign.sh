@@ -5,6 +5,7 @@
 
 log=$1
 if [ ! -f $log ]; then touch $log ; fi
+db=$2
 
 gitlog=$( dirname $log )/git.$(date +'%Y%m%d_%H%M').log
 
@@ -32,18 +33,18 @@ result_msg "$?"
 cd /u01/www/wwe3redesign/html
 
 echo -en "$(log_time) Truncating semaphore, watchdog, and wwe_update_log... " >> $log
-$( mysql --login-path=wwe3 -D wwe3 -e "truncate table semaphore;" && \
-mysql --login-path=wwe3 -D wwe3 -e "truncate table watchdog"   && \
-mysql --login-path=wwe3 -D wwe3 -e "truncate table wwe_update_log" ) >> $gitlog 2>&1
+$( mysql --login-path=wwe3 -D $db -e "truncate table semaphore;" && \
+mysql --login-path=wwe3 -D $db -e "truncate table watchdog"   && \
+mysql --login-path=wwe3 -D $db -e "truncate table wwe_update_log" ) >> $gitlog 2>&1
 result_msg "$?"
 
 echo -en "$(log_time) Unpublishing Code & Theory test data... " >> $log
-mysql --login-path=wwe3 -D wwe3 -e "update node set status=0 where 35000000<=nid and nid<=36000000;" >> $gitlog 2>&1
-mysql --login-path=wwe3 -D wwe3 -e "update node_revision set status=0 where 35000000<=nid and nid<=36000000;" >> $gitlog 2>&1
+mysql --login-path=wwe3 -D $db -e "update node set status=0 where 35000000<=nid and nid<=36000000;" >> $gitlog 2>&1
+mysql --login-path=wwe3 -D $db -e "update node_revision set status=0 where 35000000<=nid and nid<=36000000;" >> $gitlog 2>&1
 result_msg "$?"
 
 echo -en "$(log_time) Fixing appearance bundle... " >> $log
-mysql --login-path=wwe3 -D wwe3 -e "update node set type='event' where type='appearance';" >> $gitlog 2>&1
+mysql --login-path=wwe3 -D $db -e "update node set type='event' where type='appearance';" >> $gitlog 2>&1
 result_msg "$?"
 
 echo -en "$(log_time) Running drush cc drush... " >> $log

@@ -1,16 +1,22 @@
 #!/bin/bash
-to="$( /home/dynamic/bin/mailer/recipients.sh )"
+
+# $1 path to script that outputs the recipient list
+# $2 status message for the subject lin
+# $3 message body
+
+to="$($1)"
+
 cat <<EOL | msmtp -t
 To: $to
 From: wwe-jason.jenkins@wwe.com
-Subject: Morning migration status report: $1
+Subject: Morning migration status report: $2
 
 Hello,
 
-$2
+$3
 
 Regards, 
 
-$(whoami)@$(hostname):$0
+$(hostname)
 
 EOL

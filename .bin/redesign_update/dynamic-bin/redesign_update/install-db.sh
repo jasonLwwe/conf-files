@@ -1,5 +1,7 @@
 #! /bin/bash
 
+db=$1
+
 trap "exit 1" TERM
 export TOP_PID=$$
 
@@ -81,32 +83,32 @@ if [[ -f wwe_migrated_db.sql.gz && -f wweglobal.sql.gz ]]; then
   mysql -h localhost wweglobal < wweglobal.sql;
   result_msg "$?";
  
-  echo -n "$(log_time) Dropping wwe3 DB... " >> $log;
-  mysql -e "DROP DATABASE IF EXISTS wwe3 ;";
+  echo -n "$(log_time) Dropping $db DB... " >> $log;
+  mysql -e "DROP DATABASE IF EXISTS ${db} ;";
   result_msg "$?";
 
-  echo -n "$(log_time) Creating wwe3 DB... " >> $log;
-  mysql -e "CREATE DATABASE wwe3;";
+  echo -n "$(log_time) Creating $db DB... " >> $log;
+  mysql -e "CREATE DATABASE ${db};";
   result_msg "$?";
 
-  echo -n "$(log_time) Importing new wwe3 DB... " >> $log;
-  mysql -h localhost wwe3 < wwe_migrated_db.sql;
+  echo -n "$(log_time) Importing new $db DB... " >> $log;
+  mysql -h localhost ${db} < wwe_migrated_db.sql;
   result_msg "$?";
 
-  echo -n "$(log_time) Updating wwe3.language domain for English... " >> $log;
-  mysql -e "UPDATE wwe3.languages SET domain='wwe-jason.jenkins.wwe.com' WHERE language='en';" ;
+  echo -n "$(log_time) Updating ${db}.language domain for English... " >> $log;
+  mysql -e "UPDATE ${db}.languages SET domain='wwe-jason.jenkins.wwe.com' WHERE language='en';" ;
   result_msg "$?";
 
-  echo -n "$(log_time) Updating wwe3.language domain for German... " >> $log;
-  mysql -e "UPDATE wwe3.languages SET domain='de.wwe-jason.jenkins.wwe.com' WHERE language='de';" ;
+  echo -n "$(log_time) Updating ${db}.language domain for German... " >> $log;
+  mysql -e "UPDATE ${db}.languages SET domain='de.wwe-jason.jenkins.wwe.com' WHERE language='de';" ;
   result_msg "$?";
 
-  echo -n "$(log_time) Updating wwe3.language domain for Spanish... " >> $log;
-  mysql -e "UPDATE wwe3.languages SET domain='es.wwe-jason.jenkins.wwe.com' WHERE language='es';" ;
+  echo -n "$(log_time) Updating ${db}.language domain for Spanish... " >> $log;
+  mysql -e "UPDATE ${db}.languages SET domain='es.wwe-jason.jenkins.wwe.com' WHERE language='es';" ;
   result_msg "$?";
 
   echo "$(log_time) Updating code... " >> $log;
-  "$( script_dir )"/wwe-git-pull-redesign.sh $log  ;
+  "$( script_dir )"/wwe-git-pull-redesign.sh $log $db ;
   echo "$(log_time) ...code update complete!" >> $log;
   
   echo -n "$(log_time) Importing nodes from $dumpDir... " >> $log;
