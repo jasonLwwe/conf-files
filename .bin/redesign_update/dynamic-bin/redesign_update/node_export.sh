@@ -13,7 +13,7 @@ if [ "$mode" == "export" ]; then
   fi
 
   mysql -e "select nid from $db.node where nid>=40000000 or (\
-    changed >= unix_timestamp('2016-05-01 00:00:00')) \
+    changed >= unix_timestamp('2016-05-01 00:00:00') \
     and (nid<35000000 or 35005000<nid) );" | \
     grep -E "^[[:digit:]]" > $exportDir/nids.txt;
 

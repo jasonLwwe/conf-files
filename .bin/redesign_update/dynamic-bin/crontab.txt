@@ -1,0 +1,20 @@
+# 7am, Mon-Fri - Verify if the dump file is new and send email
+0 07 * * 1-5  sudo ~/bin/move_dump.sh /home/ec2-user /home/dynamic dynamic > ~/moves/"$( date +'\%Y\%m\%d_\%H\%M\%S' )".out && ~/bin/mailer/verify-dump.sh --dir /home/dynamic 
+
+# Delete previous days move log.
+05 07 * * 1-5 find ~/moves -mtime +1 -exec rm -f {} \;
+
+# Update wwe3 and wweglobal DBs with new data
+45,59 07 * * 1-5 ~/bin/redesign_update/install-db.sh wwe ;
+#18 15 * * 1-5 ~/bin/redesign_update/install-db.sh wwe ;
+
+# Remove old db install log file
+59 */1 * * 1-5 find ~/dbupdates -name "*.log" -type f -a -mtime +1 -exec rm -f {} \;
+# Remove old node_dumps
+59 */1 * * 1-5 find ~/node_dumps -type d -a -mtime +2 -exec rm -rf {} \;
+
+# Email previous days content list
+30 08 * * 1-5 ~/bin/content-mailer/previous_day.sh ~/bin/content-mailer/csv/nodes_"$(date +'\%Y\%m\%d')".csv
+31 08 * * 1-5 find ~/bin/content-mailer/csv -name "*.csv" -a -mtime +2 -exec rm -f {} \;
+
+

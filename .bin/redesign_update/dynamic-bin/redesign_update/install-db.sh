@@ -42,6 +42,7 @@ function script_dir() {
 export -f script_dir
 
 cd ~
+touch -t $( date +'%m%d0000' ) /tmp/$$
 if [[ -f wwe_migrated_db.sql.gz && -f wweglobal.sql.gz ]]; then
   
   dumpDir=~/node_dumps/$( date +'%Y%m%d_%H%M%S' );
@@ -53,46 +54,52 @@ if [[ -f wwe_migrated_db.sql.gz && -f wweglobal.sql.gz ]]; then
     $drupalRoot;
   result_msg "$?";
 
-  if [[ -e wweglobal.sql ]]; then
-    rm -f wweglobal.sql;
-    echo "$(log_time) Removed old wweglobal.sql" >> $log;
-  fi
+  #if [[ -e wweglobal.sql ]]; then
+  #  rm -f wweglobal.sql;
+  #  echo "$(log_time) Removed old wweglobal.sql" >> $log;
+  #fi
+  #
+  #if [[ -e wwe_migrated_db.sql ]]; then
+  #  rm -f wwe_migrated_db.sql;
+  #  echo "$(log_time) Removed old wwe_migrated_db.sql" >> $log;
+  #fi
+  #
+  #echo -n "$(log_time) Unzipping wwe_migrated_db.sql.gz... " >> $log;
+  #gunzip wwe_migrated_db.sql.gz;
+  #result_msg "$?";
+  #
+  #echo -n "$(log_time) Unzipping wweglobal.sql.gz... " >> $log;
+  #gunzip wweglobal.sql.gz;
+  #result_msg "$?";   
   
-  if [[ -e wwe_migrated_db.sql ]]; then
-    rm -f wwe_migrated_db.sql;
-    echo "$(log_time) Removed old wwe_migrated_db.sql" >> $log;
-  fi
-  
-  echo -n "$(log_time) Unzipping wwe_migrated_db.sql.gz... " >> $log;
-  gunzip wwe_migrated_db.sql.gz;
-  result_msg "$?";
-  
-  echo -n "$(log_time) Unzipping wweglobal.sql.gz... " >> $log;
-  gunzip wweglobal.sql.gz;
-  result_msg "$?";   
+  echo -n "$(log_time) Testing if wweglobal DB has updates... " >> $log ;
+  if [[ $( find . -name wweglobal.sql.gz -a -newer /tmp/$$ ) ]]; then 
+    echo yes >> $log ;
 
-  echo -n "$(log_time) Dropping wweglobal DB... " >> $log;
-  mysql -e "DROP DATABASE IF EXISTS wweglobal;";
-  result_msg "$?";
+    echo -n "$(log_time) Dropping wweglobal DB... " >> $log;
+    mysql -e "DROP DATABASE IF EXISTS wweglobal;";
+    result_msg "$?";
 
-  echo -n "$(log_time) Creating wweglobal DB... " >> $log;
-  mysql -e "CREATE DATABASE wweglobal;";
-  result_msg "$?";
+    echo -n "$(log_time) Creating wweglobal DB... " >> $log;
+    mysql -e "CREATE DATABASE wweglobal;";
+    result_msg "$?";
  
-  echo -n "$(log_time) Importing new wweglobal DB... " >> $log;
-  mysql -h localhost wweglobal < wweglobal.sql;
-  result_msg "$?";
- 
-  echo -n "$(log_time) Dropping $db DB... " >> $log;
+    echo -n "$(log_time) Importing new wweglobal DB... " >> $log;
+    zcat wweglobal.sql.gz | mysql -h localhost wweglobal;
+    result_msg "$?";
+  else
+    echo no >> $log ;
+  fi 
+  echo -n "$(log_time) Dropping \"$db\" DB... " >> $log;
   mysql -e "DROP DATABASE IF EXISTS ${db} ;";
   result_msg "$?";
 
-  echo -n "$(log_time) Creating $db DB... " >> $log;
+  echo -n "$(log_time) Creating \"$db\" DB... " >> $log;
   mysql -e "CREATE DATABASE ${db};";
   result_msg "$?";
 
-  echo -n "$(log_time) Importing new $db DB... " >> $log;
-  mysql -h localhost ${db} < wwe_migrated_db.sql;
+  echo -n "$(log_time) Importing new \"$db\" DB... " >> $log;
+  zcat wwe_migrated_db.sql.gz | mysql -h localhost ${db}
   result_msg "$?";
 
   echo -n "$(log_time) Updating ${db}.language domain for English... " >> $log;
