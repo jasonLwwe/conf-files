@@ -1,5 +1,5 @@
 # 7am, Mon-Fri - Verify if the dump file is new and send email
-0 07 * * 1-5  sudo ~/bin/move_dump.sh /home/ec2-user /home/dynamic dynamic > ~/moves/"$( date +'\%Y\%m\%d_\%H\%M\%S' )".out && ~/bin/mailer/verify-dump.sh --dir /home/dynamic
+0 07 * * 1-5  sudo ~/bin/redesign_update/move_dump.sh /home/ec2-user /home/dynamic dynamic > ~/moves/"$( date +'\%Y\%m\%d_\%H\%M\%S' )".out && ~/bin/mailer/verify-dump.sh --dir /home/dynamic
 
 # Delete previous days move log.
 05 07 * * 1-5 find ~/moves -mtime +1 -exec rm -f {} \;
