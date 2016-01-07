@@ -83,11 +83,19 @@ else
   result_msg "$?"
 fi
 
+echo -en "$(log_time) Running drush cc all... " >> $log
+drush cc all >> $gitlog 2>&1
+result_msg "$?"
+
 echo -en "$(log_time) Configuring site variables... " >> $log
 /home/dynamic/bin/redesign_update/site_settings.php
 result_msg "$?"
 
 echo -en "$(log_time) Configuring node_export settings... " >> $log
 /home/dynamic/bin/redesign_update/node_export_config.php
+result_msg "$?"
+
+echo -en "$(log_time) Running drush cc all... " >> $log
+drush cc all >> $gitlog 2>&1
 result_msg "$?"
 

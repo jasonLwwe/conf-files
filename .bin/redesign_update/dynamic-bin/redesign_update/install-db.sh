@@ -103,6 +103,10 @@ if [[ -f wwe_migrated_db.sql.gz && -f wweglobal.sql.gz ]]; then
   zcat wwe_migrated_db.sql.gz | mysql -h localhost ${db}
   result_msg "$?";
 
+  echo -n "$(log_time) Clearing memcache... " >> $log;
+  echo "flush_all" | nc localhost 11211
+  result_msg "$?"
+
   echo -n "$(log_time) Updating ${db}.language domain for English... " >> $log;
   mysql -e "UPDATE ${db}.languages SET domain='wwe-jason.jenkins.wwe.com' WHERE language='en';" ;
   result_msg "$?";
@@ -128,9 +132,8 @@ if [[ -f wwe_migrated_db.sql.gz && -f wweglobal.sql.gz ]]; then
   result_msg "$?";
 
   echo -n "$(log_time) Clearing memcache... " >> $log;
-  echo "flush_all" | nc localhost 11211
+  echo "flush_all" | nc localhost 11211 ;
   result_msg "$?"
-
   echo "$(log_time) Updates complete!" >> $log;
 
 else
