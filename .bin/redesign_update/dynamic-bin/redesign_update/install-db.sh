@@ -51,7 +51,8 @@ if [[ -f wwe_migrated_db.sql.gz && -f wweglobal.sql.gz ]]; then
 	"$( script_dir )"/node_export.sh \
     "export" \
     $dumpDir \
-    $drupalRoot;
+    $drupalRoot \
+    $db ;
   result_msg "$?";
 
   #if [[ -e wweglobal.sql ]]; then
@@ -122,7 +123,8 @@ if [[ -f wwe_migrated_db.sql.gz && -f wweglobal.sql.gz ]]; then
   "$( script_dir )"/node_export.sh \
     "import" \
     $dumpDir \
-    $drupalRoot;
+    $drupalRoot \
+    $db ;
   result_msg "$?";
 
   echo -n "$(log_time) Clearing memcache... " >> $log;

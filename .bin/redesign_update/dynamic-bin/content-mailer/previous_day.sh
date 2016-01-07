@@ -1,5 +1,13 @@
 #! /bin/bash
 
+# Gets a list of nodes created on the previous day and stores in a csv file
+# :args:
+#
+#   $1 the file in which to store the csv
+#   $2 the DB name in which to look for content
+#  
+
+
 # Retrieve data from previous day...
 date_string="date_format(date_sub(now(), interval 1 day), '%Y-%m-%d 00:00:00')"
 # ...except for on Monday, retrieve data from Friday.
@@ -23,7 +31,7 @@ WHERE n.nid<35000000 AND n.created>=unix_timestamp($date_string) AND u.source=co
 GROUP BY n.nid \
 ORDER BY n.type ASC;"
 
-mysql wwe3 -e "$sql" | \
+mysql -D $2 -e "$sql" | \
   sed 's/\s*,\s*/,/g' | \
   sed 's/Node\s*Date\s*Type\s*Global URL\s*Redesign URL\s*Resesign EDIT URL/Node,Date,Type,Global URL,Redesign URL,Redesign EDIT URL/' \
   > $1;
