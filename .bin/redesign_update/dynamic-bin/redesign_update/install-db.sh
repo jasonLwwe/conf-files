@@ -41,10 +41,11 @@ function script_dir() {
 }
 export -f script_dir
 
+lastrunfile="$( script_dir )"/last_run.txt
 cd ~
-touch -t $( date +'%m%d0000' ) /tmp/$$
-if [[ -f wwe_migrated_db.sql.gz && -f wweglobal.sql.gz ]]; then
-  
+if [[ -f wwe_migrated_db.sql.gz && -f wweglobal.sql.gz ]] && \
+   [[ ! -f "${lastrunfile}" || $( find . -name wwe_migrated_db.sql.gz -a -newer "${lastrunfile}" ) ]]; then
+
   dumpDir=~/node_dumps/$( date +'%Y%m%d_%H%M%S' );
   echo -n "$(log_time) Exporting nodes to $dumpDir... " >> $log;
   #/home/dynamic/bin/redesign_update/node_export.sh \
@@ -55,26 +56,8 @@ if [[ -f wwe_migrated_db.sql.gz && -f wweglobal.sql.gz ]]; then
     $db ;
   result_msg "$?";
 
-  #if [[ -e wweglobal.sql ]]; then
-  #  rm -f wweglobal.sql;
-  #  echo "$(log_time) Removed old wweglobal.sql" >> $log;
-  #fi
-  #
-  #if [[ -e wwe_migrated_db.sql ]]; then
-  #  rm -f wwe_migrated_db.sql;
-  #  echo "$(log_time) Removed old wwe_migrated_db.sql" >> $log;
-  #fi
-  #
-  #echo -n "$(log_time) Unzipping wwe_migrated_db.sql.gz... " >> $log;
-  #gunzip wwe_migrated_db.sql.gz;
-  #result_msg "$?";
-  #
-  #echo -n "$(log_time) Unzipping wweglobal.sql.gz... " >> $log;
-  #gunzip wweglobal.sql.gz;
-  #result_msg "$?";   
-  
   echo -n "$(log_time) Testing if wweglobal DB has updates... " >> $log ;
-  if [[ $( find . -name wweglobal.sql.gz -a -newer /tmp/$$ ) ]]; then 
+  if [[ $( find . -name wweglobal.sql.gz -a -newer "${lastrunfile}" ) ]]; then 
     echo yes >> $log ;
 
     echo -n "$(log_time) Dropping wweglobal DB... " >> $log;
@@ -91,6 +74,7 @@ if [[ -f wwe_migrated_db.sql.gz && -f wweglobal.sql.gz ]]; then
   else
     echo no >> $log ;
   fi 
+
   echo -n "$(log_time) Dropping \"$db\" DB... " >> $log;
   mysql -e "DROP DATABASE IF EXISTS ${db} ;";
   result_msg "$?";
@@ -140,7 +124,11 @@ else
   echo "$(log_time) There are no new DB updates available." >> $log;
 fi
 
+
+# create file with the last run time
+touch -t "$( date  +"%m%d%H%M" )" "${lastrunfile}"
+
 unset result_msg
 unset log_time
 unset script_dir
-
+unset lastrunfile

@@ -30,7 +30,7 @@ if [ "$mode" == "export" ]; then
 
 else
   
-  for nodeFile in `ls $exportDir/*.node.out`; do
+  for nodeFile in `ls $exportDir/*.node.out &>/dev/null`; do
     drush node-export-import --file=$nodeFile >> $exportDir/import.log;
   done
 
