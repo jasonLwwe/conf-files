@@ -43,19 +43,9 @@ mysql --login-path=wwe3 -D $db -e "update node set status=0 where 35000000<=nid 
 mysql --login-path=wwe3 -D $db -e "update node_revision set status=0 where 35000000<=nid and nid<=36000000;" >> $gitlog 2>&1
 result_msg "$?"
 
-#echo -en "$(log_time) Fixing appearance bundle... " >> $log
-#mysql --login-path=wwe3 -D $db -e "update node set type='event' where type='appearance';" >> $gitlog 2>&1
-#result_msg "$?"
-
 echo -en "$(log_time) Running drush cc drush... " >> $log
 drush cc drush &> $gitlog
 result_msg "$?"
-
-#echo -en "$(log_time) Updating maintenance_mode_message, site_mail, site_name... " >> $log
-#drush variable-set --yes --exact maintenance_mode_message "www.wwe.com is currently under maintenance. We should be back shortly. Thank you for your patience." >> $gitlog 2>&1
-#drush variable-set --yes --exact site_mail "webguy@wwe.com" >> $gitlog 2>&1
-#drush variable-set --yes --exact site_name "www.wwe.com" >> $gitlog 2>&1
-#result_msg "$?"
 
 echo -en "$(log_time) Running drush updatedb... " >> $log 
 drush -y  updatedb >> $gitlog 2>&1
