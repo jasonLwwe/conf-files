@@ -95,7 +95,7 @@ if [[ -f /usr/bin/git ]]; then
   ERROR=$(git config --global user.email ${usermail} 2>&1 >/dev/null);
   result_msg "$ERROR";
 
-  pushDefault=current;
+  pushDefault=simple;
   if [[ "$prefix" == "Jenkins/" ]] || [[  "$prefix" == "Intl/" ]]; then
     pushDefault=simple;
   fi
