@@ -1,6 +1,7 @@
 set encoding=utf-8
 
 set background=dark
+set backspace=eol,indent,start
 
 " spacing/indent settings
 set autoindent
