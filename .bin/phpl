@@ -1,0 +1,5 @@
+#! /bin/bash
+
+output=$(find /u01/www/wwe3redesign/tests/src/ -name '*.php' -exec php -d display_errors=1 -l {} \; | grep -vi 'no syntax error')
+
+echo $output
