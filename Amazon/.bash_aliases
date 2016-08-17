@@ -6,4 +6,5 @@ alias ll='ls -l --group-directories-first'
 alias la='ls -A'
 
 alias grep='grep --color=auto'
+alias phpcs='phpcs --standard=PSR2 --exclude=Generic.WhiteSpace.ScopeIndent'
 
