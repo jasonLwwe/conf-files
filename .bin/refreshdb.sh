@@ -31,7 +31,7 @@ then
   echo "Moving to /u01/www/wwe/html";
   cd /u01/www/wwe/html ;
 else
-  echo "Moing to /u01/www/wwe3redesign";
+  echo "Moving to /u01/www/wwe3redesign";
   cd /u01/www/wwe3redesign/html ;
 fi
 
