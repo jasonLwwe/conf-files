@@ -40,7 +40,7 @@ drush en -y stage_file_proxy
 echo ...done
 
 echo  "Setting stage_file_proxy_origin"
-drush vset stage_file_proxy_origin http://www.wwwe.com
+drush vset stage_file_proxy_origin http://www.wwe.com
 echo ...done
 
 echo  "Doing drush updatedb... "
