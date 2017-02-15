@@ -47,6 +47,10 @@ echo  "Doing drush updatedb... "
 drush updatedb -y
 echo ...done
 
+echo "Enabling devel module... "
+drush en -y devel &> /dev/null
+echo done
+
 echo "Clearing drupal cache... "
 drush cc all 
 echo ...done
