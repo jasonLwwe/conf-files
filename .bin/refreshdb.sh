@@ -47,13 +47,13 @@ echo  "Doing drush updatedb... "
 drush updatedb -y
 echo ...done
 
-echo "Enabling devel module... "
+echo -n "Enabling devel module... "
 drush en -y devel &> /dev/null
 echo done
 
-echo "Clearing drupal cache... "
-drush cc all 
-echo ...done
+echo -n "Clearing drupal cache... "
+drush cc all &> /dev/null 
+echo done
 
 cd $oldpwd
 
