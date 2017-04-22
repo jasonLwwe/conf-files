@@ -6,8 +6,12 @@ cd ~
 
 if [ -f wwe.sql.bz2 ]; then
   echo A db file already exists at $(pwd)/wwe.sql.bz2 ;
-  echo Please delete it, or rename it if you wish to keep it, and try again. ;
-  exit;
+  read -e -p "Would you like to proceed using the existing dump file (y|n)? " choice
+
+  if [[ $choice != 'y' && $choice != 'Y' ]]; then
+    echo Refresh cancelled. Please delete the existing file, or rename if you wish to keep it, and try again. ;
+    exit;
+  fi
 fi
 
 echo -n "Downloading new stage file backup... "
