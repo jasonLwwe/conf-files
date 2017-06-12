@@ -1,0 +1,3 @@
+#! /bin/bash
+
+ssh jlyerly@172.17.64.41 "sudo -u dynamic /opt/wwe/restart-browserstack"
