@@ -6,17 +6,18 @@ cd ~
 
 if [ -f wwe.sql.bz2 ]; then
   echo A db file already exists at $(pwd)/wwe.sql.bz2 ;
-  read -e -p "Would you like to proceed using the existing dump file (y|n)? " choice
+  read -e -p "Would you like to delete the existing file and download a new db dump (y|n)? " choice
 
-  if [[ $choice != 'y' && $choice != 'Y' ]]; then
-    echo Refresh cancelled. Please delete the existing file, or rename if you wish to keep it, and try again. ;
-    exit;
+  if [[ $choice == 'y' || $choice == 'Y' ]]; then
+    echo -n "Removing existing db file... ";
+    rm $(pwd)/wwe.sql.bz2 ;
+    echo done
+
+    echo -n "Downloading new stage file backup... "
+    wget http://stage-dbback.cloud.wwe.com/wwe.sql.bz2 &> /dev/null
+    echo done
   fi
 fi
-
-echo -n "Downloading new stage file backup... "
-wget http://stage-dbback.cloud.wwe.com/wwe.sql.bz2 &> /dev/null
-echo done
 
 echo -n "Dropping database wwe... "
 mysql -e 'drop database wwe;'
