@@ -17,6 +17,11 @@ if [ -f wwe.sql.bz2 ]; then
     wget http://stage-dbback.cloud.wwe.com/wwe.sql.bz2 &> /dev/null
     echo done
   fi
+
+else 
+  echo -n "Downloading new stage file backup... ";
+  wget http://stage-dbback.cloud.wwe.com/wwe.sql.bz2 &> /dev/null;
+  echo done;
 fi
 
 echo -n "Dropping database wwe... "
