@@ -6,16 +6,22 @@ cd ~
 
 if [ -f wwe.sql.bz2 ]; then
   echo A db file already exists at $(pwd)/wwe.sql.bz2 ;
-  read -e -p "Would you like to delete the existing file and download a new db dump (y|n)? " choice
+  read -e -p "Would you like to proceed using the existing dump file (y|n)? " choice
 
-  if [[ $choice == 'y' || $choice == 'Y' ]]; then
-    echo -n "Removing existing db file... ";
-    rm $(pwd)/wwe.sql.bz2 ;
+  if [[ $choice == 'n' || $choice == 'N' ]]; then
+    newname=wwe.sql.bz2.$(date +%Y%m%d@%H%M%S);
+    echo -n "Renaming existing db file to $newname so that a new one can be downloaded... "
+    mv $(pwd)/wwe.sql.bz2 $(pwd)/$(newname) ;
     echo done
 
     echo -n "Downloading new stage file backup... "
     wget http://stage-dbback.cloud.wwe.com/wwe.sql.bz2 &> /dev/null
     echo done
+  elif [[ $choice == 'y' || $choice == 'Y' ]]; then
+    # If Y is chosen, do nothing, just proceed using the existing file  
+  else
+    echo "Unknown choice, goodbye!";
+    exit;
   fi
 
 else 
