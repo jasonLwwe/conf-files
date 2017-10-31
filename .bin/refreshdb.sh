@@ -12,13 +12,14 @@ if [ -f wwe.sql.bz2 ]; then
     newname=wwe.sql.bz2.$(date +%Y%m%d@%H%M%S);
     echo -n "Renaming existing db file to $newname so that a new one can be downloaded... "
     mv $(pwd)/wwe.sql.bz2 $(pwd)/$(newname) ;
-    echo done
+    echo done ;
 
-    echo -n "Downloading new stage file backup... "
+    echo -n "Downloading new stage file backup... ";
     wget http://stage-dbback.cloud.wwe.com/wwe.sql.bz2 &> /dev/null
-    echo done
+    echo done ;
   elif [[ $choice == 'y' || $choice == 'Y' ]]; then
     # If Y is chosen, do nothing, just proceed using the existing file  
+   : 
   else
     echo "Unknown choice, goodbye!";
     exit;
